@@ -7,6 +7,7 @@ title: 首页
 
 ## 最新文章
 
+- [全球云机场测评 2026：套餐价格、节点状态、客户端与购买建议](/posts/quanqiuyun.html)
 - [边缘节点机场测评 2026：套餐价格、节点状态、客户端与购买建议](/posts/bianyunnode.html)
 - [速界机场测评 2026：套餐价格、节点状态、客户端与购买建议](/posts/sujie.html)
 - [光速云机场测评 2026：套餐价格、节点状态、客户端与购买建议](/posts/guangsuyun.html)
