@@ -7,6 +7,8 @@ title: 首页
 
 ## 最新文章
 
+- [速界机场测评 2026：套餐价格、节点状态、客户端与购买建议](/posts/sujie.html)
+- [光速云机场测评 2026：套餐价格、节点状态、客户端与购买建议](/posts/guangsuyun.html)
 - [快狸机场测评 2026：套餐价格、节点状态、客户端与购买建议](/posts/kuaili.html)
 - [网际快车测评 2026：最新套餐价格、节点倍率与购买建议](/posts/wangjikuaiche.html)
 - [一翻云机场测评 2026：套餐价格、节点状态、客户端与购买建议](/posts/yifanyun.html)
