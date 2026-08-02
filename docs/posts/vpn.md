@@ -1,7 +1,9 @@
 ---
 title: 2026 VPN 与机场怎么选：从需求判断到试用验收的完整指南
 description: 不依赖商家排行榜，从使用场景、线路质量、客户端兼容、隐私风险和真实成本出发，建立一套可重复使用的 VPN 与代理订阅选择方法。
-date: 2026-07-30
+date: 2026-08-01
+updated: 2026-08-01
+author: jichangceshi
 lang: zh-CN
 ---
 
@@ -27,29 +29,32 @@ lang: zh-CN
 
 如果仍然拿不准，优先购买最短周期、最低档位。一个月的真实体验，比十篇宣传文案更有参考价值。
 
-## 15 家机场与优惠信息
+## 机场优惠码与推广信息
 
-本文只保留下面 15 家机场，不再收录其他商家。价格和流量来自公开页面整理，可能随活动调整；优惠码和购买入口使用本文最新提供的邀请信息，下单前请以结算页显示为准。
+下面整理当前收到的优惠码、折扣和推广信息。推广比例、优惠力度和链接均来自最新提供的资料；价格、流量、优惠适用范围和有效期可能变化，下单前请以结算页显示为准。
 
-> 以下链接包含邀请参数，站长可能因此获得推广收益。优惠能否使用、适用套餐和有效期均由服务商决定。
+> 以下链接包含邀请参数，站长可能因此获得推广收益。表中的“推广比例”不是用户折扣；优惠能否使用、适用套餐和有效期均由服务商决定。
 
-| 机场 | 最低参考套餐 | 通用订阅 | 不限时套餐 | 优惠码与活动 | 购买入口 |
-| --- | --- | :---: | :---: | --- | --- |
-| 快狸机场 | 10元，30GB/月 | 否 | 是 | `sellvpn`：8 折，可优惠三次 | [立即访问](https://wudaogang.kuailiaff.com/#/register?code=ngH6LgR6) |
-| 速界机场 | 25元/月 | 否 | 否 | `sujie888`：首次 8 折 | [立即访问](https://wudaogang.speedworldaff.com/#/register?code=ITNrq6EJ) |
-| EdgeNova 机场 | 108元/年，45GB（约9元/月） | 否 | 是 | `SE888`：首次 7.8 折 | [立即访问](https://sell.edgenovaaff.com/#/register?code=0hcQ2OF8) |
-| Soso云机场 | 汇总页为20元150GB/月；详细表为25元120GB/月 | 否 | 是 | 暂无优惠码 | [立即访问](https://cbh.sogoaff.com/#/login?code=ovvHCpvs) |
-| 光速云机场 | 99元/年，59GB/月（约8.25元/月） | 否 | 是 | `AMM`：新人首次 8 折 | [立即访问](https://wudaogang.gsyaff.com/#/?code=3t2CE1r6) |
-| 瞬云机场 | 8.25元，59GB/月 | 是 | 否 | `20off`：新人首次 8 折 | [立即访问](https://ddd.jichang.best/#/register?code=BBP8rqS8) |
-| 网际快车 | 6.8元，20GB不限时 | 是 | 是 | 无优惠 | [立即访问](https://YGDUEA.快车.com) |
-| 全球云机场 | 20元，120GB/月 | 否 | 是 | `qq88`：永久 8 折 | [立即访问](https://sellvpn.gcvipaff.cc/#/?code=eZQbQpGe) |
-| XXYUN机场 | 9.99元，100GB/月 | 是 | 是 | `xxyun`：新人首次 9 折 | [立即访问](https://xxyun.at/?code=lZlwmBj9) |
-| 99吧机场 | 12.9元，99GB/月 | 否 | 是 | 暂无优惠码 | [立即访问](https://99ba.net/#/register?code=bWUJsTG0) |
-| 冲上云霄机场 | 5元，80GB/30天 | 是 | 是 | 暂无优惠码 | [立即访问](https://cpdd.one/?r=16656) |
-| SSONE机场 | 汇总页为15元60GB/月；详细表为10元60GB/月 | 否 | 否 | 暂无优惠码 | [立即访问](https://hello-ssone.com/register?aff=WHsNTynH) |
-| 唯兔云机场 | 79.9元/年，45GB/月（约6.6元/月） | 否 | 是 | `rabbit`：新人首次 9 折 | [立即访问](https://sellvpn.v2cvipaff.cc/#/?code=hr6gESut) |
-| u1s1机场 | 20元，120GB/月 | 是 | 是 | `U1S1`：永久 8 折 | [立即访问](https://sellvpn.vipaff.cc/#/?code=efD0Kxqq) |
-| CocoDuck机场 | 15元，150GB/月 | 是 | 否 | 暂无优惠码 | [立即访问](https://www.cocoduck.live/auth/register?code=cdb08a39e6) |
+| 机场 | 推广比例 | 优惠码与活动 | 购买入口 |
+| --- | :---: | --- | --- |
+| 快狸机场 | 43% | `sellvpn`：8 折，可优惠三次 | [立即访问](https://wudaogang.kuailiaff.com/#/register?code=ngH6LgR6) |
+| 速界机场 | 40% | `sujie888`：首次 8 折 | [立即访问](https://wudaogang.speedworldaff.com/#/register?code=ITNrq6EJ) |
+| EdgeNova 机场 | 40% | `SE888`：首次 7.8 折 | [立即访问](https://sell.edgenovaaff.com/#/register?code=0hcQ2OF8) |
+| 光速云机场 | 43% | `AMM`：新人首次 8 折 | [立即访问](https://wudaogang.gsyaff.com/#/?code=3t2CE1r6) |
+| 瞬云机场 | 40% | `20off`：新人首次 8 折 | [立即访问](https://ddd.jichang.best/#/register?code=BBP8rqS8) |
+| 网际快车 | 50% | 无优惠码 | [立即访问](https://YGDUEA.快车.com) |
+| 全球云机场 | 40% | `qq88`：永久 8 折 | [立即访问](https://sellvpn.gcvipaff.cc/#/?code=eZQbQpGe) |
+| XXYUN机场 | 40% | `xxyun`：新人首次 9 折 | [立即访问](https://xxyun.at/?code=lZlwmBj9) |
+| 99吧机场 | 未提供 | 暂无优惠码 | [立即访问](https://99ba.net/#/register?code=bWUJsTG0) |
+| 冲上云霄机场 | 25% | 暂无优惠码 | [立即访问](https://cpdd.one/?r=16656) |
+| 唯兔云机场 | 40% | `rabbit`：新人首次 9 折 | [立即访问](https://sellvpn.v2cvipaff.cc/#/?code=hr6gESut) |
+| u1s1机场 | 40% | `U1S1`：永久 8 折 | [立即访问](https://sellvpn.vipaff.cc/#/?code=efD0Kxqq) |
+| CocoDuck机场 | 15% | 暂无优惠码 | [立即访问](https://www.cocoduck.live/auth/register?code=cdb08a39e6) |
+| 无忧Link机场 | 40% | `wuyou666`：新人 6.8 折 | [立即访问](https://wudaogang.worryfreeaff.com/#/?code=vKiprwPh) |
+| Firefly机场 | 40% | `firefly`：新人 8 折 | [立即访问](http://wudaogang0.fireflyaff.com/#/?code=PZlWmWbX) |
+| 一翻云机场 | 50% | `1FLYYUN`：首次 9 折 | [立即访问](https://wzjc.1flyunaff.cc/#/register?code=GX7J728T) |
+| Soso云机场 | 未提供 | 暂无新优惠信息 | [立即访问](https://cbh.sogoaff.com/#/login?code=ovvHCpvs) |
+| SSONE机场 | 未提供 | 暂无新优惠信息 | [立即访问](https://hello-ssone.com/register?aff=WHsNTynH) |
 
 ### 套餐数据补充
 
