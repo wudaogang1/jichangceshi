@@ -7,6 +7,7 @@ title: 首页
 
 ## 最新文章
 
+- [Clash Mi 使用方法 2026：下载安装、导入订阅与节点切换教程](/posts/clash-mi.html)
 - [COCODUCK机场测评 2026：套餐价格、客户端、教程与购买建议](/posts/cocoduck.html)
 - [Firefly机场测评 2026：套餐价格、节点状态、客户端与购买建议](/posts/firefly.html)
 - [无忧链接机场测评 2026：套餐价格、节点状态、客户端与购买建议](/posts/wuyou.html)
