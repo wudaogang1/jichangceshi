@@ -2,7 +2,7 @@
 title: 2026 VPN 与机场怎么选？VPN、机场订阅与代理节点避坑指南
 description: VPN 推荐和机场订阅怎么选？本文从使用场景、线路质量、套餐价格、客户端兼容、隐私风险和真实成本出发，提供一套可重复执行的筛选与试用方法。
 date: 2026-08-01
-updated: 2026-08-02
+updated: 2026-08-04
 author: jichangceshi
 lang: zh-CN
 ---
@@ -40,57 +40,17 @@ VPN、机场订阅、代理节点和 Clash 客户端经常被放在一起讨论�
 
 如果你已经有明确候选，也可以直接查看本站的[一翻云机场测评](/posts/yifanyun.html)，了解套餐、节点状态、客户端和购买注意事项。
 
-## 机场优惠码与推广信息
+## 已核对内容入口
 
-下面整理当前收到的优惠码、折扣和推广信息。表格按推广合作比例从高到低排列，但页面不展示比例数字。优惠力度和链接均来自最新提供的资料；价格、流量、优惠适用范围和有效期可能变化，下单前请以结算页显示为准。
+本站只把已经形成单项页面记录的服务列入内容目录，不按佣金、优惠力度或宣传参数排序。以下页面数据主要记录于 2026 年 8 月 1—3 日；价格和节点状态会变化，查看时请以文章的数据日期、证据边界和结算页为准。
 
-> 以下链接包含邀请参数，站长可能因此获得推广收益。优惠能否使用、适用套餐和有效期均由服务商决定。
+| 想核对的内容 | 已有单项页面 |
+| --- | --- |
+| 套餐、节点和客户端 | [边缘节点](/posts/bianyunnode.html) · [Firefly](/posts/firefly.html) · [光速云](/posts/guangsuyun.html) · [快狸](/posts/kuaili.html) · [全球云](/posts/quanqiuyun.html) · [速界](/posts/sujie.html) |
+| 套餐、客户端与后台规则 | [COCODUCK](/posts/cocoduck.html) · [U1s1](/posts/u1s1.html) · [唯兔云](/posts/weituyun.html) · [无忧链接](/posts/wuyou.html) · [XXYUN](/posts/xxyun.html) |
+| 日享、长期或不限时流量包 | [网际快车](/posts/wangjikuaiche.html) · [一翻云](/posts/yifanyun.html) |
 
-| 机场 | 优惠码与活动 | 购买入口 |
-| --- | --- | --- |
-| 网际快车 | 无优惠码 | [立即访问](https://YGDUEA.快车.com) |
-| 一翻云机场 | `1FLYYUN`：首次 9 折 | [立即访问](https://wzjc.1flyunaff.cc/#/register?code=GX7J728T) |
-| 快狸机场 | `sellvpn`：8 折，可优惠三次 | [立即访问](https://wudaogang.kuailiaff.com/#/register?code=ngH6LgR6) |
-| 光速云机场 | `AMM`：新人首次 8 折 | [立即访问](https://wudaogang.gsyaff.com/#/?code=3t2CE1r6) |
-| 速界机场 | `sujie888`：首次 8 折 | [立即访问](https://wudaogang.speedworldaff.com/#/register?code=ITNrq6EJ) |
-| EdgeNova 机场 | `SE888`：首次 7.8 折 | [立即访问](https://sell.edgenovaaff.com/#/register?code=0hcQ2OF8) |
-| 瞬云机场 | `20off`：新人首次 8 折 | [立即访问](https://ddd.jichang.best/#/register?code=BBP8rqS8) |
-| 全球云机场 | `qq88`：永久 8 折 | [立即访问](https://sellvpn.gcvipaff.cc/#/?code=eZQbQpGe) |
-| XXYUN机场 | `xxyun`：新人首次 9 折 | [立即访问](https://xxyun.at/?code=lZlwmBj9) |
-| 唯兔云机场 | `rabbit`：新人首次 9 折 | [立即访问](https://sellvpn.v2cvipaff.cc/#/?code=hr6gESut) |
-| u1s1机场 | `U1S1`：永久 8 折 | [立即访问](https://sellvpn.vipaff.cc/#/?code=efD0Kxqq) |
-| 无忧Link机场 | `wuyou666`：新人 6.8 折 | [立即访问](https://wudaogang.worryfreeaff.com/#/?code=vKiprwPh) |
-| Firefly机场 | `firefly`：新人 8 折 | [立即访问](http://wudaogang0.fireflyaff.com/#/?code=PZlWmWbX) |
-| 冲上云霄机场 | 暂无优惠码 | [立即访问](https://cpdd.one/?r=16656) |
-| CocoDuck机场 | 暂无优惠码 | [立即访问](https://www.cocoduck.live/auth/register?code=cdb08a39e6) |
-| 99吧机场 | 暂无优惠码 | [立即访问](https://99ba.net/#/register?code=bWUJsTG0) |
-| Soso云机场 | 暂无新优惠信息 | [立即访问](https://cbh.sogoaff.com/#/login?code=ovvHCpvs) |
-| SSONE机场 | 暂无新优惠信息 | [立即访问](https://hello-ssone.com/register?aff=WHsNTynH) |
-
-### 套餐数据补充
-
-下表用于初步筛选，不代表实时价格排名。月付、年付、流量包和不限时套餐的计费单位不同，不能只看数字大小；还要同时比较有效期、流量倍率、重置规则、设备限制和退款条件。页面显示“以结算页为准”的项目，购买前应重新核对。
-
-| 机场 | 周期套餐 | 不限时或其他套餐 | 数据备注 |
-| --- | --- | --- | --- |
-| **网际快车** | 24元包月<br>186元包年 | 6.8元：20GB不限时<br>29元：200GB不限时<br>198元：1980GB不限时 | 包月和包年套餐的每日流量以结算页为准 |
-| **一翻云机场** | 以结算页为准 | 以结算页为准 | 最新推广信息未提供完整套餐表 |
-| **快狸机场** | 15元/月：50GB<br>22元/月：100GB<br>35元/月：250GB<br>95元/月：500GB<br>120元/年：30GB/月<br>180元/月：1000GB | — | 按页面起始价格从低到高排列；森狸为年付套餐，计费周期不同，不能直接与月付价格横向比较 |
-| **光速云机场** | 99元/年：59GB/月<br>17元/月：110GB<br>34元/月：220GB<br>68元/月：450GB<br>130元/月：900GB | 680元：1000GB不限时 | 年付轻量档约合8.25元/月 |
-| **速界机场** | 最低参考价25元/月 | — | 公开资料没有完整套餐表，请以结算页为准 |
-| **EdgeNova 机场** | 108元/年：45GB<br>25元/月：120GB<br>50元/月：250GB<br>100元/月：500GB<br>200元/月：1000GB | — | 年付入门档约合9元/月 |
-| **瞬云机场** | 最低参考价8.25元，59GB/月 | — | 公开资料没有完整套餐表，请以结算页为准 |
-| **全球云机场** | 20元/月：120GB<br>40元/月：300GB<br>100元/月：700GB<br>180元/月：1.5TB | 提供独享线路方案 | 独享线路价格和资源以官网为准 |
-| **XXYUN机场** | 9.99元/月：100GB<br>19.9元/月：300GB<br>39.9元/月：1000GB | 66.66元：500GB不限时<br>199元：2888GB不限时 | 月付与不限时流量包并行 |
-| **唯兔云机场** | 14.9元/月：100GB<br>29.9元/月：200GB<br>59.9元/月：500GB<br>119.9元/月：1000GB | 500GB不限时流量包 | 另有79.9元/年、45GB/月的入门方案 |
-| **u1s1机场** | 20元/月：120GB<br>40元/月：300GB<br>100元/月：700GB<br>180元/月：1500GB | 580元：1000GB不限时 | 月付与不限时流量包并行 |
-| **无忧Link机场** | 以结算页为准 | 以结算页为准 | 最新推广信息未提供完整套餐表 |
-| **Firefly机场** | 以结算页为准 | 以结算页为准 | 最新推广信息未提供完整套餐表 |
-| **冲上云霄机场** | 最低参考价5元，80GB/30天 | 提供不限时套餐，具体档位以官网为准 | 公开资料没有完整套餐表，请以结算页为准 |
-| **CocoDuck机场** | 15元/月：150GB<br>28元/月：400GB<br>41元/月：700GB<br>53元/月：1000GB<br>77元/年：77GB/月 | — | 提供月付和年付轻量方案 |
-| **99吧机场** | 最低参考价12.9元，99GB/月 | 提供不限时套餐，具体档位以官网为准 | 公开资料没有完整套餐表，请以结算页为准 |
-| **Soso云机场** | 汇总页：20元150GB/月<br>详细表：25元120GB/月 | 提供不限时套餐，具体档位以官网为准 | 公开汇总与详细套餐表存在差异，请核对结算页 |
-| **SSONE机场** | 10元/月：60GB<br>39元/月：500GB<br>60元/月：1200GB<br>150元/月：3600GB | 提供季付及年付方案 | 汇总页最低价与详细套餐表存在差异，请核对结算页 |
+需要直接比较当前记录的最低月付、年付、节点快照与明显风险，可查看[机场横向对比](/posts/airport-compare.html)。部分单项页面包含推广入口，推广关系不会作为排序依据，具体规则见[推广链接披露](/about.html#推广链接披露)。
 
 ## 先分清 VPN、代理订阅和客户端
 

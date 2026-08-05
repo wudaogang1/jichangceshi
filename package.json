@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:check": "node scripts/check-seo.mjs"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "next",

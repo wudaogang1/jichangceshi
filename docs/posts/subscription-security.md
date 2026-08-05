@@ -2,7 +2,7 @@
 title: 机场订阅链接泄露怎么办？重置、排查与安全保存指南
 description: 机场订阅链接泄露或流量异常怎么办？本文介绍订阅重置、设备排查、流量异常判断和安全保存方法。
 date: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-04
 author: jichangceshi
 lang: zh-CN
 ---
@@ -51,3 +51,5 @@ lang: zh-CN
 ## 总结
 
 订阅泄露后的关键是“尽快重置，而不是只删除客户端配置”。购买机场时也应优先选择提供订阅重置、工单支持和明确隐私说明的平台。
+
+相关内容：[VPN 与机场怎么选](/posts/vpn.html)｜[Clash Mi 使用方法](/posts/clash-mi.html)｜[V2RayN 使用方法](/posts/v2rayn.html)｜[Shadowrocket 使用方法](/posts/shadowrocket.html)

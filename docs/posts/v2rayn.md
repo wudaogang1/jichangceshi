@@ -2,7 +2,7 @@
 title: V2RayN使用教程：Windows安装、导入订阅与代理设置
 description: V2RayN 怎么用？本文整理 Windows 安装 V2RayN、导入机场订阅、更新节点、选择代理模式和常见故障排查方法。
 date: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-04
 author: jichangceshi
 lang: zh-CN
 ---
@@ -50,3 +50,5 @@ V2RayN 是 Windows 上常见的代理管理客户端。它通常需要配合机�
 ## 总结
 
 V2RayN 的核心操作是添加订阅、更新节点、选择线路和设置系统代理。遇到故障时先排除多个代理软件冲突，再判断是订阅、节点还是系统代理问题。
+
+相关教程：[Clash Mi 使用方法](/posts/clash-mi.html)｜[订阅链接安全指南](/posts/subscription-security.html)｜[机场测速方法](/posts/airport-speed-test.html)

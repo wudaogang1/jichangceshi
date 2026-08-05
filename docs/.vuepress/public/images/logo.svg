@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">机场测试</title>
+  <desc id="desc">蓝色圆角方形中的白色测速轨迹</desc>
+  <rect width="64" height="64" rx="14" fill="#2563eb"/>
+  <path d="M13 43h38" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M18 37a17 17 0 0 1 28 0" fill="none" stroke="#bfdbfe" stroke-width="4" stroke-linecap="round"/>
+  <path d="m32 35 10-10" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="35" r="4" fill="#fff"/>
+</svg>

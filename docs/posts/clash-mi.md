@@ -2,7 +2,7 @@
 title: Clash Mi 使用方法 2026：下载安装、导入订阅与节点切换教程
 description: Clash Mi 怎么用？本文介绍 Clash Mi 的下载、安装、导入机场订阅、选择节点、开启连接、规则模式、在线面板和常见故障排查。
 date: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-04
 author: jichangceshi
 lang: zh-CN
 ---
@@ -226,3 +226,5 @@ Clash Mi 官方手册说明，应用菜单中提供“面板”入口。如果�
 Clash Mi 的上手重点不是复杂参数，而是“正确的订阅类型、正确的系统权限和正确的代理模式”。新手完成订阅导入后，优先使用规则模式，选择一个稳定节点进行网页和视频测试；出现问题时按“更新配置—切换节点—检查模式—排除其他代理”的顺序排查，通常比盲目修改 YAML 更有效。
 
 官方入口：[Clash Mi Project](https://clashmi.app/) · [用户手册](https://clashmi.app/guide/)。文中界面图片来自官方用户手册页面，图片资源版权和使用方式以官方说明为准。
+
+相关教程：[V2RayN 使用方法](/posts/v2rayn.html)｜[Shadowrocket 使用方法](/posts/shadowrocket.html)｜[订阅链接安全指南](/posts/subscription-security.html)

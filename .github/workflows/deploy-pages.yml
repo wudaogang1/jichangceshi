@@ -40,7 +40,12 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build site
+        env:
+          BING_SITE_VERIFICATION: ${{ secrets.BING_SITE_VERIFICATION }}
         run: pnpm run docs:build
+
+      - name: Verify SEO output
+        run: pnpm run docs:check
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
@@ -57,3 +62,17 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Checkout for IndexNow
+        if: github.event_name == 'push'
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Notify IndexNow about changed URLs
+        if: github.event_name == 'push'
+        continue-on-error: true
+        env:
+          INDEXNOW_BEFORE_SHA: ${{ github.event.before }}
+          INDEXNOW_AFTER_SHA: ${{ github.sha }}
+        run: node scripts/submit-indexnow.mjs
