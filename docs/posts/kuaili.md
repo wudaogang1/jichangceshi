@@ -44,7 +44,7 @@ lang: zh-CN
 | Android、iOS、macOS、Windows 下载入口 | Netflix、Disney+、ChatGPT、TikTok 的逐项解锁效果 |
 | 订单状态、客户端教程和账户功能 | 隐私政策、日志保存和退款执行情况 |
 
-因此，本文评价的是页面信息完整度和购买决策友好度，不把服务商的宣传参数直接当成实测结论。想了解如何统一测试机场的延迟、丢包、晚高峰和真实月成本，可以参考[VPN 与机场选择指南](/posts/vpn.html)。
+因此，本文评价的是页面信息完整度和购买决策友好度，不把服务商的宣传参数直接当成实测结论。想了解如何统一测试机场的延迟、丢包、晚高峰和真实月成本，可以参考[VPN 与机场选择指南](/posts/vpn)。
 
 ## 套餐价格：按页面起始价从低到高
 
@@ -238,4 +238,4 @@ lang: zh-CN
 
 综合来看，建议把快狸作为一个**先短期试用、再决定长期使用**的候选服务，而不是仅凭“专线”“峰值带宽”或节点数量直接购买长周期套餐。
 
-相关内容：[VPN 与机场怎么选](/posts/vpn.html)｜<a href="https://wudaogang.kuailiaff.com/#/register?code=ngH6LgR6" rel="sponsored nofollow noopener noreferrer" target="_blank">快狸注册与套餐入口</a>
+相关内容：[VPN 与机场怎么选](/posts/vpn)｜<a href="https://wudaogang.kuailiaff.com/#/register?code=ngH6LgR6" rel="sponsored nofollow noopener noreferrer" target="_blank">快狸注册与套餐入口</a>

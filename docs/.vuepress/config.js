@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
+import { relative, sep } from 'node:path'
 
 const SITE_URL = 'https://jichangceshi.com'
 const SITE_NAME = '机场测试'
@@ -31,6 +32,25 @@ const pageKeywords = (page) => {
 
   if (Array.isArray(keywords)) return keywords.filter(Boolean).join(', ')
   return typeof keywords === 'string' ? keywords : undefined
+}
+
+const cleanUrlPlugin = {
+  name: 'clean-url-paths',
+  extendsPageOptions: (pageOptions, app) => {
+    if (!pageOptions.filePath?.endsWith('.md')) return
+
+    const sourceRelative = relative(app.dir.source(), pageOptions.filePath)
+      .split(sep)
+      .join('/')
+
+    if (sourceRelative === 'README.md') {
+      pageOptions.path = '/'
+    } else if (sourceRelative.endsWith('/README.md')) {
+      pageOptions.path = `/${sourceRelative.slice(0, -'README.md'.length)}`
+    } else {
+      pageOptions.path = `/${sourceRelative.slice(0, -'.md'.length)}`
+    }
+  },
 }
 
 const verificationHead = process.env.BING_SITE_VERIFICATION
@@ -65,6 +85,7 @@ export default defineUserConfig({
   ],
   shouldPrefetch: false,
   bundler: viteBundler(),
+  plugins: [cleanUrlPlugin],
   extendsMarkdown: (md) => {
     const renderImage =
       md.renderer.rules.image ??
@@ -95,28 +116,28 @@ export default defineUserConfig({
         text: '概念指南',
         children: [
           { text: '四类工具怎么区分', link: '/topics/' },
-          { text: '机场是什么', link: '/topics/airport.html' },
-          { text: '翻墙是什么', link: '/topics/fanqiang.html' },
-          { text: '加速器是什么', link: '/topics/accelerator.html' },
+          { text: '机场是什么', link: '/topics/airport' },
+          { text: '翻墙是什么', link: '/topics/fanqiang' },
+          { text: '加速器是什么', link: '/topics/accelerator' },
         ],
       },
       {
         text: '选择与测评',
         children: [
-          { text: '机场横向对比', link: '/posts/airport-compare.html' },
-          { text: 'VPN 与机场怎么选', link: '/posts/vpn.html' },
-          { text: '机场测速方法', link: '/posts/airport-speed-test.html' },
+          { text: '机场横向对比', link: '/posts/airport-compare' },
+          { text: 'VPN 与机场怎么选', link: '/posts/vpn' },
+          { text: '机场测速方法', link: '/posts/airport-speed-test' },
         ],
       },
       {
         text: '客户端教程',
         children: [
-          { text: 'Clash Mi', link: '/posts/clash-mi.html' },
-          { text: 'V2RayN', link: '/posts/v2rayn.html' },
-          { text: 'Shadowrocket', link: '/posts/shadowrocket.html' },
+          { text: 'Clash Mi', link: '/posts/clash-mi' },
+          { text: 'V2RayN', link: '/posts/v2rayn' },
+          { text: 'Shadowrocket', link: '/posts/shadowrocket' },
         ],
       },
-      { text: '关于本站', link: '/about.html' },
+      { text: '关于本站', link: '/about' },
     ],
     sidebar: {
       '/topics/': [
@@ -125,20 +146,20 @@ export default defineUserConfig({
           collapsible: false,
           children: [
             { text: '四类工具怎么区分', link: '/topics/' },
-            { text: '机场是什么', link: '/topics/airport.html' },
-            { text: '翻墙是什么', link: '/topics/fanqiang.html' },
-            { text: 'VPN 与机场怎么选', link: '/posts/vpn.html' },
-            { text: '加速器是什么', link: '/topics/accelerator.html' },
+            { text: '机场是什么', link: '/topics/airport' },
+            { text: '翻墙是什么', link: '/topics/fanqiang' },
+            { text: 'VPN 与机场怎么选', link: '/posts/vpn' },
+            { text: '加速器是什么', link: '/topics/accelerator' },
           ],
         },
         {
           text: '继续阅读',
           collapsible: false,
           children: [
-            { text: '机场横向对比', link: '/posts/airport-compare.html' },
-            { text: '机场测速方法', link: '/posts/airport-speed-test.html' },
+            { text: '机场横向对比', link: '/posts/airport-compare' },
+            { text: '机场测速方法', link: '/posts/airport-speed-test' },
             { text: '客户端教程目录', link: '/posts/' },
-            { text: '订阅链接安全', link: '/posts/subscription-security.html' },
+            { text: '订阅链接安全', link: '/posts/subscription-security' },
           ],
         },
       ],
@@ -149,12 +170,12 @@ export default defineUserConfig({
           children: [
             { text: '全部内容', link: '/posts/' },
             { text: '机场、VPN 与加速器区别', link: '/topics/' },
-            { text: '机场横向对比', link: '/posts/airport-compare.html' },
-            { text: 'VPN 与机场怎么选', link: '/posts/vpn.html' },
-            { text: '机场测速方法', link: '/posts/airport-speed-test.html' },
+            { text: '机场横向对比', link: '/posts/airport-compare' },
+            { text: 'VPN 与机场怎么选', link: '/posts/vpn' },
+            { text: '机场测速方法', link: '/posts/airport-speed-test' },
             {
               text: '订阅链接安全',
-              link: '/posts/subscription-security.html',
+              link: '/posts/subscription-security',
             },
           ],
         },
@@ -162,28 +183,28 @@ export default defineUserConfig({
           text: '客户端教程',
           collapsible: true,
           children: [
-            { text: 'Clash Mi', link: '/posts/clash-mi.html' },
-            { text: 'V2RayN', link: '/posts/v2rayn.html' },
-            { text: 'Shadowrocket', link: '/posts/shadowrocket.html' },
+            { text: 'Clash Mi', link: '/posts/clash-mi' },
+            { text: 'V2RayN', link: '/posts/v2rayn' },
+            { text: 'Shadowrocket', link: '/posts/shadowrocket' },
           ],
         },
         {
           text: '单项测评',
           collapsible: true,
           children: [
-            { text: '边缘节点', link: '/posts/bianyunnode.html' },
-            { text: 'COCODUCK', link: '/posts/cocoduck.html' },
-            { text: 'Firefly', link: '/posts/firefly.html' },
-            { text: '光速云', link: '/posts/guangsuyun.html' },
-            { text: '快狸', link: '/posts/kuaili.html' },
-            { text: '全球云', link: '/posts/quanqiuyun.html' },
-            { text: '速界', link: '/posts/sujie.html' },
-            { text: 'U1s1', link: '/posts/u1s1.html' },
-            { text: '网际快车', link: '/posts/wangjikuaiche.html' },
-            { text: '唯兔云', link: '/posts/weituyun.html' },
-            { text: '无忧链接', link: '/posts/wuyou.html' },
-            { text: 'XXYUN', link: '/posts/xxyun.html' },
-            { text: '一翻云', link: '/posts/yifanyun.html' },
+            { text: '边缘节点', link: '/posts/bianyunnode' },
+            { text: 'COCODUCK', link: '/posts/cocoduck' },
+            { text: 'Firefly', link: '/posts/firefly' },
+            { text: '光速云', link: '/posts/guangsuyun' },
+            { text: '快狸', link: '/posts/kuaili' },
+            { text: '全球云', link: '/posts/quanqiuyun' },
+            { text: '速界', link: '/posts/sujie' },
+            { text: 'U1s1', link: '/posts/u1s1' },
+            { text: '网际快车', link: '/posts/wangjikuaiche' },
+            { text: '唯兔云', link: '/posts/weituyun' },
+            { text: '无忧链接', link: '/posts/wuyou' },
+            { text: 'XXYUN', link: '/posts/xxyun' },
+            { text: '一翻云', link: '/posts/yifanyun' },
           ],
         },
       ],

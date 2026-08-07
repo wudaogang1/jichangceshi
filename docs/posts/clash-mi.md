@@ -235,4 +235,4 @@ Clash Mi 的上手重点不是复杂参数，而是“正确的订阅类型、�
 
 官方入口：[Clash Mi Project](https://clashmi.app/) · [用户手册](https://clashmi.app/guide/)。文中界面图片来自官方用户手册页面，图片资源版权和使用方式以官方说明为准。
 
-相关教程：[V2RayN 使用方法](/posts/v2rayn.html)｜[Shadowrocket 使用方法](/posts/shadowrocket.html)｜[订阅链接安全指南](/posts/subscription-security.html)
+相关教程：[V2RayN 使用方法](/posts/v2rayn)｜[Shadowrocket 使用方法](/posts/shadowrocket)｜[订阅链接安全指南](/posts/subscription-security)

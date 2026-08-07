@@ -59,4 +59,4 @@ V2RayN 虽然经常出现在“翻墙软件”搜索结果中，但客户端、�
 
 V2RayN 的核心操作是添加订阅、更新节点、选择线路和设置系统代理。遇到故障时先排除多个代理软件冲突，再判断是订阅、节点还是系统代理问题。
 
-相关教程：[Clash Mi 使用方法](/posts/clash-mi.html)｜[订阅链接安全指南](/posts/subscription-security.html)｜[机场测速方法](/posts/airport-speed-test.html)
+相关教程：[Clash Mi 使用方法](/posts/clash-mi)｜[订阅链接安全指南](/posts/subscription-security)｜[机场测速方法](/posts/airport-speed-test)

@@ -19,41 +19,41 @@ keywords:
 ## 基础概念与关键词指南
 
 - [机场、翻墙、VPN、加速器有什么区别？](/topics/)
-- [机场是什么？机场订阅、节点与客户端关系](/topics/airport.html)
-- [翻墙是什么？VPN、机场与代理工具安全指南](/topics/fanqiang.html)
-- [加速器是什么？游戏加速器、VPN 与机场区别](/topics/accelerator.html)
-- [2026 VPN 与机场怎么选？](/posts/vpn.html)
+- [机场是什么？机场订阅、节点与客户端关系](/topics/airport)
+- [翻墙是什么？VPN、机场与代理工具安全指南](/topics/fanqiang)
+- [加速器是什么？游戏加速器、VPN 与机场区别](/topics/accelerator)
+- [2026 VPN 与机场怎么选？](/posts/vpn)
 
 ## 选择、比较与测速
 
-- [2026 机场横向对比：套餐价格、流量、节点与客户端怎么选](/posts/airport-compare.html)
-- [2026 VPN 与机场怎么选？代理订阅与节点避坑指南](/posts/vpn.html)
-- [机场测速方法：延迟、丢包与晚高峰稳定性怎么测](/posts/airport-speed-test.html)
-- [机场订阅链接泄露怎么办？重置、排查与安全保存](/posts/subscription-security.html)
+- [2026 机场横向对比：套餐价格、流量、节点与客户端怎么选](/posts/airport-compare)
+- [2026 VPN 与机场怎么选？代理订阅与节点避坑指南](/posts/vpn)
+- [机场测速方法：延迟、丢包与晚高峰稳定性怎么测](/posts/airport-speed-test)
+- [机场订阅链接泄露怎么办？重置、排查与安全保存](/posts/subscription-security)
 
 ## 客户端教程
 
-- [Clash Mi：下载安装、导入订阅与节点切换](/posts/clash-mi.html)
-- [V2RayN：Windows 安装、导入订阅与代理设置](/posts/v2rayn.html)
-- [Shadowrocket：下载安装、导入订阅与节点切换](/posts/shadowrocket.html)
+- [Clash Mi：下载安装、导入订阅与节点切换](/posts/clash-mi)
+- [V2RayN：Windows 安装、导入订阅与代理设置](/posts/v2rayn)
+- [Shadowrocket：下载安装、导入订阅与节点切换](/posts/shadowrocket)
 
 ## 单项测评
 
 | 服务 | 测评入口 | 页面主要覆盖 |
 | --- | --- | --- |
-| 边缘节点 | [查看测评](/posts/bianyunnode.html) | 套餐、单位流量成本、节点状态、客户端 |
-| COCODUCK | [查看测评](/posts/cocoduck.html) | 套餐、客户端、教程与购买规则 |
-| Firefly | [查看测评](/posts/firefly.html) | 套餐、节点状态、客户端与技术支持 |
-| 光速云 | [查看测评](/posts/guangsuyun.html) | 套餐、节点协议、客户端与页面状态 |
-| 快狸 | [查看测评](/posts/kuaili.html) | 套餐、单位流量成本、节点与客户端 |
-| 全球云 | [查看测评](/posts/quanqiuyun.html) | 套餐、节点、客户端与页面数据差异 |
-| 速界 | [查看测评](/posts/sujie.html) | 套餐、节点、客户端与流量差异 |
-| U1s1 | [查看测评](/posts/u1s1.html) | 套餐、节点状态、客户端与知识库 |
-| 网际快车 | [查看测评](/posts/wangjikuaiche.html) | 日享套餐、长期流量包、节点倍率 |
-| 唯兔云 | [查看测评](/posts/weituyun.html) | 套餐、节点状态、客户端与优惠信息 |
-| 无忧链接 | [查看测评](/posts/wuyou.html) | 套餐、节点状态、客户端与技术支持 |
-| XXYUN | [查看测评](/posts/xxyun.html) | 套餐、客户端限制、节点与后台差异 |
-| 一翻云 | [查看测评](/posts/yifanyun.html) | 套餐、节点状态、客户端与透明度 |
+| 边缘节点 | [查看测评](/posts/bianyunnode) | 套餐、单位流量成本、节点状态、客户端 |
+| COCODUCK | [查看测评](/posts/cocoduck) | 套餐、客户端、教程与购买规则 |
+| Firefly | [查看测评](/posts/firefly) | 套餐、节点状态、客户端与技术支持 |
+| 光速云 | [查看测评](/posts/guangsuyun) | 套餐、节点协议、客户端与页面状态 |
+| 快狸 | [查看测评](/posts/kuaili) | 套餐、单位流量成本、节点与客户端 |
+| 全球云 | [查看测评](/posts/quanqiuyun) | 套餐、节点、客户端与页面数据差异 |
+| 速界 | [查看测评](/posts/sujie) | 套餐、节点、客户端与流量差异 |
+| U1s1 | [查看测评](/posts/u1s1) | 套餐、节点状态、客户端与知识库 |
+| 网际快车 | [查看测评](/posts/wangjikuaiche) | 日享套餐、长期流量包、节点倍率 |
+| 唯兔云 | [查看测评](/posts/weituyun) | 套餐、节点状态、客户端与优惠信息 |
+| 无忧链接 | [查看测评](/posts/wuyou) | 套餐、节点状态、客户端与技术支持 |
+| XXYUN | [查看测评](/posts/xxyun) | 套餐、客户端限制、节点与后台差异 |
+| 一翻云 | [查看测评](/posts/yifanyun) | 套餐、节点状态、客户端与透明度 |
 
 ## 阅读测评时重点核对
 
@@ -64,4 +64,4 @@ keywords:
 5. 隐私、退款、日志和自动续费是否有明确规则；
 6. 购买入口是否包含推广关系披露。
 
-关于信息来源、更新和纠错方式，参见[关于本站](/about.html)。
+关于信息来源、更新和纠错方式，参见[关于本站](/about)。

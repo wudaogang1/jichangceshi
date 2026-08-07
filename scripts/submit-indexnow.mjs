@@ -13,7 +13,7 @@ const routeFromMarkdown = (filePath) => {
     return `/${filePath.slice('docs/'.length, -'README.md'.length)}`
   }
 
-  return `/${filePath.slice('docs/'.length, -'.md'.length)}.html`
+  return `/${filePath.slice('docs/'.length, -'.md'.length)}`
 }
 
 const parseSitemapUrls = async () => {

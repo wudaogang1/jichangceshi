@@ -17,7 +17,7 @@ keywords:
 
 机场测速不能只看峰值下载速度。真正影响体验的通常是连接成功率、延迟、丢包、晚高峰稳定性和节点切换后的恢复速度。
 
-这套方法也适用于 VPN 和网络加速器的前后对比；但游戏加速、全局 VPN 与机场代理的流量范围不同，测试前先参考[加速器与 VPN、机场的区别](/topics/accelerator.html)确认目标应用。
+这套方法也适用于 VPN 和网络加速器的前后对比；但游戏加速、全局 VPN 与机场代理的流量范围不同，测试前先参考[加速器与 VPN、机场的区别](/topics/accelerator)确认目标应用。
 
 ![机场测速记录表](/images/speed-test-method.svg)
 
@@ -59,4 +59,4 @@ keywords:
 
 首次购买优先选择月付或最低档，连续测试 24—48 小时后再决定是否续费。测速截图可以作为证据，但不能替代退款规则、隐私政策和客服响应的检查。
 
-相关内容：[VPN 与机场怎么选](/posts/vpn.html)｜[机场横向对比](/posts/airport-compare.html)｜[订阅链接安全指南](/posts/subscription-security.html)
+相关内容：[VPN 与机场怎么选](/posts/vpn)｜[机场横向对比](/posts/airport-compare)｜[订阅链接安全指南](/posts/subscription-security)

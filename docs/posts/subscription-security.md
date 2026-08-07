@@ -60,4 +60,4 @@ keywords:
 
 订阅泄露后的关键是“尽快重置，而不是只删除客户端配置”。购买机场时也应优先选择提供订阅重置、工单支持和明确隐私说明的平台。
 
-相关内容：[VPN 与机场怎么选](/posts/vpn.html)｜[Clash Mi 使用方法](/posts/clash-mi.html)｜[V2RayN 使用方法](/posts/v2rayn.html)｜[Shadowrocket 使用方法](/posts/shadowrocket.html)
+相关内容：[VPN 与机场怎么选](/posts/vpn)｜[Clash Mi 使用方法](/posts/clash-mi)｜[V2RayN 使用方法](/posts/v2rayn)｜[Shadowrocket 使用方法](/posts/shadowrocket)

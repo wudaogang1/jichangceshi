@@ -26,7 +26,7 @@ faqs:
 
 VPN、机场订阅、代理节点和 Clash 客户端经常被放在一起讨论，但它们解决的问题并不完全相同。新手最容易犯的错误，是先看商家排名和宣传测速，再思考自己真正需要什么。
 
-如果你还分不清“翻墙软件”“VPN 加速器”和游戏加速器分别指什么，可以先阅读[机场、翻墙、VPN、加速器区别总览](/topics/)；想了解通俗术语和使用边界，可查看[翻墙是什么](/topics/fanqiang.html)。
+如果你还分不清“翻墙软件”“VPN 加速器”和游戏加速器分别指什么，可以先阅读[机场、翻墙、VPN、加速器区别总览](/topics/)；想了解通俗术语和使用边界，可查看[翻墙是什么](/topics/fanqiang)。
 
 更稳妥的顺序应该反过来：先明确使用场景，再筛选产品类型，比较套餐价格与使用规则，最后用短周期套餐完成真实测试。本文不承诺一个随时可能过期的“VPN 推荐排行榜”，而是给出一套可以重复使用的选择方法。
 
@@ -55,7 +55,7 @@ VPN、机场订阅、代理节点和 Clash 客户端经常被放在一起讨论�
 
 如果仍然拿不准，优先购买最短周期、最低档位。一个月的真实体验，比十篇宣传文案更有参考价值。
 
-如果你已经有明确候选，也可以直接查看本站的[一翻云机场测评](/posts/yifanyun.html)，了解套餐、节点状态、客户端和购买注意事项。
+如果你已经有明确候选，也可以直接查看本站的[一翻云机场测评](/posts/yifanyun)，了解套餐、节点状态、客户端和购买注意事项。
 
 ## 已核对内容入口
 
@@ -63,11 +63,11 @@ VPN、机场订阅、代理节点和 Clash 客户端经常被放在一起讨论�
 
 | 想核对的内容 | 已有单项页面 |
 | --- | --- |
-| 套餐、节点和客户端 | [边缘节点](/posts/bianyunnode.html) · [Firefly](/posts/firefly.html) · [光速云](/posts/guangsuyun.html) · [快狸](/posts/kuaili.html) · [全球云](/posts/quanqiuyun.html) · [速界](/posts/sujie.html) |
-| 套餐、客户端与后台规则 | [COCODUCK](/posts/cocoduck.html) · [U1s1](/posts/u1s1.html) · [唯兔云](/posts/weituyun.html) · [无忧链接](/posts/wuyou.html) · [XXYUN](/posts/xxyun.html) |
-| 日享、长期或不限时流量包 | [网际快车](/posts/wangjikuaiche.html) · [一翻云](/posts/yifanyun.html) |
+| 套餐、节点和客户端 | [边缘节点](/posts/bianyunnode) · [Firefly](/posts/firefly) · [光速云](/posts/guangsuyun) · [快狸](/posts/kuaili) · [全球云](/posts/quanqiuyun) · [速界](/posts/sujie) |
+| 套餐、客户端与后台规则 | [COCODUCK](/posts/cocoduck) · [U1s1](/posts/u1s1) · [唯兔云](/posts/weituyun) · [无忧链接](/posts/wuyou) · [XXYUN](/posts/xxyun) |
+| 日享、长期或不限时流量包 | [网际快车](/posts/wangjikuaiche) · [一翻云](/posts/yifanyun) |
 
-需要直接比较当前记录的最低月付、年付、节点快照与明显风险，可查看[机场横向对比](/posts/airport-compare.html)。部分单项页面包含推广入口，推广关系不会作为排序依据，具体规则见[推广链接披露](/about.html#推广链接披露)。
+需要直接比较当前记录的最低月付、年付、节点快照与明显风险，可查看[机场横向对比](/posts/airport-compare)。部分单项页面包含推广入口，推广关系不会作为排序依据，具体规则见[推广链接披露](/about#推广链接披露)。
 
 ## 先分清 VPN、代理订阅和客户端
 
@@ -253,7 +253,7 @@ IEPL、IPLC、BGP 中转和直连等词经常出现在套餐说明中，但线�
 
 ### VPN、机场和加速器有什么区别？
 
-VPN 通常把线路与自有客户端打包；机场提供订阅和多个代理节点，往往需要第三方客户端；加速器则按游戏、跨地区访问或特定应用优化路由。详细对照见[网络加速器、游戏加速器与 VPN 区别](/topics/accelerator.html)。
+VPN 通常把线路与自有客户端打包；机场提供订阅和多个代理节点，往往需要第三方客户端；加速器则按游戏、跨地区访问或特定应用优化路由。详细对照见[网络加速器、游戏加速器与 VPN 区别](/topics/accelerator)。
 
 ## 最后的选择原则
 
@@ -265,4 +265,4 @@ VPN 通常把线路与自有客户端打包；机场提供订阅和多个代理�
 2. **先短期试用**，用真实任务验证；
 3. **持续复查风险**，不要把年付折扣当作稳定保证。
 
-相关基础内容：[机场是什么](/topics/airport.html)｜[翻墙工具与安全边界](/topics/fanqiang.html)｜[加速器与 VPN 区别](/topics/accelerator.html)。
+相关基础内容：[机场是什么](/topics/airport)｜[翻墙工具与安全边界](/topics/fanqiang)｜[加速器与 VPN 区别](/topics/accelerator)。

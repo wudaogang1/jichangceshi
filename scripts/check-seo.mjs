@@ -18,10 +18,11 @@ const walk = (directory) =>
 const routeFromFile = (filePath) => {
   const relativePath = relative(DIST_DIR, filePath)
   if (relativePath === 'index.html') return '/'
+  if (relativePath === '404.html') return '/404.html'
   if (relativePath.endsWith('/index.html')) {
     return `/${relativePath.slice(0, -'index.html'.length)}`
   }
-  return `/${relativePath}`
+  return `/${relativePath.slice(0, -'.html'.length)}`
 }
 
 const isAffiliateLink = (href) => {
@@ -145,16 +146,18 @@ for (const filePath of htmlFiles) {
 
     const target = cleanHref.endsWith('/')
       ? join(DIST_DIR, cleanHref, 'index.html')
-      : join(DIST_DIR, cleanHref)
+      : cleanHref.endsWith('.html')
+        ? join(DIST_DIR, cleanHref)
+        : join(DIST_DIR, `${cleanHref}.html`)
     assert(existsSync(target), `${route}: broken internal link ${href}`)
   }
 }
 
 const topicArticleRoutes = [
-  '/topics/airport.html',
-  '/topics/fanqiang.html',
-  '/topics/accelerator.html',
-  '/posts/vpn.html',
+  '/topics/airport',
+  '/topics/fanqiang',
+  '/topics/accelerator',
+  '/posts/vpn',
 ]
 
 for (const route of ['/topics/', ...topicArticleRoutes]) {

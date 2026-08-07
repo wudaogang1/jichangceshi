@@ -184,4 +184,4 @@ lang: zh-CN
 
 综合判断，网际快车值得小额试用，特别适合作为备用线路或多设备服务。是否适合作为长期主力，应由用户在自己的地区、运营商和晚高峰环境中实测决定，而不能只看套餐宣传。
 
-相关内容：[机场横向对比](/posts/airport-compare.html)｜[机场测速方法](/posts/airport-speed-test.html)｜[VPN 与机场怎么选](/posts/vpn.html)
+相关内容：[机场横向对比](/posts/airport-compare)｜[机场测速方法](/posts/airport-speed-test)｜[VPN 与机场怎么选](/posts/vpn)

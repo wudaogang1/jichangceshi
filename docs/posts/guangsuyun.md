@@ -198,4 +198,4 @@ lang: zh-CN
 
 不过，速度、稳定性、隐私和退款仍不能只看页面宣传。建议先从极速版月付开始，完成 48 小时真实场景测试，并确认特殊商品不支持退款等规则后，再决定是否购买长期套餐或不限时套餐。
 
-相关内容：[机场横向对比](/posts/airport-compare.html)｜[机场测速方法](/posts/airport-speed-test.html)｜[订阅链接安全指南](/posts/subscription-security.html)
+相关内容：[机场横向对比](/posts/airport-compare)｜[机场测速方法](/posts/airport-speed-test)｜[订阅链接安全指南](/posts/subscription-security)

@@ -13,7 +13,7 @@ keywords:
   - 网络加速器
 actions:
   - text: 查看横向对比
-    link: /posts/airport-compare.html
+    link: /posts/airport-compare
     type: primary
   - text: 先看概念区别
     link: /topics/
@@ -36,22 +36,22 @@ updated: 2026-08-07
     <p>“机场”“VPN”“翻墙软件”和“加速器”经常被混用，但产品形态、适用场景和风险并不相同。先理解概念，再比较具体服务。</p>
   </div>
   <div class="home-path-grid">
-    <a class="home-path-card" href="/topics/airport.html">
+    <a class="home-path-card" href="/topics/airport">
       <span class="home-path-number">01</span>
       <span class="home-path-copy"><strong>机场是什么、怎么选</strong><span>理解机场订阅、节点、协议和客户端之间的关系。</span></span>
       <span class="home-path-arrow" aria-hidden="true">→</span>
     </a>
-    <a class="home-path-card" href="/posts/vpn.html">
+    <a class="home-path-card" href="/posts/vpn">
       <span class="home-path-number">02</span>
       <span class="home-path-copy"><strong>VPN 与机场怎么选</strong><span>按隐私、设备、线路、价格和维护成本选择产品类型。</span></span>
       <span class="home-path-arrow" aria-hidden="true">→</span>
     </a>
-    <a class="home-path-card" href="/topics/fanqiang.html">
+    <a class="home-path-card" href="/topics/fanqiang">
       <span class="home-path-number">03</span>
       <span class="home-path-copy"><strong>翻墙术语与安全入门</strong><span>了解常见工具类型、风险边界和使用前检查事项。</span></span>
       <span class="home-path-arrow" aria-hidden="true">→</span>
     </a>
-    <a class="home-path-card" href="/topics/accelerator.html">
+    <a class="home-path-card" href="/topics/accelerator">
       <span class="home-path-number">04</span>
       <span class="home-path-copy"><strong>加速器到底加速什么</strong><span>区分游戏加速、企业 VPN、代理加速和回国加速场景。</span></span>
       <span class="home-path-arrow" aria-hidden="true">→</span>
@@ -66,37 +66,37 @@ updated: 2026-08-07
     <p>优先展示能帮助完成实际选择、测速和客户端配置的内容。</p>
   </div>
   <div class="home-update-grid">
-    <a class="home-update-card" href="/posts/airport-compare.html">
+    <a class="home-update-card" href="/posts/airport-compare">
       <span class="home-update-tag">横向对比</span>
       <strong>2026 机场套餐、流量与节点对比</strong>
       <p>不只比较月付价格，同时标出倍率、客户端支持和信息证据边界。</p>
       <span class="home-update-more">查看对比 →</span>
     </a>
-    <a class="home-update-card" href="/posts/airport-speed-test.html">
+    <a class="home-update-card" href="/posts/airport-speed-test">
       <span class="home-update-tag">测速方法</span>
       <strong>延迟、丢包与晚高峰怎么测</strong>
       <p>从测试环境到结果记录，建立可以重复验证的短周期测试流程。</p>
       <span class="home-update-more">开始测速 →</span>
     </a>
-    <a class="home-update-card" href="/posts/subscription-security.html">
+    <a class="home-update-card" href="/posts/subscription-security">
       <span class="home-update-tag">安全指南</span>
       <strong>订阅链接泄露后的处理步骤</strong>
       <p>覆盖重置链接、排查异常设备、清理日志与更安全的保存方式。</p>
       <span class="home-update-more">查看步骤 →</span>
     </a>
-    <a class="home-update-card" href="/posts/clash-mi.html">
+    <a class="home-update-card" href="/posts/clash-mi">
       <span class="home-update-tag">客户端教程</span>
       <strong>Clash Mi 下载、导入与切换节点</strong>
       <p>按平台梳理安装与订阅导入流程，并补充常见故障处理。</p>
       <span class="home-update-more">阅读教程 →</span>
     </a>
-    <a class="home-update-card" href="/posts/cocoduck.html">
+    <a class="home-update-card" href="/posts/cocoduck">
       <span class="home-update-tag">单项测评</span>
       <strong>COCODUCK 套餐与节点信息</strong>
       <p>整理可见套餐、节点页面和客户端兼容信息，标明尚待验证项。</p>
       <span class="home-update-more">查看测评 →</span>
     </a>
-    <a class="home-update-card" href="/posts/firefly.html">
+    <a class="home-update-card" href="/posts/firefly">
       <span class="home-update-tag">单项测评</span>
       <strong>Firefly 套餐与节点信息</strong>
       <p>从价格和流量规则出发，检查节点覆盖、使用限制和潜在风险。</p>
@@ -111,5 +111,5 @@ updated: 2026-08-07
     <h2>结论必须能回到证据</h2>
     <p>套餐页面、服务商宣传、本站计算与真实网络实测不是同一种证据。文章会标明信息查看日期、尚未完成的测速或隐私核查；价格和节点状态变化较快，下单前仍应以结算页和自己的网络测试为准。</p>
   </div>
-  <a class="home-method-link" href="/about.html">查看方法与披露 →</a>
+  <a class="home-method-link" href="/about">查看方法与披露 →</a>
 </section>
