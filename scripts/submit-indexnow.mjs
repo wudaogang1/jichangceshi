@@ -7,8 +7,11 @@ const KEY_LOCATION = `${SITE_URL}/${INDEXNOW_KEY}.txt`
 
 const routeFromMarkdown = (filePath) => {
   if (filePath === 'docs/README.md') return '/'
-  if (filePath === 'docs/posts/README.md') return '/posts/'
   if (!filePath.startsWith('docs/') || !filePath.endsWith('.md')) return null
+
+  if (filePath.endsWith('/README.md')) {
+    return `/${filePath.slice('docs/'.length, -'README.md'.length)}`
+  }
 
   return `/${filePath.slice('docs/'.length, -'.md'.length)}.html`
 }

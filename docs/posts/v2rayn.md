@@ -2,14 +2,22 @@
 title: V2RayN使用教程：Windows安装、导入订阅与代理设置
 description: V2RayN 怎么用？本文整理 Windows 安装 V2RayN、导入机场订阅、更新节点、选择代理模式和常见故障排查方法。
 date: 2026-08-03
-updated: 2026-08-04
+updated: 2026-08-07
 author: jichangceshi
 lang: zh-CN
+keywords:
+  - V2RayN
+  - V2RayN教程
+  - Windows代理
+  - 机场客户端
+  - 翻墙软件
 ---
 
 # V2RayN使用教程：Windows安装、导入订阅与代理设置
 
 V2RayN 是 Windows 上常见的代理管理客户端。它通常需要配合机场订阅或单条节点使用，软件本身不提供线路。
+
+V2RayN 虽然经常出现在“翻墙软件”搜索结果中，但客户端、机场订阅、VPN 和网络加速器并不是同一种产品，使用前可先阅读[四类工具区别](/topics/)。
 
 ![客户端导入订阅通用流程](/images/client-import-flow.svg)
 

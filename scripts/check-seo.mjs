@@ -4,6 +4,10 @@ import { join, relative, resolve } from 'node:path'
 const DIST_DIR = resolve('docs/.vuepress/dist')
 const SITE_URL = 'https://jichangceshi.com'
 const errors = []
+const titles = new Map()
+const descriptions = new Map()
+const internalLinkSources = new Map()
+const structuredDataByRoute = new Map()
 
 const walk = (directory) =>
   readdirSync(directory).flatMap((name) => {
@@ -54,15 +58,42 @@ for (const filePath of htmlFiles) {
 
   if (!is404) {
     indexableRoutes.add(route)
+    const title = html.match(/<title>([^<]+)<\/title>/u)?.[1]
+    const description = html.match(
+      /<meta name="description" content="([^"]+)">/u,
+    )?.[1]
     const canonical = html.match(/<link rel="canonical" href="([^"]+)">/u)?.[1]
     assert(
       canonical === `${SITE_URL}${route}`,
       `${route}: canonical is missing or does not match the public URL.`,
     )
     assert(
-      /<meta name="description" content="[^"]{30,}">/u.test(html),
+      Boolean(description && description.length >= 30),
       `${route}: meta description is missing or too short.`,
     )
+    assert(
+      Boolean(description && description.length <= 180),
+      `${route}: meta description is longer than 180 characters.`,
+    )
+    assert(Boolean(title), `${route}: title is missing.`)
+    assert(/<html lang="zh-CN"/u.test(html), `${route}: html lang is not zh-CN.`)
+    assert(
+      !/<meta name="keywords"/u.test(html),
+      `${route}: legacy meta keywords should not be emitted.`,
+    )
+    if (title) {
+      const previousRoute = titles.get(title)
+      assert(!previousRoute, `${route}: duplicate title also used by ${previousRoute}.`)
+      titles.set(title, route)
+    }
+    if (description) {
+      const previousRoute = descriptions.get(description)
+      assert(
+        !previousRoute,
+        `${route}: duplicate description also used by ${previousRoute}.`,
+      )
+      descriptions.set(description, route)
+    }
     assert(
       (html.match(/<h1\b/gu) ?? []).length === 1,
       `${route}: expected exactly one H1.`,
@@ -76,15 +107,17 @@ for (const filePath of htmlFiles) {
   assert(!html.includes('"dateModified":null'), `${route}: null dateModified.`)
   assert(!html.includes('"image":[""]'), `${route}: empty schema image.`)
 
+  const structuredData = []
   for (const match of html.matchAll(
     /<script type="application\/ld\+json">([\s\S]*?)<\/script>/gu,
   )) {
     try {
-      JSON.parse(match[1])
+      structuredData.push(JSON.parse(match[1]))
     } catch {
       errors.push(`${route}: invalid JSON-LD.`)
     }
   }
+  structuredDataByRoute.set(route, structuredData)
 
   for (const match of html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/gu)) {
     const [tag, href] = match
@@ -106,12 +139,50 @@ for (const filePath of htmlFiles) {
       continue
     }
 
+    const sourceRoutes = internalLinkSources.get(cleanHref) ?? new Set()
+    sourceRoutes.add(route)
+    internalLinkSources.set(cleanHref, sourceRoutes)
+
     const target = cleanHref.endsWith('/')
       ? join(DIST_DIR, cleanHref, 'index.html')
       : join(DIST_DIR, cleanHref)
     assert(existsSync(target), `${route}: broken internal link ${href}`)
   }
 }
+
+const topicArticleRoutes = [
+  '/topics/airport.html',
+  '/topics/fanqiang.html',
+  '/topics/accelerator.html',
+  '/posts/vpn.html',
+]
+
+for (const route of ['/topics/', ...topicArticleRoutes]) {
+  assert(indexableRoutes.has(route), `Keyword pillar page is missing: ${route}`)
+}
+
+for (const route of topicArticleRoutes) {
+  const schemas = structuredDataByRoute.get(route) ?? []
+  assert(
+    schemas.some((schema) => schema['@type'] === 'Article' && schema.keywords),
+    `${route}: Article schema lacks keyword mapping.`,
+  )
+  assert(
+    schemas.some((schema) => schema['@type'] === 'FAQPage'),
+    `${route}: FAQPage schema is missing.`,
+  )
+  assert(
+    (internalLinkSources.get(route)?.size ?? 0) >= 3,
+    `${route}: keyword pillar has fewer than three internal link sources.`,
+  )
+}
+
+assert(
+  (structuredDataByRoute.get('/topics/') ?? []).some(
+    (schema) => schema['@type'] === 'CollectionPage',
+  ),
+  '/topics/: CollectionPage schema is missing.',
+)
 
 const sitemapPath = join(DIST_DIR, 'sitemap.xml')
 assert(existsSync(sitemapPath), 'sitemap.xml is missing.')

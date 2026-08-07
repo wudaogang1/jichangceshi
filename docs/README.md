@@ -1,52 +1,59 @@
 ---
 home: true
-title: 机场测评、节点测速与客户端教程
-description: 机场测试提供中文机场测评、套餐横向比较、节点测速方法、Clash Mi、V2RayN、Shadowrocket 教程和订阅安全指南。
-heroText: 机场测评、测速与客户端指南
-tagline: 用可核对的数据、明确的证据边界和短周期实测，降低代理订阅的选择风险。
+title: 机场测评、VPN、翻墙与网络加速器指南
+description: 机场测试提供机场测评、VPN 与机场区别、翻墙术语、网络加速器选择、节点测速和 Clash、V2RayN、Shadowrocket 客户端教程。
+heroText: 机场、VPN 与网络加速指南
+tagline: 分清机场、VPN、翻墙工具和网络加速器，用可核对的数据与短周期实测降低选择风险。
+keywords:
+  - 机场
+  - 机场测评
+  - VPN
+  - 翻墙
+  - 加速器
+  - 网络加速器
 actions:
   - text: 查看横向对比
     link: /posts/airport-compare.html
     type: primary
-  - text: 浏览全部内容
-    link: /posts/
+  - text: 先看概念区别
+    link: /topics/
     type: secondary
 features:
-  - title: 套餐与节点测评
-    details: 记录页面价格、流量、节点状态、客户端和规则，同时明确哪些结论尚未独立验证。
-  - title: 可重复的测速方法
-    details: 不只看峰值带宽，也检查延迟、丢包、抖动、晚高峰表现和真实任务完成情况。
-  - title: 客户端与安全教程
-    details: 覆盖订阅导入、节点切换、故障排查和订阅链接泄露后的处理方法。
+  - title: 机场与 VPN 选择
+    details: 分清产品类型，再比较套餐、流量、节点、客户端、隐私说明和使用规则。
+  - title: 翻墙术语与使用边界
+    details: 解释常见说法、工具关系与安全风险，不把宣传用语当作可验证的技术结论。
+  - title: 加速器与测速方法
+    details: 区分游戏加速器、网络加速器和代理工具，并用延迟、丢包、抖动和晚高峰实测验证表现。
 footer: 机场测试 · 独立整理中文代理订阅信息，价格与节点状态请以下单时页面为准
-updated: 2026-08-04
+updated: 2026-08-07
 ---
 
 <section class="home-section">
   <div class="home-section-head">
     <span class="home-kicker">QUICK START</span>
     <h2>第一次来，从你的问题开始</h2>
-    <p>本站所说的“机场”是代理订阅与节点配置服务，不是民航机场。按当前需求选择入口，比在大量测评文章里逐篇寻找更快。</p>
+    <p>“机场”“VPN”“翻墙软件”和“加速器”经常被混用，但产品形态、适用场景和风险并不相同。先理解概念，再比较具体服务。</p>
   </div>
   <div class="home-path-grid">
-    <a class="home-path-card" href="/posts/vpn.html">
+    <a class="home-path-card" href="/topics/airport.html">
       <span class="home-path-number">01</span>
-      <span class="home-path-copy"><strong>先理解怎么选</strong><span>分清 VPN、机场和客户端，建立适合自己的筛选标准。</span></span>
+      <span class="home-path-copy"><strong>机场是什么、怎么选</strong><span>理解机场订阅、节点、协议和客户端之间的关系。</span></span>
       <span class="home-path-arrow" aria-hidden="true">→</span>
     </a>
-    <a class="home-path-card" href="/posts/airport-compare.html">
+    <a class="home-path-card" href="/posts/vpn.html">
       <span class="home-path-number">02</span>
-      <span class="home-path-copy"><strong>已有候选，直接比较</strong><span>把价格、流量、节点、客户端和证据完整度放在同一张表。</span></span>
+      <span class="home-path-copy"><strong>VPN 与机场怎么选</strong><span>按隐私、设备、线路、价格和维护成本选择产品类型。</span></span>
       <span class="home-path-arrow" aria-hidden="true">→</span>
     </a>
-    <a class="home-path-card" href="/posts/airport-speed-test.html">
+    <a class="home-path-card" href="/topics/fanqiang.html">
       <span class="home-path-number">03</span>
-      <span class="home-path-copy"><strong>验证真实网络表现</strong><span>用 24—48 小时测试检查延迟、丢包和晚高峰稳定性。</span></span>
+      <span class="home-path-copy"><strong>翻墙术语与安全入门</strong><span>了解常见工具类型、风险边界和使用前检查事项。</span></span>
       <span class="home-path-arrow" aria-hidden="true">→</span>
     </a>
-    <a class="home-path-card" href="/posts/subscription-security.html">
+    <a class="home-path-card" href="/topics/accelerator.html">
       <span class="home-path-number">04</span>
-      <span class="home-path-copy"><strong>处理订阅安全问题</strong><span>订阅泄露、异常流量或设备丢失时，按步骤重置与排查。</span></span>
+      <span class="home-path-copy"><strong>加速器到底加速什么</strong><span>区分游戏加速、企业 VPN、代理加速和回国加速场景。</span></span>
       <span class="home-path-arrow" aria-hidden="true">→</span>
     </a>
   </div>

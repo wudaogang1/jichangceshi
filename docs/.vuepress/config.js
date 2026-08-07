@@ -5,7 +5,7 @@ import { defineUserConfig } from 'vuepress'
 const SITE_URL = 'https://jichangceshi.com'
 const SITE_NAME = '机场测试'
 const SITE_DESCRIPTION =
-  '面向中文用户的机场测评、代理订阅选择、节点测速与客户端教程，强调可核对数据、证据边界和短周期实测。'
+  '面向中文用户的机场测评、VPN 选择、翻墙术语、网络加速器区别、节点测速与客户端教程，强调可核对数据和短周期实测。'
 
 const organization = {
   '@type': 'Organization',
@@ -23,7 +23,15 @@ const toIsoDate = (value) => {
 
 const pageUrl = (page) => `${SITE_URL}${page.path}`
 const isArticle = (page) =>
-  page.path.startsWith('/posts/') && page.path !== '/posts/'
+  (page.path.startsWith('/posts/') && page.path !== '/posts/') ||
+  (page.path.startsWith('/topics/') && page.path !== '/topics/')
+
+const pageKeywords = (page) => {
+  const keywords = page.frontmatter.keywords
+
+  if (Array.isArray(keywords)) return keywords.filter(Boolean).join(', ')
+  return typeof keywords === 'string' ? keywords : undefined
+}
 
 const verificationHead = process.env.BING_SITE_VERIFICATION
   ? [
@@ -84,6 +92,15 @@ export default defineUserConfig({
     navbar: [
       { text: '内容目录', link: '/posts/' },
       {
+        text: '概念指南',
+        children: [
+          { text: '四类工具怎么区分', link: '/topics/' },
+          { text: '机场是什么', link: '/topics/airport.html' },
+          { text: '翻墙是什么', link: '/topics/fanqiang.html' },
+          { text: '加速器是什么', link: '/topics/accelerator.html' },
+        ],
+      },
+      {
         text: '选择与测评',
         children: [
           { text: '机场横向对比', link: '/posts/airport-compare.html' },
@@ -102,12 +119,36 @@ export default defineUserConfig({
       { text: '关于本站', link: '/about.html' },
     ],
     sidebar: {
+      '/topics/': [
+        {
+          text: '基础概念与区别',
+          collapsible: false,
+          children: [
+            { text: '四类工具怎么区分', link: '/topics/' },
+            { text: '机场是什么', link: '/topics/airport.html' },
+            { text: '翻墙是什么', link: '/topics/fanqiang.html' },
+            { text: 'VPN 与机场怎么选', link: '/posts/vpn.html' },
+            { text: '加速器是什么', link: '/topics/accelerator.html' },
+          ],
+        },
+        {
+          text: '继续阅读',
+          collapsible: false,
+          children: [
+            { text: '机场横向对比', link: '/posts/airport-compare.html' },
+            { text: '机场测速方法', link: '/posts/airport-speed-test.html' },
+            { text: '客户端教程目录', link: '/posts/' },
+            { text: '订阅链接安全', link: '/posts/subscription-security.html' },
+          ],
+        },
+      ],
       '/posts/': [
         {
           text: '选择与方法',
           collapsible: true,
           children: [
             { text: '全部内容', link: '/posts/' },
+            { text: '机场、VPN 与加速器区别', link: '/topics/' },
             { text: '机场横向对比', link: '/posts/airport-compare.html' },
             { text: 'VPN 与机场怎么选', link: '/posts/vpn.html' },
             { text: '机场测速方法', link: '/posts/airport-speed-test.html' },
@@ -179,6 +220,7 @@ export default defineUserConfig({
         },
         jsonLd: (jsonLd, page) => {
           const url = pageUrl(page)
+          const keywords = pageKeywords(page)
 
           if (page.frontmatter.home) {
             return {
@@ -189,6 +231,7 @@ export default defineUserConfig({
               name: SITE_NAME,
               alternateName: 'jichangceshi.com',
               description: SITE_DESCRIPTION,
+              ...(keywords ? { keywords } : {}),
               inLanguage: 'zh-CN',
               publisher: organization,
             }
@@ -197,10 +240,14 @@ export default defineUserConfig({
           if (!isArticle(page)) {
             return {
               ...jsonLd,
-              '@type': 'WebPage',
+              '@type':
+                page.path === '/posts/' || page.path === '/topics/'
+                  ? 'CollectionPage'
+                  : 'WebPage',
               '@id': `${url}#webpage`,
               url,
               description: page.frontmatter.description,
+              ...(keywords ? { keywords } : {}),
               inLanguage: page.lang,
               isPartOf: { '@id': `${SITE_URL}/#website` },
             }
@@ -223,6 +270,7 @@ export default defineUserConfig({
             '@id': `${url}#article`,
             url,
             description: page.frontmatter.description,
+            ...(keywords ? { keywords } : {}),
             ...(images.length ? { image: images } : {}),
             dateModified,
             inLanguage: page.lang,
@@ -235,6 +283,31 @@ export default defineUserConfig({
           }
         },
         customHead: (head, page) => {
+          const faqs = Array.isArray(page.frontmatter.faqs)
+            ? page.frontmatter.faqs.filter(
+                (faq) => faq?.question && faq?.answer,
+              )
+            : []
+
+          if (faqs.length) {
+            head.push([
+              'script',
+              { type: 'application/ld+json' },
+              JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'FAQPage',
+                mainEntity: faqs.map((faq) => ({
+                  '@type': 'Question',
+                  name: faq.question,
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: faq.answer,
+                  },
+                })),
+              }),
+            ])
+          }
+
           if (page.frontmatter.home) return
 
           const items = [
@@ -246,7 +319,17 @@ export default defineUserConfig({
             },
           ]
 
-          if (isArticle(page)) {
+          if (
+            page.path.startsWith('/topics/') &&
+            page.path !== '/topics/'
+          ) {
+            items.push({
+              '@type': 'ListItem',
+              position: 2,
+              name: '概念指南',
+              item: `${SITE_URL}/topics/`,
+            })
+          } else if (isArticle(page)) {
             items.push({
               '@type': 'ListItem',
               position: 2,

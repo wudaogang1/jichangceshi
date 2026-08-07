@@ -2,14 +2,22 @@
 title: Shadowrocket使用教程：下载安装、导入订阅与节点切换
 description: Shadowrocket 怎么用？本文介绍 iPhone 和 iPad 上下载安装 Shadowrocket、导入机场订阅、更新配置、选择节点、开启代理和常见问题。
 date: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-07
 author: jichangceshi
 lang: zh-CN
+keywords:
+  - Shadowrocket
+  - Shadowrocket教程
+  - 小火箭
+  - iPhone代理
+  - 机场客户端
 ---
 
 # Shadowrocket使用教程：下载安装、导入订阅与节点切换
 
 Shadowrocket 是 iPhone 和 iPad 常见的代理客户端。它本身不提供节点，使用前需要准备机场提供的订阅链接或单条节点信息。
+
+Shadowrocket 常被称为“小火箭”或翻墙客户端，但它不等于 VPN 服务或网络加速器。不了解这些概念时，可先查看[机场、VPN、翻墙与加速器区别](/topics/)。
 
 ![客户端导入订阅通用流程](/images/client-import-flow.svg)
 
