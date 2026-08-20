@@ -1,7 +1,7 @@
 ---
 home: true
-title: 机场测评、VPN、翻墙与网络加速器指南
-description: 机场测试提供机场测评、VPN 与机场区别、翻墙术语、网络加速器选择、节点测速和 Clash、V2RayN、Shadowrocket 客户端教程。
+title: 机场推荐、机场测评、VPN与网络加速器指南
+description: 机场测试提供 2026 机场推荐与测评、VPN 和机场区别、网络加速器选择、节点测速及 Clash、V2RayN、Shadowrocket 客户端教程。
 heroText: 机场、VPN 与网络加速指南
 tagline: 分清机场、VPN、翻墙工具和网络加速器，用可核对的数据与短周期实测降低选择风险。
 keywords:
@@ -12,7 +12,7 @@ keywords:
   - 加速器
   - 网络加速器
 actions:
-  - text: 查看横向对比
+  - text: 查看机场推荐
     link: /posts/airport-compare
     type: primary
   - text: 先看概念区别
@@ -26,7 +26,7 @@ features:
   - title: 加速器与测速方法
     details: 区分游戏加速器、网络加速器和代理工具，并用延迟、丢包、抖动和晚高峰实测验证表现。
 footer: 机场测试 · 独立整理中文代理订阅信息，价格与节点状态请以下单时页面为准
-updated: 2026-08-07
+updated: 2026-08-19
 ---
 
 <section class="home-section">
@@ -67,10 +67,10 @@ updated: 2026-08-07
   </div>
   <div class="home-update-grid">
     <a class="home-update-card" href="/posts/airport-compare">
-      <span class="home-update-tag">横向对比</span>
-      <strong>2026 机场套餐、流量与节点对比</strong>
-      <p>不只比较月付价格，同时标出倍率、客户端支持和信息证据边界。</p>
-      <span class="home-update-more">查看对比 →</span>
+      <span class="home-update-tag">机场推荐 · 8 月 19 日更新</span>
+      <strong>2026 机场推荐：13 家套餐、流量、节点与优惠码</strong>
+      <p>按低门槛、低月付、小流量年付和大流量等场景初筛，同时标出客户端限制、倍率与购买风险。</p>
+      <span class="home-update-more">查看机场推荐 →</span>
     </a>
     <a class="home-update-card" href="/posts/airport-speed-test">
       <span class="home-update-tag">测速方法</span>
