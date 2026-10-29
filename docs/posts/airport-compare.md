@@ -82,7 +82,7 @@ faqs:
 | 机场名称 | 机场链接 | 套餐价格 | 流量周期 | 类型 |
 | --- | --- | ---: | --- | --- |
 | [网际快车](/posts/wangjikuaiche) | <a href="https://YGDUEA.快车.com" rel="sponsored nofollow noopener noreferrer" target="_blank">注册/购买</a> | ¥6.80 | 20GB，用完为止 | 一次性永久包 |
-| [XXYUN](/posts/xxyun) | <a href="https://xxyun.at/?code=lZlwmBj9" rel="sponsored nofollow noopener noreferrer" target="_blank">注册/购买</a> | ¥9.99/月 | 100GB/月 | 月付 |
+| [XXYUN](/posts/xxyun) | <a href="https://www.xx-yun.com/?code=lZlwmBj9" rel="sponsored nofollow noopener noreferrer" target="_blank">注册/购买</a> | ¥9.99/月 | 100GB/月 | 月付 |
 | [唯兔云](/posts/weituyun) | <a href="https://sellvpn.v2cvipaff.cc/#/?code=hr6gESut" rel="sponsored nofollow noopener noreferrer" target="_blank">注册/购买</a> | ¥14.90/月起 | 100GB/月 | 限时月付 |
 | [边缘节点](/posts/bianyunnode) | <a href="https://sell.edgenovaaff.com/#/register?code=0hcQ2OF8" rel="sponsored nofollow noopener noreferrer" target="_blank">注册/购买</a> | ¥15/月 | 50GB/月 | 月付 |
 | [快狸](/posts/kuaili) | <a href="https://wudaogang.kuailiaff.com/#/register?code=ngH6LgR6" rel="sponsored nofollow noopener noreferrer" target="_blank">注册/购买</a> | ¥15/月 | 50GB/月 | 月付 |

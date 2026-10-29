@@ -189,7 +189,7 @@ XXYUN 公告明确说明：目前不再支持 Clash、小火箭等第三方客�
 
 - 优惠码：`xxyun`
 - 活动说明：新用户 9 折，仅可使用一次
-- <a href="https://xxyun.at/?code=lZlwmBj9" rel="sponsored nofollow noopener noreferrer" target="_blank">打开 XXYUN 注册/购买页面</a>
+- <a href="https://www.xx-yun.com/?code=lZlwmBj9" rel="sponsored nofollow noopener noreferrer" target="_blank">打开 XXYUN 注册/购买页面</a>
 
 该链接包含推广参数，站长可能因此获得推广收益。优惠适用套餐、有效期和是否能与其他活动叠加，应以注册页或结算页最终显示为准。
 
