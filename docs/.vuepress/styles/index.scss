@@ -160,6 +160,23 @@ body {
   box-shadow: 0 12px 28px rgb(37 99 235 / 25%);
 }
 
+.vp-home .vp-hero-action-button[href^='https://t.me/'] {
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #229ed9, #1678b9);
+  box-shadow: 0 12px 30px rgb(34 158 217 / 30%);
+}
+
+.vp-home .vp-hero-action-button[href^='https://t.me/']::before {
+  content: '✈';
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.vp-home .vp-hero-action-button[href^='https://t.me/']:hover {
+  background: linear-gradient(135deg, #168dcc, #116ca8);
+  box-shadow: 0 16px 34px rgb(34 158 217 / 36%);
+}
+
 .vp-home .vp-features {
   gap: 18px;
   margin: 24px 0 0;

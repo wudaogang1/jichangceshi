@@ -12,9 +12,12 @@ keywords:
   - 加速器
   - 网络加速器
 actions:
+  - text: Telegram 联系：@sellvpn000
+    link: https://t.me/sellvpn000
+    type: primary
   - text: 查看机场推荐
     link: /posts/airport-compare
-    type: primary
+    type: secondary
   - text: 先看概念区别
     link: /topics/
     type: secondary
@@ -26,7 +29,7 @@ features:
   - title: 加速器与测速方法
     details: 区分游戏加速器、网络加速器和代理工具，并用延迟、丢包、抖动和晚高峰实测验证表现。
 footer: 机场测试 · 独立整理中文代理订阅信息，价格与节点状态请以下单时页面为准
-updated: 2026-08-19
+updated: 2026-10-29
 ---
 
 <section class="home-section">
