@@ -100,13 +100,11 @@ export default defineUserConfig({
   },
   theme: defaultTheme({
     hostname: SITE_URL,
-    repo: 'https://github.com/wudaogang1/jichangceshi',
     logo: '/images/logo.svg',
     logoAlt: '机场测试',
     docsDir: 'docs',
     docsBranch: 'main',
-    editLink: true,
-    editLinkText: '在 GitHub 上编辑此页',
+    editLink: false,
     contributors: false,
     lastUpdated: true,
     lastUpdatedText: '最后更新',
@@ -138,6 +136,7 @@ export default defineUserConfig({
         ],
       },
       { text: '关于本站', link: '/about' },
+      { text: '联系方式', link: 'https://t.me/sellvpn000' },
     ],
     sidebar: {
       '/topics/': [

@@ -59,6 +59,36 @@ body {
   font-weight: 550;
 }
 
+.vp-navbar .vp-navbar-item > a[href^='https://t.me/'] {
+  display: inline-flex;
+  gap: 0.42rem;
+  align-items: center;
+  padding: 0.46rem 0.82rem;
+  border: 1px solid rgb(34 158 217 / 30%);
+  border-radius: 10px;
+  background: rgb(34 158 217 / 10%);
+  color: #087daf;
+  font-weight: 700;
+  line-height: 1.2;
+  transition: border-color 160ms ease, background 160ms ease, color 160ms ease;
+}
+
+.vp-navbar .vp-navbar-item > a[href^='https://t.me/']::before {
+  content: '✈';
+  font-size: 0.86rem;
+  line-height: 1;
+}
+
+.vp-navbar .vp-navbar-item > a[href^='https://t.me/']:hover {
+  border-color: rgb(34 158 217 / 48%);
+  background: rgb(34 158 217 / 17%);
+  color: #05658f;
+}
+
+[data-theme='dark'] .vp-navbar .vp-navbar-item > a[href^='https://t.me/'] {
+  color: #7dd3fc;
+}
+
 .vp-sidebar {
   border-right-color: var(--site-c-border);
   background: color-mix(in srgb, var(--vp-c-bg) 96%, var(--vp-c-accent-soft));
