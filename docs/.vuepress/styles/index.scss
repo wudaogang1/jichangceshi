@@ -539,6 +539,139 @@ body {
   object-fit: contain;
 }
 
+// Evidence figures are opt-in, so other articles retain their current layout.
+.vp-page .wjkc-evidence-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.1rem;
+  margin: 1.6rem 0;
+  align-items: start;
+}
+
+.vp-page .wjkc-evidence {
+  min-width: 0;
+  margin: 1.6rem 0;
+  overflow: hidden;
+  border: 1px solid var(--site-c-border);
+  border-radius: 16px;
+  background: var(--site-c-card);
+  box-shadow: var(--site-shadow-sm);
+}
+
+.vp-page .wjkc-evidence-grid .wjkc-evidence {
+  margin: 0;
+}
+
+.vp-page .wjkc-evidence > a {
+  display: block;
+  overflow: hidden;
+  background: var(--site-c-surface);
+  cursor: zoom-in;
+  text-decoration: none;
+}
+
+.vp-page .wjkc-evidence > a::after {
+  display: block;
+  padding: 0.42rem 0.85rem;
+  border-top: 1px solid var(--site-c-border);
+  background: var(--vp-c-accent-soft);
+  color: var(--vp-c-accent);
+  content: '点击查看原图 ↗';
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: right;
+  pointer-events: none;
+}
+
+.vp-page .wjkc-evidence > a:focus-visible {
+  outline: 3px solid var(--vp-c-accent-bg);
+  outline-offset: -3px;
+}
+
+.vp-page .wjkc-evidence img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.vp-page .wjkc-evidence figcaption {
+  padding: 0.9rem 1.05rem 1rem;
+  border-top: 1px solid var(--site-c-border);
+  background: color-mix(in srgb, var(--site-c-surface) 50%, var(--site-c-card));
+  color: var(--site-c-muted);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+.vp-page .wjkc-evidence figcaption strong {
+  display: block;
+  margin-bottom: 0.22rem;
+  color: var(--site-c-ink);
+  font-weight: 700;
+}
+
+.vp-page .wjkc-evidence-details {
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+  border: 1px solid var(--site-c-border);
+  border-radius: 14px;
+  background: var(--site-c-surface);
+}
+
+.vp-page .wjkc-evidence-details > summary {
+  margin: 0 -1rem;
+  padding: 0.85rem 1rem;
+  color: var(--site-c-ink);
+  cursor: pointer;
+  font-size: 0.92rem;
+  font-weight: 650;
+  line-height: 1.6;
+}
+
+.vp-page .wjkc-evidence-details > summary::marker {
+  color: var(--vp-c-accent);
+}
+
+.vp-page .wjkc-evidence-details > summary:focus-visible {
+  outline: 2px solid var(--vp-c-accent-bg);
+  outline-offset: 2px;
+  border-radius: 12px;
+}
+
+.vp-page .wjkc-evidence-details[open] {
+  padding-bottom: 1rem;
+}
+
+.vp-page .wjkc-evidence-details[open] > summary {
+  border-bottom: 1px solid var(--site-c-border);
+}
+
+.vp-page .wjkc-evidence-details > .wjkc-evidence-grid,
+.vp-page .wjkc-evidence-details > .wjkc-evidence {
+  margin: 1rem 0 0;
+}
+
+@media (max-width: 640px) {
+  .vp-page .wjkc-evidence-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .vp-page .wjkc-evidence {
+    border-radius: 12px;
+  }
+
+  .vp-page .wjkc-evidence figcaption {
+    padding: 0.8rem 0.9rem;
+  }
+}
+
 .vp-doc table {
   display: block;
   max-width: 100%;
