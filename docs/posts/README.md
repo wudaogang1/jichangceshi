@@ -41,6 +41,7 @@ keywords:
 
 | 服务 | 测评入口 | 页面主要覆盖 |
 | --- | --- | --- |
+| 闪电鼠 | [闪电鼠机场测评](/posts/shandianshu) | 套餐价格、流量与节点 |
 | 边缘节点 | [查看测评](/posts/bianyunnode) | 套餐、单位流量成本、节点状态、客户端 |
 | COCODUCK | [查看测评](/posts/cocoduck) | 套餐、客户端、教程与购买规则 |
 | Firefly | [查看测评](/posts/firefly) | 套餐、节点状态、客户端与技术支持 |

@@ -29,7 +29,7 @@ features:
   - title: 加速器与测速方法
     details: 区分游戏加速器、网络加速器和代理工具，并用延迟、丢包、抖动和晚高峰实测验证表现。
 footer: 机场测试 · 独立整理中文代理订阅信息，价格与节点状态请以下单时页面为准
-updated: 2026-10-29
+updated: 2026-11-05
 ---
 
 <section class="home-section">
@@ -67,6 +67,7 @@ updated: 2026-10-29
     <span class="home-kicker">RECENT GUIDES</span>
     <h2>最近整理与更新</h2>
     <p>优先展示能帮助完成实际选择、测速和客户端配置的内容。</p>
+    <p><strong>最新测评</strong> · <a href="/posts/shandianshu">闪电鼠机场套餐与节点</a></p>
   </div>
   <div class="home-update-grid">
     <a class="home-update-card" href="/posts/airport-compare">

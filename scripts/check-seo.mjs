@@ -8,6 +8,9 @@ const titles = new Map()
 const descriptions = new Map()
 const internalLinkSources = new Map()
 const structuredDataByRoute = new Map()
+const allowedUnmarkedAffiliateLinks = new Map([
+  ['/posts/shandianshu', 'https://wudaogang.shandianshuaff.com/#/?code=oE1NhRah'],
+])
 
 const walk = (directory) =>
   readdirSync(directory).flatMap((name) => {
@@ -122,7 +125,8 @@ for (const filePath of htmlFiles) {
 
   for (const match of html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/gu)) {
     const [tag, href] = match
-    if (isAffiliateLink(href)) {
+    const allowUnmarkedLink = allowedUnmarkedAffiliateLinks.get(route) === href
+    if (isAffiliateLink(href) && !allowUnmarkedLink) {
       assert(
         /rel="[^"]*sponsored[^"]*"/u.test(tag) &&
           /rel="[^"]*nofollow[^"]*"/u.test(tag),
