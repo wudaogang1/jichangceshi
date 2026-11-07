@@ -191,6 +191,7 @@ export default defineUserConfig({
           text: '单项测评',
           collapsible: true,
           children: [
+            { text: '榴莲云', link: '/posts/liulianyun' },
             { text: '大佬云', link: '/posts/dalaoyun' },
             { text: '闪电鼠', link: '/posts/shandianshu' },
             { text: '边缘节点', link: '/posts/bianyunnode' },

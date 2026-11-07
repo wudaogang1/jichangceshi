@@ -494,6 +494,17 @@ body {
   line-height: 1.85;
 }
 
+.liulianyun-review .vp-page h1 {
+  text-wrap: balance;
+}
+
+.liulianyun-review .lly-review-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin: 1rem 0;
+}
+
 .vp-doc {
   font-size: 16.5px;
   line-height: 1.8;
@@ -587,6 +598,51 @@ body {
 .vp-page .wjkc-evidence > a:focus-visible {
   outline: 3px solid var(--vp-c-accent-bg);
   outline-offset: -3px;
+}
+
+.liulianyun-review .lly-speed-evidence > a::after {
+  content: '点击放大截图 ↗';
+}
+
+.liulianyun-review .lly-speed-download {
+  max-width: 678px;
+  margin-inline: auto;
+}
+
+@media (max-width: 719px) {
+  .liulianyun-review .lly-review-jumps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.4rem;
+  }
+
+  .liulianyun-review .lly-review-jumps a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding-inline: 0.65rem;
+    border: 1px solid var(--site-c-border);
+    border-radius: 0.55rem;
+    background: var(--vp-c-accent-soft);
+    font-size: 0.9rem;
+  }
+
+  .liulianyun-review .lly-speed-stats :is(th, td) {
+    padding: 0.5rem 0.38rem;
+    font-size: 0.875rem;
+  }
+
+  .liulianyun-review .lly-speed-stats :is(th, td):not(:nth-child(3)) {
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 360px) {
+  .liulianyun-review .lly-speed-stats :is(th, td) {
+    padding-inline: 0.3rem;
+    font-size: 0.8125rem;
+  }
 }
 
 .vp-page .wjkc-evidence img {
