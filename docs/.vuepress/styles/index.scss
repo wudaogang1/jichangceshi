@@ -775,6 +775,19 @@ body {
   display: none;
 }
 
+.huanqiuti-review .hqt-review-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-block: 1rem;
+}
+
+.huanqiuti-review .hqt-price-table .hqt-original-price,
+.huanqiuti-review .hqt-price-table .hqt-quota-note,
+.huanqiuti-review .hqt-price-table .yjx-price-period strong {
+  white-space: nowrap;
+}
+
 .vp-page-meta,
 .vp-page-nav {
   border-top-color: var(--site-c-border);
@@ -903,6 +916,38 @@ body {
   .vp-doc table {
     margin-inline: 0;
   }
+
+  .huanqiuti-review .hqt-review-jumps {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  .huanqiuti-review .hqt-review-jumps a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0.35rem 0.5rem;
+    border: 1px solid var(--site-c-border);
+    border-radius: 0.55rem;
+    background: var(--vp-c-accent-soft);
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .huanqiuti-review [vp-content] table:not(.yjx-price-table) {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .huanqiuti-review [vp-content] table:not(.yjx-price-table) :is(th, td) {
+    padding: 0.5rem 0.4rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    font-size: 0.875rem;
+  }
 }
 
 @media (max-width: 959px) {
@@ -983,6 +1028,10 @@ body {
       clip-path: inset(50%);
       white-space: nowrap;
     }
+  }
+
+  .huanqiuti-review .hqt-speed-table th[scope='row'] {
+    grid-column: 1 / -1;
   }
 }
 
