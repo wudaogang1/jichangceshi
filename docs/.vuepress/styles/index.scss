@@ -494,11 +494,12 @@ body {
   line-height: 1.85;
 }
 
-.liulianyun-review .vp-page h1 {
+:is(.liulianyun-review, .xxyun-review) .vp-page h1 {
   text-wrap: balance;
 }
 
-.liulianyun-review .lly-review-jumps {
+.liulianyun-review .lly-review-jumps,
+.xxyun-review .xxyun-review-jumps {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem 1rem;
@@ -610,13 +611,15 @@ body {
 }
 
 @media (max-width: 719px) {
-  .liulianyun-review .lly-review-jumps {
+  .liulianyun-review .lly-review-jumps,
+  .xxyun-review .xxyun-review-jumps {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.4rem;
   }
 
-  .liulianyun-review .lly-review-jumps a {
+  .liulianyun-review .lly-review-jumps a,
+  .xxyun-review .xxyun-review-jumps a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -773,6 +776,41 @@ body {
 
 .yjx-price-label {
   display: none;
+}
+
+@media (min-width: 960px) {
+  .xxyun-review .yjx-price-table {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .xxyun-review .yjx-price-table :is(th, td) {
+    padding-inline: 0.55rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 719px) {
+  .xxyun-review [vp-content] table:not(.yjx-price-table) {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .xxyun-review [vp-content] table:not(.yjx-price-table) :is(th, td) {
+    padding: 0.5rem 0.3rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    font-size: 0.8125rem;
+  }
+
+  .xxyun-review .xxyun-speed-stats th:nth-child(1) { width: 15%; }
+  .xxyun-review .xxyun-speed-stats th:nth-child(2) { width: 13%; }
+  .xxyun-review .xxyun-speed-stats th:nth-child(3) { width: 20%; }
+  .xxyun-review .xxyun-platform-stats th:nth-child(1) { width: 27%; }
+  .xxyun-review .xxyun-platform-stats th:nth-child(2) { width: 24%; }
 }
 
 .huanqiuti-review .hqt-review-jumps {
