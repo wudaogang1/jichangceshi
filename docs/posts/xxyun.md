@@ -1,6 +1,6 @@
 ---
 title: xxyun加速机场测评｜2026 优惠码、套餐券后价与节点数量
-description: xxyun 加速新客 9 折码 xxyun，100GB 月付下单页显示 ¥8.99。核对常规套餐和不限时包券后价、42 条地区线路，并整理历史测速样本。
+description: xxyun 加速新客 9 折码 xxyun，100GB 月付下单页显示 ¥8.99。核对常规套餐和不限时包券后价，并整理 42 条线路的 SpeedCentre+ 测速。
 date: 2026-08-02
 updated: 2026-11-08
 author: jichangceshi
@@ -75,32 +75,28 @@ xxyun 加速的初级套餐含 **100GB/月**，原价 **¥9.99/月**。输入新
 
 作为参考，[Siilas 的公开测试](https://siilas.com/airport/xxyun/)中，11 月 4 日一条美国节点的下载速度为 **4.80 Mbps**，当次 ChatGPT 响应慢、视频缓冲明显。这是外站单节点记录，可在来源页查看当时的网络、时间和其他地区的样本。
 
-## 历史下载测速
+## 下载测速与平台检测
 
-用户提供的 OpenPPP2 报表标注广西移动后端，使用 1 线程。下列数据按截图中的节点名称分区。
+用户提供的 SpeedCentre+ 截图标注后端为惠州移动 1 Gbps，使用 6 线程。原图有 46 条记录，排除 3 条账号状态和 1 条续费客服提示后，**42 条线路均测得非零下载速度**。TLS RTT 是工具记录的单次握手延迟。下表按节点名称归类。
 
 <figure class="wjkc-evidence">
-  <a href="/images/xxyun-historical-speed.png" aria-label="放大查看 xxyun 历史测速截图">
-    <img src="/images/xxyun-historical-speed.png" width="1280" height="602" loading="lazy" decoding="async" alt="OpenPPP2 的 xxyun 历史测速截图，包含节点延迟、下载速度和平台检测结果">
+  <a href="/images/xxyun-speedcentre.png" aria-label="放大查看 xxyun SpeedCentre+ 测速截图">
+    <img src="/images/xxyun-speedcentre.png" width="1389" height="1175" loading="lazy" decoding="async" alt="SpeedCentre+ 的 xxyun 测速截图，包含线路的 TLS 握手延迟、下载速度和平台检测结果">
   </a>
-  <figcaption>用户提供的 OpenPPP2 历史测速截图。点击图片可放大查看。</figcaption>
+  <figcaption>用户提供的 SpeedCentre+ 测速截图。账号状态和测试时间已裁去。点击图片可放大查看。</figcaption>
 </figure>
 
-截图共 44 条记录。排除流量重置、流媒体提示、联系客服、续费客服 4 条提示后，共 **40 条节点记录**，其中 **37 条平均下载速度非零**。韩国 01、法国和西班牙显示 0 bps。下表列出其中七个地区，速度范围只统计非零读数。
+| 地区 | 线路数 | TLS RTT | 平均下载速度 | 峰值下载速度 |
+| --- | ---: | ---: | ---: | ---: |
+| 香港 | 5 | 58–63 ms | 249–268 Mbps | 333–355 Mbps |
+| 日本 | 5 | 68–74 ms | 219–259 Mbps | 272–343 Mbps |
+| 台湾 | 3 | 89–94 ms | 212–227 Mbps | 284–301 Mbps |
+| 新加坡 | 3 | 98–104 ms | 237–253 Mbps | 318–337 Mbps |
+| 美国 | 6 | 156–164 ms | 487–511 Mbps | 529–554 Mbps |
 
-| 地区 | 非零记录 / 样本 | 平均下载速度范围 |
-| --- | ---: | ---: |
-| 日本 | 5 / 5 | 60.89–819.65 Mbps |
-| 香港 | 4 / 4 | 75.12–717.81 Mbps |
-| 台湾 | 3 / 3 | 17.84–555.57 Mbps |
-| 新加坡 | 3 / 3 | 22.12–639.01 Mbps |
-| 韩国 | 2 / 3 | 2.63–310.89 Mbps |
-| 美国 | 6 / 6 | 3.46–170.05 Mbps |
-| 英国 | 2 / 2 | 5.42–60.40 Mbps |
+全图中，美国 03 的平均下载和峰值均最高，分别为 **511 Mbps** 和 **554 Mbps**。香港 B02 的 TLS RTT 最低，为 **58 ms**。马来西亚线路的平均下载速度最低，为 **12 Mbps**。完整的 42 条线路结果见截图。
 
-日本 A01 的平均下载速度最高，为 **819.65 Mbps**。新加坡 02 的峰值最高，为 **948.90 Mbps**。图中的 1.0 Gbps 出现在流量重置提示行。平台检测方面，新加坡 02 的 Netflix、OpenAI 和 Claude 三项当时均显示解锁，日本 A01 的 Netflix 一栏显示 N/A。
-
-这批数据来自一次历史测试。上文的 42 条线路来自本次后台核对。实际速度和平台可用性会随线路、网络和时段变化。
+OpenAI 探测有 37 条显示解锁，澳门显示仅 APP，另有 4 条显示 N/A。五条香港线路的 Netflix 和 YouTube 探测显示香港，Disney+、OpenAI 和 Gemini 探测显示新加坡。平台一栏记录工具在当次测试中的探测结果，连续播放和日常使用体验仍取决于线路、网络和时段。
 
 ## 官方客户端与软路由
 
