@@ -227,3 +227,5 @@ macOS 文档分 macOS 11 和 macOS 12 及以上两个下载入口。Linux 桌面
 ### xxyun加速支持 Clash 或小火箭吗？
 
 不支持。后台公告要求使用 xxyun 官方客户端；受支持的 x86 软路由可按文档使用自有插件。
+
+<a href="https://www.xx-yun.com/?code=lZlwmBj9" rel="sponsored nofollow noopener noreferrer" target="_blank">XXYUN加速官网入口</a>
