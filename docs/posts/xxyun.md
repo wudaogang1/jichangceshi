@@ -2,7 +2,7 @@
 title: xxyun加速机场测评｜套餐价格、优惠码与节点测速
 description: xxyun 加速 100GB 月付券后 ¥8.99。附 20 项券后价、42 条线路测速与平台检测。
 date: 2026-08-02
-updated: 2026-11-08
+updated: 2026-11-09
 author: jichangceshi
 lang: zh-CN
 pageClass: xxyun-review
@@ -10,7 +10,7 @@ faqs:
   - question: xxyun加速最低多少钱？
     answer: 初级月付原价 ¥9.99，使用 xxyun 后下单页显示 ¥8.99，含每月 100GB。同档年付券后 ¥80.99，一次付清，流量按月重置。
   - question: xxyun加速有多少节点？
-    answer: 2026 年 11 月 8 日，节点地图显示 43 条在线记录，剔除一条续费提示后有 42 条地区线路，覆盖后台归类的 22 个地区。
+    answer: 2026 年 11 月 9 日，节点地图显示 43 条在线记录，剔除一条续费提示后有 42 条地区线路，覆盖后台归类的 22 个地区。
   - question: xxyun加速支持 Clash 或小火箭吗？
     answer: 不支持。后台公告要求使用 xxyun 官方客户端；受支持的 x86 软路由可按文档使用自有插件。
 ---
@@ -30,7 +30,7 @@ xxyun 加速初级套餐含 **100GB/月**，原价 **¥9.99/月**。用新客 9 
   <a href="#官方客户端与软路由">客户端</a>
 </nav>
 
-<a href="https://www.xx-yun.com/?code=lZlwmBj9" rel="sponsored nofollow noopener noreferrer" target="_blank">打开 xxyun 加速邀请入口</a> · 新客 9 折码 `xxyun`
+<a href="https://www.xx-yun.com/?code=lZlwmBj9" rel="sponsored nofollow noopener noreferrer" target="_blank">XXYUN加速官网入口</a> · 新客 9 折码 `xxyun`
 
 本站于 2026 年 11 月 8 日登录核对套餐、优惠、节点地图与官方文档。券后金额来自下单页的报价预览。邀请链接先打开 xxyun 导航，再转到注册页，本站可能获得推广收益。 [机场测试的核查方法](/about) · [xxyun 官方发布页](https://www.xxyun.xyz/)
 
@@ -87,6 +87,25 @@ xxyun 加速初级套餐含 **100GB/月**，原价 **¥9.99/月**。用新客 9 
 
 常规套餐在每月订单日重置流量，未用完的额度不结转。初级年付券后折合约 ¥6.75/月，购买时一次付 ¥80.99。套餐卡标注不限设备、BGP＋中转，以及对部分流媒体和 AI 服务的支持。实际速度和服务可用性需按节点验证。
 
+<figure class="wjkc-evidence">
+  <a href="/images/xxyun-month-2026-11-09.webp" aria-label="查看高清截图：XXYUN 商店三档月付标价：100GB 9.99 元、300GB 19.90 元、1000GB 39.90 元">
+    <img src="/images/xxyun-month-2026-11-09-720.webp" srcset="/images/xxyun-month-2026-11-09-480.webp 480w, /images/xxyun-month-2026-11-09-720.webp 720w, /images/xxyun-month-2026-11-09-960.webp 960w" sizes="(max-width: 719px) calc(100vw - 48px), (max-width: 1180px) calc(100vw - 320px), 860px" width="1864" height="1120" loading="lazy" decoding="async" alt="XXYUN 商店三档月付标价：100GB 9.99 元、300GB 19.90 元、1000GB 39.90 元">
+  </a>
+  <figcaption>11 月 9 日复核常规套餐。图中为月付标价，券后报价见上表。</figcaption>
+</figure>
+
+<details class="wjkc-evidence-details">
+<summary>查看三档年付套餐截图</summary>
+
+<figure class="wjkc-evidence">
+  <a href="/images/xxyun-year-2026-11-09.webp" aria-label="查看高清截图：XXYUN 切换至年付后的三档标价：89.99 元、180 元、459 元">
+    <img src="/images/xxyun-year-2026-11-09-720.webp" srcset="/images/xxyun-year-2026-11-09-480.webp 480w, /images/xxyun-year-2026-11-09-720.webp 720w, /images/xxyun-year-2026-11-09-960.webp 960w" sizes="(max-width: 719px) calc(100vw - 48px), (max-width: 1180px) calc(100vw - 320px), 860px" width="1864" height="1120" loading="lazy" decoding="async" alt="XXYUN 切换至年付后的三档标价：89.99 元、180 元、459 元">
+  </a>
+  <figcaption>11 月 9 日常规套餐年付标价。切换付款周期后，套餐卡名称仍沿用月付字样。</figcaption>
+</figure>
+
+</details>
+
 ### 不限时流量包
 
 | 套餐 | 总流量 | 原价 → 券后价 |
@@ -95,6 +114,13 @@ xxyun 加速初级套餐含 **100GB/月**，原价 **¥9.99/月**。用新客 9 
 | 超划算・永久 2888G | 2888GB | ¥199.00 → **¥179.10** |
 
 两档标称带宽分别为 300M、800M。流量按总量扣减，商店标注不限时、用完为止。套餐页未说明重复购买时剩余流量如何处理。
+
+<figure class="wjkc-evidence">
+  <a href="/images/xxyun-unlimited-2026-11-09.webp" aria-label="查看高清截图：XXYUN 两款不限时包：500GB 66.66 元、2888GB 199 元">
+    <img src="/images/xxyun-unlimited-2026-11-09-720.webp" srcset="/images/xxyun-unlimited-2026-11-09-480.webp 480w, /images/xxyun-unlimited-2026-11-09-720.webp 720w, /images/xxyun-unlimited-2026-11-09-960.webp 960w" sizes="(max-width: 719px) calc(100vw - 48px), (max-width: 1180px) calc(100vw - 320px), 860px" width="1252" height="1120" loading="lazy" decoding="async" alt="XXYUN 两款不限时包：500GB 66.66 元、2888GB 199 元">
+  </a>
+  <figcaption>11 月 9 日不限时套餐页。图中为一次性标价。</figcaption>
+</figure>
 
 三档月付的标价和流量与 8 月记录相同。8 月的 ¥99/年 59GB 轻量版、原不限时包和商业、独享方案仅作历史记录。本次商店的不限时包为 500GB 和 2888GB 两档。
 
@@ -106,7 +132,14 @@ xxyun 加速初级套餐含 **100GB/月**，原价 **¥9.99/月**。用新客 9 
 
 ## 节点分布与流量倍率
 
-11 月 8 日复核[节点地图](https://cloud.xxvip.shop/node)，后台显示 **43 条在线记录、0 条离线**。其中 1 条是未归类的「续费&客服网址」提示，剔除后有 **42 条地区线路**，覆盖后台归类的 **22 个地区**。
+11 月 9 日复核[节点地图](https://cloud.xxvip.shop/node)，后台显示 **43 条在线记录、0 条离线**。其中 1 条是未归类的「续费&客服网址」提示，剔除后有 **42 条地区线路**，覆盖后台归类的 **22 个地区**。
+
+<figure class="wjkc-evidence">
+  <a href="/images/xxyun-nodes-overview-2026-11-09.webp" aria-label="查看高清截图：XXYUN 节点地图后台显示 43 条在线记录、22 个覆盖地区和 1 条未归类记录">
+    <img src="/images/xxyun-nodes-overview-2026-11-09-720.webp" srcset="/images/xxyun-nodes-overview-2026-11-09-480.webp 480w, /images/xxyun-nodes-overview-2026-11-09-720.webp 720w, /images/xxyun-nodes-overview-2026-11-09-960.webp 960w" sizes="(max-width: 719px) calc(100vw - 48px), (max-width: 1180px) calc(100vw - 320px), 860px" width="1772" height="630" loading="lazy" decoding="async" alt="XXYUN 节点地图后台显示 43 条在线记录、22 个覆盖地区和 1 条未归类记录">
+  </a>
+  <figcaption>11 月 9 日后台总览。面板把香港和澳门合并显示，正文按线路名称拆分统计。</figcaption>
+</figure>
 
 | 按节点名称统计 | 线路记录 |
 | --- | ---: |
@@ -120,6 +153,13 @@ xxyun 加速初级套餐含 **100GB/月**，原价 **¥9.99/月**。用新客 9 
 | 合计 | 42 |
 
 线路协议标注为 **ANYTLS 33 条、VLESS 5 条、V2NODE 4 条**。41 条为 1 倍流量，菲律宾 1 条为 **5 倍**；按标注倍率，传输 1GB 约扣 5GB。8 月原文的 71 条记录和 70 条在线是当时的快照。两次只反映核对时账号所见；面板显示在线也不等于从用户网络实测可达。
+
+<figure class="wjkc-evidence">
+  <a href="/images/xxyun-philippines-2026-11-09.webp" aria-label="查看高清截图：XXYUN 节点列表筛选菲律宾，显示协议 ANYTLS、在线和 5 倍倍率">
+    <img src="/images/xxyun-philippines-2026-11-09-720.webp" srcset="/images/xxyun-philippines-2026-11-09-480.webp 480w, /images/xxyun-philippines-2026-11-09-720.webp 720w, /images/xxyun-philippines-2026-11-09-960.webp 960w" sizes="(max-width: 719px) calc(100vw - 48px), (max-width: 1180px) calc(100vw - 320px), 860px" width="1772" height="476" loading="lazy" decoding="async" alt="XXYUN 节点列表筛选菲律宾，显示协议 ANYTLS、在线和 5 倍倍率">
+  </a>
+  <figcaption>11 月 9 日节点列表，菲律宾线路标注 5 倍扣流量。</figcaption>
+</figure>
 
 作为参考，[Siilas 的公开测试](https://siilas.com/airport/xxyun/)中，11 月 4 日一条美国节点的下载速度为 **4.80 Mbps**，当次 ChatGPT 响应慢、视频缓冲明显。这是外站单节点记录，可在来源页查看当时的网络、时间和其他地区的样本。
 
@@ -182,7 +222,7 @@ macOS 文档分 macOS 11 和 macOS 12 及以上两个下载入口。Linux 桌面
 
 ### xxyun加速有多少节点？
 
-2026 年 11 月 8 日，节点地图显示 43 条在线记录，剔除一条续费提示后有 42 条地区线路，覆盖后台归类的 22 个地区。
+2026 年 11 月 9 日，节点地图显示 43 条在线记录，剔除一条续费提示后有 42 条地区线路，覆盖后台归类的 22 个地区。
 
 ### xxyun加速支持 Clash 或小火箭吗？
 
