@@ -65,12 +65,39 @@ const verificationHead = process.env.BING_SITE_VERIFICATION
     ]
   : []
 
+const ga4MeasurementId = process.env.GA4_MEASUREMENT_ID?.trim()
+
+if (ga4MeasurementId && !/^G-[A-Z0-9]+$/u.test(ga4MeasurementId)) {
+  throw new Error('GA4_MEASUREMENT_ID must be a GA4 measurement ID starting with G-.')
+}
+
+const analyticsHead = ga4MeasurementId
+  ? [
+      [
+        'script',
+        {
+          async: true,
+          src: `https://www.googletagmanager.com/gtag/js?id=${ga4MeasurementId}`,
+        },
+      ],
+      [
+        'script',
+        {},
+        `window.dataLayer = window.dataLayer || [];
+function gtag() { window.dataLayer.push(arguments); }
+gtag('js', new Date());
+gtag('config', ${JSON.stringify(ga4MeasurementId)});`,
+      ],
+    ]
+  : []
+
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   title: SITE_NAME,
   description: SITE_DESCRIPTION,
   head: [
+    ...analyticsHead,
     [
       'meta',
       {

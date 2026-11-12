@@ -42,6 +42,7 @@ jobs:
       - name: Build site
         env:
           BING_SITE_VERIFICATION: ${{ secrets.BING_SITE_VERIFICATION }}
+          GA4_MEASUREMENT_ID: ${{ vars.GA4_MEASUREMENT_ID }}
         run: pnpm run docs:build
 
       - name: Verify SEO output
