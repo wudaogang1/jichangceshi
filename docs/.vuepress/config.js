@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
+import { readFile, writeFile } from 'node:fs/promises'
 import { relative, sep } from 'node:path'
 
 const SITE_URL = 'https://jichangceshi.com'
@@ -50,6 +51,21 @@ const cleanUrlPlugin = {
     } else {
       pageOptions.path = `/${sourceRelative.slice(0, -'.md'.length)}`
     }
+  },
+}
+
+const guangniantiLoadingPlugin = {
+  name: 'vuepress-plugin-guangnianti-loading',
+  async onGenerated(app) {
+    const page = app.pages.find(({ path }) => path === '/posts/guangnianti')
+    if (!page) return
+
+    const html = await readFile(page.htmlFilePath, 'utf8')
+    // The review is rendered in HTML. Let its styles load ahead of hydration.
+    const updated = html
+      .replace(/<link rel="modulepreload"[^>]*>/g, '')
+      .replace('<script type="module" src=', '<script type="module" fetchpriority="low" src=')
+    await writeFile(page.htmlFilePath, updated)
   },
 }
 
@@ -112,7 +128,7 @@ export default defineUserConfig({
   ],
   shouldPrefetch: false,
   bundler: viteBundler(),
-  plugins: [cleanUrlPlugin],
+  plugins: [cleanUrlPlugin, guangniantiLoadingPlugin],
   extendsMarkdown: (md) => {
     const renderImage =
       md.renderer.rules.image ??
@@ -218,6 +234,7 @@ export default defineUserConfig({
           text: '单项测评',
           collapsible: true,
           children: [
+            { text: '光年梯', link: '/posts/guangnianti' },
             { text: '环球梯', link: '/posts/huanqiuti' },
             { text: '榴莲云', link: '/posts/liulianyun' },
             { text: '大佬云', link: '/posts/dalaoyun' },

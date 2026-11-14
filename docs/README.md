@@ -67,7 +67,7 @@ updated: 2026-11-05
     <span class="home-kicker">RECENT GUIDES</span>
     <h2>最近整理与更新</h2>
     <p>优先展示能帮助完成实际选择、测速和客户端配置的内容。</p>
-    <p><strong>最新测评</strong> · <a href="/posts/huanqiuti">环球梯机场套餐、优惠码与测速</a> · <a href="/posts/liulianyun">榴莲云机场套餐、优惠码与测速</a> · <a href="/posts/dalaoyun">大佬云机场测评</a> · <a href="/posts/shandianshu">闪电鼠机场套餐与节点</a></p>
+    <p><strong>最新测评</strong> · <a href="/posts/guangnianti">光年梯套餐价格、首单优惠与节点表现</a> · <a href="/posts/huanqiuti">环球梯机场套餐、优惠码与测速</a> · <a href="/posts/liulianyun">榴莲云机场套餐、优惠码与测速</a> · <a href="/posts/dalaoyun">大佬云机场测评</a> · <a href="/posts/shandianshu">闪电鼠机场套餐与节点</a></p>
   </div>
   <div class="home-update-grid">
     <a class="home-update-card" href="/posts/airport-compare">
