@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="一号冠军奖杯标志">
+  <defs><linearGradient id="brand-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b9ba4"/><stop offset="1" stop-color="#066675"/></linearGradient></defs>
+  <rect x="1" y="1" width="46" height="46" rx="14" fill="url(#brand-bg)"/>
+  <rect x="1.5" y="1.5" width="45" height="45" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity=".25"/>
+  <path d="M16 16h-4v5c0 5 5 7 8 7m12-12h4v5c0 5-5 7-8 7" fill="none" stroke="#c6ebeb" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M16 13h16v8c0 6-3.6 10-8 10s-8-4-8-10z" fill="#ffffff"/>
+  <path d="M20 21h8" stroke="#087c88" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M24 31v5m-6 1h12" fill="none" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="m24 4.5 1.4 2.8 3.1.5-2.3 2.2.6 3-2.8-1.4-2.8 1.4.6-3-2.3-2.2 3.1-.5z" fill="#f2d49b"/>
+</svg>
