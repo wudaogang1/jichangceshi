@@ -2,7 +2,7 @@
 title: 机场、VPN、翻墙与加速器内容目录
 description: 按机场测评、VPN选择、翻墙术语、网络加速器区别、客户端教程和订阅安全分组浏览 jichangceshi.com 全部中文内容。
 date: 2026-08-04
-updated: 2026-08-07
+updated: 2026-11-14
 lang: zh-CN
 keywords:
   - 机场测评
@@ -41,6 +41,7 @@ keywords:
 
 | 服务 | 测评入口 | 页面主要覆盖 |
 | --- | --- | --- |
+| 秒秒云 | [秒秒云套餐价格与优惠码](/posts/miaomiaoyun) | 7 款套餐、已验券价格、客户端支持与订阅建议 |
 | 光年梯 | [光年梯机场测评](/posts/guangnianti) | 套餐价格、`sell75` 首单优惠和节点表现；常规套餐仅支持官方客户端 |
 | 山水云 | [山水云机场测评](/posts/shanshuiyun) | 8 款套餐、2026888 优惠码、五地节点与第三方测速 |
 | 环球梯 | [环球梯机场测评](/posts/huanqiuti) | 12 款套餐、HQ66 优惠码与五地节点测速 |

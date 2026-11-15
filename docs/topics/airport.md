@@ -2,7 +2,7 @@
 title: 机场是什么？机场节点、订阅、VPN与加速器区别
 description: 解释网络语境中的机场是什么、机场订阅怎么工作、节点和客户端的关系，以及机场与VPN、翻墙软件、网络加速器的主要区别。
 date: 2026-08-07
-updated: 2026-08-07
+updated: 2026-11-14
 author: jichangceshi
 lang: zh-CN
 keywords:
@@ -66,6 +66,8 @@ faqs:
 套餐与节点的核查示例见[闪电鼠机场测评](/posts/shandianshu)。需要核对优惠码时，可参考[榴莲云套餐价格、优惠码与节点](/posts/liulianyun)。
 
 想对比每月重置的套餐和一次性流量包，可查看[山水云套餐周期与折后价](/posts/shanshuiyun)。
+
+核对优惠适用的付款周期时，可参考[秒秒云套餐的验券记录](/posts/miaomiaoyun)，其中列出了月付、季付和一次性付款各自的折后总价。
 
 ### 2. 节点覆盖与晚高峰表现
 

@@ -2,7 +2,7 @@
 title: Shadowrocket使用教程：下载安装、导入订阅与节点切换
 description: Shadowrocket 怎么用？本文介绍 iPhone 和 iPad 上下载安装 Shadowrocket、导入机场订阅、更新配置、选择节点、开启代理和常见问题。
 date: 2026-08-03
-updated: 2026-08-07
+updated: 2026-11-14
 author: jichangceshi
 lang: zh-CN
 keywords:
@@ -36,6 +36,8 @@ Shadowrocket 常被称为“小火箭”或翻墙客户端，但它不等于 VPN
 5. 返回首页，点击订阅配置右侧的更新按钮。
 
 不同机场的订阅格式可能不同。导入成功但没有节点时，确认复制的是订阅链接，而不是注册页地址。
+
+[秒秒云客户端说明](/posts/miaomiaoyun)记录了后台列出的 Shadowrocket 导入入口和文档教程。本站尚未实际测试该订阅的导入结果。
 
 ## 三、选择节点并连接
 
