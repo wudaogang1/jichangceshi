@@ -55,8 +55,6 @@ VPN、机场订阅、代理节点和 Clash 客户端经常被放在一起讨论�
 
 如果仍然拿不准，优先购买最短周期、最低档位。一个月的真实体验，比十篇宣传文案更有参考价值。
 
-如果你已经有明确候选，也可以直接查看本站的[一翻云机场测评](/posts/yifanyun)，了解套餐、节点状态、客户端和购买注意事项。
-
 ## 已核对内容入口
 
 本站只把已经形成单项页面记录的服务列入内容目录，不按佣金、优惠力度或宣传参数排序。以下页面数据主要记录于 2026 年 8 月 1—3 日；价格和节点状态会变化，查看时请以文章的数据日期、证据边界和结算页为准。
@@ -65,7 +63,7 @@ VPN、机场订阅、代理节点和 Clash 客户端经常被放在一起讨论�
 | --- | --- |
 | 套餐、节点和客户端 | [边缘节点](/posts/bianyunnode) · [Firefly](/posts/firefly) · [光速云](/posts/guangsuyun) · [快狸](/posts/kuaili) · [全球云](/posts/quanqiuyun) · [速界](/posts/sujie) |
 | 套餐、客户端与后台规则 | [COCODUCK](/posts/cocoduck) · [U1s1](/posts/u1s1) · [唯兔云](/posts/weituyun) · [无忧链接](/posts/wuyou) · [XXYUN](/posts/xxyun) |
-| 日享、长期或不限时流量包 | [网际快车](/posts/wangjikuaiche) · [一翻云](/posts/yifanyun) |
+| 日享、长期或不限时流量包 | [网际快车](/posts/wangjikuaiche) |
 
 需要直接比较当前记录的最低月付、年付、节点快照与明显风险，可查看[机场横向对比](/posts/airport-compare)。部分单项页面包含推广入口，推广关系不会作为排序依据，具体规则见[推广链接披露](/about#推广链接披露)。
 

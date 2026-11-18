@@ -72,7 +72,7 @@ updated: 2026-11-14
   <div class="home-update-grid">
     <a class="home-update-card" href="/posts/airport-compare">
       <span class="home-update-tag">机场推荐 · 8 月 19 日更新</span>
-      <strong>2026 机场推荐：13 家套餐、流量、节点与优惠码</strong>
+      <strong>2026 机场推荐：12 家套餐、流量、节点与优惠码</strong>
       <p>按低门槛、低月付、小流量年付和大流量等场景初筛，同时标出客户端限制、倍率与购买风险。</p>
       <span class="home-update-more">查看机场推荐 →</span>
     </a>

@@ -115,7 +115,7 @@ faqs:
 
 ## 下一步阅读
 
-- [13 家机场套餐与节点横向对比](/posts/airport-compare)
+- [12 家机场套餐与节点横向对比](/posts/airport-compare)
 - [VPN 与机场订阅怎么选](/posts/vpn)
 - [机场测速：延迟、丢包与晚高峰](/posts/airport-speed-test)
 - [Clash Mi、V2RayN 与 Shadowrocket 教程目录](/posts/)

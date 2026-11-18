@@ -1,6 +1,6 @@
 ---
-title: 2026 机场推荐与横向对比：13 家套餐价格、流量、节点与优惠码
-description: 2026 机场推荐与横向对比，按使用场景比较 13 家机场的套餐价格、流量、节点、客户端、优惠码和购买风险，帮助新手先初筛再实测。
+title: 2026 机场推荐与横向对比：12 家套餐价格、流量、节点与优惠码
+description: 2026 机场推荐与横向对比，按使用场景比较 12 家机场的套餐价格、流量、节点、客户端、优惠码和购买风险，帮助新手先初筛再实测。
 date: 2026-08-03
 updated: 2026-11-14
 author: jichangceshi
@@ -15,14 +15,14 @@ faqs:
   - question: 2026 年机场推荐应该优先看哪一家？
     answer: 没有适合所有人的固定第一名。应先按设备兼容、流量需求和付款周期排除不合适的服务，再用最低档短周期套餐测试晚高峰表现。
   - question: 当前记录中最低月付机场是哪一家？
-    answer: 在本文 2026 年 8 月 1—3 日记录的 13 家样本中，XXYUN 的最低明确月付为 9.99 元、100GB 每月。价格和活动可能变化，应以结算页为准。
+    answer: 在本文 2026 年 8 月 1—3 日记录的 12 家样本中，XXYUN 的最低明确月付为 9.99 元、100GB 每月。价格和活动可能变化，应以结算页为准。
   - question: 机场年付套餐值得买吗？
     answer: 新服务不建议直接年付。先用月付完成 24—48 小时测试，并连续观察稳定性、售后和规则后，再判断年付折扣是否值得。
   - question: 优惠码会影响机场推荐排名吗？
     answer: 不会。优惠码只影响结算金额，不能证明线路速度、节点稳定性或售后质量，本文不按优惠力度和推广收益排序。
 ---
 
-# 2026 机场推荐与横向对比：13 家套餐价格、流量、节点与优惠码
+# 2026 机场推荐与横向对比：12 家套餐价格、流量、节点与优惠码
 
 机场怎么选，不能只看“最低价”或一张测速截图。本文先按低门槛、低月付、小流量年付、大流量和多平台等常见需求给出候选，再把套餐、倍率、节点、客户端、优惠和风险放在同一套口径里比较。这里的“推荐”是帮助缩小范围，不是未经实测的速度排名。
 
@@ -32,9 +32,9 @@ faqs:
 
 ## 数据口径与证据边界
 
-本文重新整理了本站 13 篇机场单项测评。价格、流量和节点状态来自 2026 年 8 月 1—3 日记录的已登录后台页面；优惠码来自 2026 年 8 月 4 日整理的推广资料。本文在 8 月 19 日更新了推荐逻辑、常见问题、优惠信息和风险披露，但没有把这次内容更新写成重新测速。
+本文重新整理了本站 12 篇机场单项测评。价格、流量和节点状态来自 2026 年 8 月 1—3 日记录的已登录后台页面；优惠码来自 2026 年 8 月 4 日整理的推广资料。本文在 8 月 19 日更新了推荐逻辑、常见问题、优惠信息和风险披露，但没有把这次内容更新写成重新测速。
 
-11 月补充的[秒秒云套餐价格与优惠码](/posts/miaomiaoyun)收录了 11 月 14 日核验的套餐和折后报价。本文的比较表和推荐仍依据 8 月记录的 13 家样本。
+11 月补充的[秒秒云套餐价格与优惠码](/posts/miaomiaoyun)收录了 11 月 14 日核验的套餐和折后报价。本文的比较表和推荐仍依据 8 月记录的 12 家样本。
 
 价格、活动和节点状态都可能变化。“在线”只表示服务商页面在记录时的状态，不代表实际速度、延迟或晚高峰稳定性；“新人折扣”“永久折扣”等活动描述也不代表所有套餐都适用，付款前应在结算页核对原价、优惠后金额、计费周期和退款条件。
 
@@ -50,14 +50,14 @@ faqs:
 | 想找低价月付 | [XXYUN](/posts/xxyun) | ¥9.99/月、100GB/月 | 页面说明不支持 Clash、Shadowrocket 等第三方客户端 |
 | 每月流量很少，愿意一次付一年 | [COCODUCK](/posts/cocoduck) | ¥77/年、40GB/月 | 无独立节点页，不能由套餐价格推断速度和稳定性 |
 | 想兼顾百 GB 月流量和常见桌面/手机平台 | [光速云](/posts/guangsuyun) | ¥17/月、110GB/月 | 缺少独立测速，部分特殊商品标注不退款 |
-| 更看重纸面大流量 | [XXYUN](/posts/xxyun)、[一翻云](/posts/yifanyun) | 分别有 ¥39.90/月、1000GB 与 ¥95/月、1.2TB 的页面记录 | 先确认节点倍率、限速、重置和实际客户端兼容性 |
+| 更看重纸面大流量 | [XXYUN](/posts/xxyun) | ¥39.90/月、1000GB/月 | 先确认节点倍率、限速、重置和实际客户端兼容性 |
 | 喜欢“每日额度”而不是月流量 | [网际快车](/posts/wangjikuaiche) | ¥28/30 天、60GB/天 | 当日未用流量会清零，不能结转到次日 |
 
 如果某个限制会直接影响你的设备或使用方式，应先排除该候选，再考虑价格。最终选择仍建议从最低档短周期开始，并按[机场测速方法](/posts/airport-speed-test)完成白天与晚高峰测试。
 
 ## 优惠码与推广链接披露
 
-下表把 13 家已形成单项测评的服务与推广资料对齐。优惠码只用于核对结算价格，不参与本文排序；没有单项核查资料的合作服务不会仅因存在推广关系而加入推荐结论。
+下表把 12 家已形成单项测评的服务与推广资料对齐。优惠码只用于核对结算价格，不参与本文排序；没有单项核查资料的合作服务不会仅因存在推广关系而加入推荐结论。
 
 | 机场 | 优惠码 | 推广资料中的活动描述 | 核对重点 |
 | --- | --- | --- | --- |
@@ -72,12 +72,11 @@ faqs:
 | [无忧链接](/posts/wuyou) | `wuyou666` | 新人 6.8 折 | 结算页确认折后金额和有效期 |
 | [全球云](/posts/quanqiuyun) | `qq88` | 资料标注永久 8 折 | “永久”适用范围以每次续费结算页为准 |
 | [U1s1](/posts/u1s1) | `U1S1` | 资料标注永久 8 折 | 定制包及特殊商品是否参与 |
-| [一翻云](/posts/yifanyun) | `1FLYYUN` | 首次 9 折 | 确认首单范围及能否叠加长期折扣 |
 | [Firefly](/posts/firefly) | `firefly` | 新人 8 折 | 确认不限时包、年付版是否参与 |
 
 本文的注册/购买入口包含推广参数，站长可能因读者注册或购买获得收益。推广关系不作为推荐或排序依据，详情参见[推广链接披露](/about#推广链接披露)。
 
-## 13 家机场最低可购买价格
+## 12 家机场最低可购买价格
 
 这张表回答“最少付多少钱可以购买”。它比较的是付款门槛，不代表相同计费周期或相同流量。
 
@@ -94,7 +93,6 @@ faqs:
 | [无忧链接](/posts/wuyou) | <a href="https://wudaogang.worryfreeaff.com/#/?code=vKiprwPh" rel="sponsored nofollow noopener noreferrer" target="_blank">注册/购买</a> | ¥19/月 | 100GB/月 | 月付 |
 | [全球云](/posts/quanqiuyun) | <a href="https://sellvpn.gcvipaff.cc/#/?code=eZQbQpGe" rel="sponsored nofollow noopener noreferrer" target="_blank">注册/购买</a> | ¥20/月 | 120GB/月 | 月付 |
 | [U1s1](/posts/u1s1) | <a href="https://sellvpn.vipaff.cc/#/?code=efD0Kxqq" rel="sponsored nofollow noopener noreferrer" target="_blank">注册/购买</a> | ¥20/月 | 120GB/月 | 月付 |
-| [一翻云](/posts/yifanyun) | <a href="https://wzjc.1flyunaff.cc/#/register?code=GX7J728T" rel="sponsored nofollow noopener noreferrer" target="_blank">注册/购买</a> | ¥20/月 | 150GB/月 | 月付 |
 | [Firefly](/posts/firefly) | <a href="https://wudaogang0.fireflyaff.com/#/?code=PZlWmWbX" rel="sponsored nofollow noopener noreferrer" target="_blank">注册/购买</a> | ¥25/月 | 150GB/月 | 月付 |
 
 COCODUCK 另有 ¥10/50GB 加油包，但必须配合常规套餐，因此不作为独立购买门槛。唯兔云 ¥14.90 是节假日限时价，未开放时常规月付最低为 ¥19.90。
@@ -117,52 +115,48 @@ COCODUCK 另有 ¥10/50GB 加油包，但必须配合常规套餐，因此不作
 | 10 | [XXYUN](/posts/xxyun) | 中级—月付300G | ¥19.90/月 | 300GB/月 |
 | 11 | [全球云](/posts/quanqiuyun) | BGP 智能优化·入门方案 | ¥20/月 | 120GB/月 |
 | 12 | [U1s1](/posts/u1s1) | 普通人真够了包 | ¥20/月 | 120GB/月 |
-| 13 | [一翻云](/posts/yifanyun) | 轻享版 | ¥20/月 | 150GB/月 |
-| 14 | [快狸](/posts/kuaili) | 小狸基础版 | ¥22/月 | 100GB/月 |
-| 15 | [边缘节点](/posts/bianyunnode) | 极界·标准套餐 | ¥25/月 | 120GB/月 |
-| 16 | [速界](/posts/sujie) | 极速版 | ¥25/月 | 120GB/月 |
-| 17 | [Firefly](/posts/firefly) | Firefly Lite | ¥25/月 | 150GB/月 |
-| 18 | [网际快车](/posts/wangjikuaiche) | 包月套餐 | ¥28/30天 | 60GB/天，每日清零 |
-| 19 | [唯兔云](/posts/weituyun) | 进阶版 | ¥29.90/月 | 200GB/月 |
-| 20 | [COCODUCK](/posts/cocoduck) | 精英套餐 | ¥31/月 | 200GB/月 |
-| 21 | [无忧链接](/posts/wuyou) | 省心链接 | ¥33/月 | 200GB/月 |
-| 22 | [光速云](/posts/guangsuyun) | 光速云·流光版 | ¥34/月 | 220GB/月 |
-| 23 | [快狸](/posts/kuaili) | 灵狸标准版 | ¥35/月 | 250GB/月 |
-| 24 | [一翻云](/posts/yifanyun) | 舒享版 | ¥35/月 | 350GB/月 |
-| 25 | [XXYUN](/posts/xxyun) | 高级—月付1000G | ¥39.90/月 | 1000GB/月 |
-| 26 | [全球云](/posts/quanqiuyun) | BGP 智能优化·进阶方案 | ¥40/月 | 300GB/月 |
-| 27 | [U1s1](/posts/u1s1) | 你以为用不到包 | ¥40/月 | 300GB/月 |
-| 28 | [Firefly](/posts/firefly) | Firefly Plus | ¥45/月 | 300GB/月 |
-| 29 | [边缘节点](/posts/bianyunnode) | 极界·进阶套餐 | ¥50/月 | 250GB/月 |
-| 30 | [速界](/posts/sujie) | 超速版 | ¥50/月 | 250GB/月 |
-| 31 | [一翻云](/posts/yifanyun) | 尊享版 | ¥55/月 | 600GB/月 |
-| 32 | [唯兔云](/posts/weituyun) | 专业版 | ¥59.90/月 | 500GB/月 |
-| 33 | [光速云](/posts/guangsuyun) | 光速云·量子版 | ¥68/月 | 450GB/月 |
-| 34 | [COCODUCK](/posts/cocoduck) | 家庭套餐 | ¥75/月 | 500GB/月 |
-| 35 | [无忧链接](/posts/wuyou) | 随心链接 | ¥77/月 | 500GB/月 |
-| 36 | [Firefly](/posts/firefly) | Firefly Blaze | ¥85/月 | 600GB/月 |
-| 37 | [快狸](/posts/kuaili) | 夜狸强化版 | ¥95/月 | 500GB/月 |
-| 38 | [一翻云](/posts/yifanyun) | 极致版 | ¥95/月 | 1.2TB/月 |
-| 39 | [边缘节点](/posts/bianyunnode) | 极界·高级套餐 | ¥100/月 | 499GB/月 |
-| 40 | [速界](/posts/sujie) | 光速版 | ¥100/月 | 500GB/月 |
-| 41 | [全球云](/posts/quanqiuyun) | BGP 智能优化·高端方案 | ¥100/月 | 700GB/月 |
-| 42 | [U1s1](/posts/u1s1) | 瘾大就拉满包 | ¥100/月 | 700GB/月 |
-| 43 | [XXYUN](/posts/xxyun) | BGP 智能优化·高端方案 | ¥100/月 | 700GB/月 |
-| 44 | [COCODUCK](/posts/cocoduck) | 团队套餐 | ¥115/月 | 1000GB/月 |
-| 45 | [无忧链接](/posts/wuyou) | 忘忧链接 | ¥117/月 | 1000GB/月 |
-| 46 | [唯兔云](/posts/weituyun) | 至尊版 | ¥119.90/月 | 1000GB/月 |
-| 47 | [光速云](/posts/guangsuyun) | 光速云·无界版 | ¥130/月 | 900GB/月 |
-| 48 | [Firefly](/posts/firefly) | Firefly Nova | ¥150/月 | 1000GB/月 |
-| 49 | [快狸](/posts/kuaili) | 天狸顶配版 | ¥180/月 | 1000GB/月 |
-| 50 | [全球云](/posts/quanqiuyun) | BGP 智能优化·商业方案 | ¥180/月 | 1.5TB/月 |
-| 51 | [U1s1](/posts/u1s1) | 我全都要包 | ¥180/月 | 1500GB/月 |
-| 52 | [XXYUN](/posts/xxyun) | BGP 智能优化·商业方案 | ¥180/月 | 1.5TB/月 |
-| 53 | [边缘节点](/posts/bianyunnode) | 极界·极限套餐 | ¥200/月 | 1000GB/月 |
-| 54 | [速界](/posts/sujie) | 跃迁版 | ¥200/月 | 1000GB/月 |
-| 55 | [U1s1](/posts/u1s1) | 定制包 | ¥600/月 | 按需定制 |
-| 56 | [光速云](/posts/guangsuyun) | 光速云·定制套餐 | ¥680/月起 | 500GB/月 |
-| 57 | [全球云](/posts/quanqiuyun) | 独享私人专线节点 | ¥680/月 | 500GB/月 |
-| 58 | [XXYUN](/posts/xxyun) | 独享私人专线节点 | ¥680/月 | 500GB/月 |
+| 13 | [快狸](/posts/kuaili) | 小狸基础版 | ¥22/月 | 100GB/月 |
+| 14 | [边缘节点](/posts/bianyunnode) | 极界·标准套餐 | ¥25/月 | 120GB/月 |
+| 15 | [速界](/posts/sujie) | 极速版 | ¥25/月 | 120GB/月 |
+| 16 | [Firefly](/posts/firefly) | Firefly Lite | ¥25/月 | 150GB/月 |
+| 17 | [网际快车](/posts/wangjikuaiche) | 包月套餐 | ¥28/30天 | 60GB/天，每日清零 |
+| 18 | [唯兔云](/posts/weituyun) | 进阶版 | ¥29.90/月 | 200GB/月 |
+| 19 | [COCODUCK](/posts/cocoduck) | 精英套餐 | ¥31/月 | 200GB/月 |
+| 20 | [无忧链接](/posts/wuyou) | 省心链接 | ¥33/月 | 200GB/月 |
+| 21 | [光速云](/posts/guangsuyun) | 光速云·流光版 | ¥34/月 | 220GB/月 |
+| 22 | [快狸](/posts/kuaili) | 灵狸标准版 | ¥35/月 | 250GB/月 |
+| 23 | [XXYUN](/posts/xxyun) | 高级—月付1000G | ¥39.90/月 | 1000GB/月 |
+| 24 | [全球云](/posts/quanqiuyun) | BGP 智能优化·进阶方案 | ¥40/月 | 300GB/月 |
+| 25 | [U1s1](/posts/u1s1) | 你以为用不到包 | ¥40/月 | 300GB/月 |
+| 26 | [Firefly](/posts/firefly) | Firefly Plus | ¥45/月 | 300GB/月 |
+| 27 | [边缘节点](/posts/bianyunnode) | 极界·进阶套餐 | ¥50/月 | 250GB/月 |
+| 28 | [速界](/posts/sujie) | 超速版 | ¥50/月 | 250GB/月 |
+| 29 | [唯兔云](/posts/weituyun) | 专业版 | ¥59.90/月 | 500GB/月 |
+| 30 | [光速云](/posts/guangsuyun) | 光速云·量子版 | ¥68/月 | 450GB/月 |
+| 31 | [COCODUCK](/posts/cocoduck) | 家庭套餐 | ¥75/月 | 500GB/月 |
+| 32 | [无忧链接](/posts/wuyou) | 随心链接 | ¥77/月 | 500GB/月 |
+| 33 | [Firefly](/posts/firefly) | Firefly Blaze | ¥85/月 | 600GB/月 |
+| 34 | [快狸](/posts/kuaili) | 夜狸强化版 | ¥95/月 | 500GB/月 |
+| 35 | [边缘节点](/posts/bianyunnode) | 极界·高级套餐 | ¥100/月 | 499GB/月 |
+| 36 | [速界](/posts/sujie) | 光速版 | ¥100/月 | 500GB/月 |
+| 37 | [全球云](/posts/quanqiuyun) | BGP 智能优化·高端方案 | ¥100/月 | 700GB/月 |
+| 38 | [U1s1](/posts/u1s1) | 瘾大就拉满包 | ¥100/月 | 700GB/月 |
+| 39 | [XXYUN](/posts/xxyun) | BGP 智能优化·高端方案 | ¥100/月 | 700GB/月 |
+| 40 | [COCODUCK](/posts/cocoduck) | 团队套餐 | ¥115/月 | 1000GB/月 |
+| 41 | [无忧链接](/posts/wuyou) | 忘忧链接 | ¥117/月 | 1000GB/月 |
+| 42 | [唯兔云](/posts/weituyun) | 至尊版 | ¥119.90/月 | 1000GB/月 |
+| 43 | [光速云](/posts/guangsuyun) | 光速云·无界版 | ¥130/月 | 900GB/月 |
+| 44 | [Firefly](/posts/firefly) | Firefly Nova | ¥150/月 | 1000GB/月 |
+| 45 | [快狸](/posts/kuaili) | 天狸顶配版 | ¥180/月 | 1000GB/月 |
+| 46 | [全球云](/posts/quanqiuyun) | BGP 智能优化·商业方案 | ¥180/月 | 1.5TB/月 |
+| 47 | [U1s1](/posts/u1s1) | 我全都要包 | ¥180/月 | 1500GB/月 |
+| 48 | [XXYUN](/posts/xxyun) | BGP 智能优化·商业方案 | ¥180/月 | 1.5TB/月 |
+| 49 | [边缘节点](/posts/bianyunnode) | 极界·极限套餐 | ¥200/月 | 1000GB/月 |
+| 50 | [速界](/posts/sujie) | 跃迁版 | ¥200/月 | 1000GB/月 |
+| 51 | [U1s1](/posts/u1s1) | 定制包 | ¥600/月 | 按需定制 |
+| 52 | [光速云](/posts/guangsuyun) | 光速云·定制套餐 | ¥680/月起 | 500GB/月 |
+| 53 | [全球云](/posts/quanqiuyun) | 独享私人专线节点 | ¥680/月 | 500GB/月 |
+| 54 | [XXYUN](/posts/xxyun) | 独享私人专线节点 | ¥680/月 | 500GB/月 |
 
 ## 专属年付套餐：总价从低到高
 
@@ -176,14 +170,13 @@ COCODUCK 另有 ¥10/50GB 加油包，但必须配合常规套餐，因此不作
 | 4 | [速界](/posts/sujie) | 限时年付 | ¥90/年 | ¥7.50 | 45—50GB/月 |
 | 5 | [Firefly](/posts/firefly) | Firefly年付版 | ¥96/年 | ¥8.00 | 60GB/月 |
 | 6 | [U1s1](/posts/u1s1) | 就是好用包 | ¥96/年 | ¥8.00 | 60GB/月 |
-| 7 | [一翻云](/posts/yifanyun) | 98元年付小包 | ¥98/年 | 约 ¥8.17 | 60GB/月 |
-| 8 | [光速云](/posts/guangsuyun) | 光速云·轻量版 | ¥99/年 | ¥8.25 | 59GB/月 |
-| 9 | [全球云](/posts/quanqiuyun) | 轻量版 | ¥99/年 | ¥8.25 | 59GB/月 |
-| 10 | [XXYUN](/posts/xxyun) | 轻量版 | ¥99/年 | ¥8.25 | 59GB/月 |
-| 11 | [边缘节点](/posts/bianyunnode) | 限时年付 | ¥108/年 | ¥9.00 | 45GB/月 |
-| 12 | [快狸](/posts/kuaili) | 森狸年付小套餐 | ¥120/年 | ¥10.00 | 30GB/月 |
-| 13 | [唯兔云](/posts/weituyun) | 年付加强专线 | ¥120/年 | ¥10.00 | 75GB/月 |
-| 14 | [网际快车](/posts/wangjikuaiche) | 包年套餐 | ¥198/365天 | 约 ¥16.50 | 60GB/天，每日清零 |
+| 7 | [光速云](/posts/guangsuyun) | 光速云·轻量版 | ¥99/年 | ¥8.25 | 59GB/月 |
+| 8 | [全球云](/posts/quanqiuyun) | 轻量版 | ¥99/年 | ¥8.25 | 59GB/月 |
+| 9 | [XXYUN](/posts/xxyun) | 轻量版 | ¥99/年 | ¥8.25 | 59GB/月 |
+| 10 | [边缘节点](/posts/bianyunnode) | 限时年付 | ¥108/年 | ¥9.00 | 45GB/月 |
+| 11 | [快狸](/posts/kuaili) | 森狸年付小套餐 | ¥120/年 | ¥10.00 | 30GB/月 |
+| 12 | [唯兔云](/posts/weituyun) | 年付加强专线 | ¥120/年 | ¥10.00 | 75GB/月 |
+| 13 | [网际快车](/posts/wangjikuaiche) | 包年套餐 | ¥198/365天 | 约 ¥16.50 | 60GB/天，每日清零 |
 
 ## 一次性与永久流量包：从低到高
 
@@ -199,20 +192,17 @@ COCODUCK 另有 ¥10/50GB 加油包，但必须配合常规套餐，因此不作
 | 6 | [全球云](/posts/quanqiuyun) | 不限时轻量包 | ¥100 | 100GB |
 | 7 | [唯兔云](/posts/weituyun) | 永久不限时 | ¥100 | 100GB |
 | 8 | [XXYUN](/posts/xxyun) | 不限时轻量包 | ¥100 | 100GB |
-| 9 | [一翻云](/posts/yifanyun) | 轻享版不限时包 | ¥100 | 100GB |
-| 10 | [无忧链接](/posts/wuyou) | 100G永久不限时无忧链接 | ¥108 | 100GB |
-| 11 | [唯兔云](/posts/weituyun) | 永久不限时 | ¥160 | 200GB |
-| 12 | [网际快车](/posts/wangjikuaiche) | 大神套餐 | ¥198 | 1000GB |
-| 13 | [一翻云](/posts/yifanyun) | 舒享版不限时包 | ¥200 | 250GB |
-| 14 | [无忧链接](/posts/wuyou) | 300G永久不限时无忧链接 | ¥298 | 300GB |
-| 15 | [唯兔云](/posts/weituyun) | 永久不限时 | ¥340 | 500GB |
-| 16 | [全球云](/posts/quanqiuyun) | 不限时标准包 | ¥360 | 400GB |
-| 17 | [XXYUN](/posts/xxyun) | 不限时标准包 | ¥360 | 400GB |
-| 18 | [网际快车](/posts/wangjikuaiche) | 至尊套餐 | ¥368 | 1980GB |
-| 19 | [一翻云](/posts/yifanyun) | 尊享版不限时包 | ¥400 | 500GB |
-| 20 | [光速云](/posts/guangsuyun) | 光速云·不限时套餐 | ¥680 | 1000GB |
-| 21 | [全球云](/posts/quanqiuyun) | 不限时大容量包 | ¥700 | 800GB |
-| 22 | [XXYUN](/posts/xxyun) | 不限时大容量包 | ¥700 | 800GB |
+| 9 | [无忧链接](/posts/wuyou) | 100G永久不限时无忧链接 | ¥108 | 100GB |
+| 10 | [唯兔云](/posts/weituyun) | 永久不限时 | ¥160 | 200GB |
+| 11 | [网际快车](/posts/wangjikuaiche) | 大神套餐 | ¥198 | 1000GB |
+| 12 | [无忧链接](/posts/wuyou) | 300G永久不限时无忧链接 | ¥298 | 300GB |
+| 13 | [唯兔云](/posts/weituyun) | 永久不限时 | ¥340 | 500GB |
+| 14 | [全球云](/posts/quanqiuyun) | 不限时标准包 | ¥360 | 400GB |
+| 15 | [XXYUN](/posts/xxyun) | 不限时标准包 | ¥360 | 400GB |
+| 16 | [网际快车](/posts/wangjikuaiche) | 至尊套餐 | ¥368 | 1980GB |
+| 17 | [光速云](/posts/guangsuyun) | 光速云·不限时套餐 | ¥680 | 1000GB |
+| 18 | [全球云](/posts/quanqiuyun) | 不限时大容量包 | ¥700 | 800GB |
+| 19 | [XXYUN](/posts/xxyun) | 不限时大容量包 | ¥700 | 800GB |
 
 COCODUCK 的 50GB、100GB、500GB、1000GB 加油包分别为 ¥10、¥20、¥100、¥200，但页面说明它们只能配合常规套餐使用，因此没有混入上面的独立永久流量包排名。
 
@@ -230,7 +220,6 @@ COCODUCK 的 50GB、100GB、500GB、1000GB 加油包分别为 ¥10、¥20、¥10
 | [无忧链接](/posts/wuyou) | 8月3日：49/50 在线 | Android、iOS、macOS、Windows | 1 个节点离线；永久包优惠条件需确认 |
 | [全球云](/posts/quanqiuyun) | 8月2日：70/71 在线 | Android、iOS、macOS、Windows | 商业套餐页写 1.5TB/月，账户显示 120GB，原因未确认 |
 | [U1s1](/posts/u1s1) | 8月3日：68/69 在线 | Android、iOS、macOS、Windows；知识库含 Linux、软路由 | 1 个节点离线；定制包无法横向比较 |
-| [一翻云](/posts/yifanyun) | 8月1日：72/72 在线 | Android、iOS、macOS、Windows | 流量结转、倍率、续费、隐私和退款规则仍需确认 |
 | [Firefly](/posts/firefly) | 8月3日：50/50 在线 | Android、iOS、macOS、Windows | IPLC、不限速等页面宣传未独立验证 |
 | [网际快车](/posts/wangjikuaiche) | 8月2日：约30条线路，未提供在线比例 | Windows、Android、iOS、macOS、Linux；多种订阅格式 | 部分节点按2—5倍扣流量；日享流量每日清零 |
 
@@ -277,7 +266,7 @@ COCODUCK 的 50GB、100GB、500GB、1000GB 加油包分别为 ¥10、¥20、¥10
 
 ### 当前记录中最低月付机场是哪一家？
 
-在本文 2026 年 8 月 1—3 日记录的 13 家样本中，XXYUN 的最低明确月付为 ¥9.99、100GB/月。这只是页面记录中的最低月付，不代表综合体验最好；第三方客户端限制也可能直接影响选择。
+在本文 2026 年 8 月 1—3 日记录的 12 家样本中，XXYUN 的最低明确月付为 ¥9.99、100GB/月。这只是页面记录中的最低月付，不代表综合体验最好；第三方客户端限制也可能直接影响选择。
 
 ### 机场年付套餐值得买吗？
 

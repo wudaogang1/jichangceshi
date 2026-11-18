@@ -251,7 +251,6 @@ export default defineUserConfig({
             { text: '唯兔云', link: '/posts/weituyun' },
             { text: '无忧链接', link: '/posts/wuyou' },
             { text: 'XXYUN', link: '/posts/xxyun' },
-            { text: '一翻云', link: '/posts/yifanyun' },
           ],
         },
       ],
@@ -262,6 +261,7 @@ export default defineUserConfig({
     toggleColorMode: '切换配色',
     toggleSidebar: '切换目录',
     themePlugins: {
+      git: { changelog: false },
       seo: {
         canonical: SITE_URL,
         author: {
