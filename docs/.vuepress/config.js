@@ -234,6 +234,7 @@ export default defineUserConfig({
           text: '单项测评',
           collapsible: true,
           children: [
+            { text: '小明Cloud', link: '/posts/xiaomingcloud' },
             { text: '光年梯', link: '/posts/guangnianti' },
             { text: '环球梯', link: '/posts/huanqiuti' },
             { text: '榴莲云', link: '/posts/liulianyun' },

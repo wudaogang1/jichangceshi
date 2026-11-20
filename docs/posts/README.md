@@ -41,6 +41,7 @@ keywords:
 
 | 服务 | 测评入口 | 页面主要覆盖 |
 | --- | --- | --- |
+| 小明Cloud | [小明Cloud测评](/posts/xiaomingcloud) | 6 款套餐、设备限制、流量有效期与节点状态 |
 | 安迪 AnDy Cloud | [安迪机场测评](/posts/andy) | 6 款套餐、`ergs25` 六项验券、流量重置与客户端导入 |
 | 极速Cloud | [极速Cloud测评](/posts/jisucloud) | 12 款套餐、`ikds88` 五项验券、流量重置与客户端导入 |
 | 宝云 | [宝云机场评测](/posts/baoyun) | 套餐价格、`baoyun` 验券、流量包有效期与订阅导入 |

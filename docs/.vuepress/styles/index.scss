@@ -1073,6 +1073,30 @@ body {
   }
 }
 
+.xiaomingcloud-review [vp-content] table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.xiaomingcloud-review [vp-content] table th {
+  white-space: nowrap;
+}
+
+.xiaomingcloud-review [vp-content] table td {
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+@media (max-width: 419px) {
+  .xiaomingcloud-review [vp-content] table :is(th, td) {
+    padding-inline: 0.35rem;
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
