@@ -29,7 +29,7 @@ features:
   - title: 加速器与测速方法
     details: 区分游戏加速器、网络加速器和代理工具，并用延迟、丢包、抖动和晚高峰实测验证表现。
 footer: 机场测试 · 独立整理中文代理订阅信息，价格与节点状态请以下单时页面为准
-updated: 2026-11-14
+updated: 2026-11-24
 ---
 
 <section class="home-section">
@@ -71,9 +71,9 @@ updated: 2026-11-14
   </div>
   <div class="home-update-grid">
     <a class="home-update-card" href="/posts/airport-compare">
-      <span class="home-update-tag">机场推荐 · 8 月 19 日更新</span>
+      <span class="home-update-tag">机场推荐 · 8 月样本与 11 月补充记录</span>
       <strong>2026 机场推荐：12 家套餐、流量、节点与优惠码</strong>
-      <p>按低门槛、低月付、小流量年付和大流量等场景初筛，同时标出客户端限制、倍率与购买风险。</p>
+      <p>12 家对比采集于 8 月 1—3 日。网际快车与 XXYUN 有 11 月 4—9 日的复核，另附两家 11 月新测评的套餐记录。</p>
       <span class="home-update-more">查看机场推荐 →</span>
     </a>
     <a class="home-update-card" href="/posts/airport-speed-test">

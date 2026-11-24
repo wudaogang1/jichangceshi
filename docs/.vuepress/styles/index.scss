@@ -100,6 +100,16 @@ body {
   font-weight: 700;
 }
 
+@media screen and (max-width: 719px) {
+  .vp-theme-container:not(.sidebar-open) > #site-sidebar {
+    visibility: hidden;
+  }
+
+  #site-sidebar .vp-navbar-dropdown-title-mobile {
+    min-height: 44px;
+  }
+}
+
 .vp-home {
   max-width: 1180px;
   padding-inline: 28px;

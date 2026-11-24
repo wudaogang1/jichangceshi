@@ -3,6 +3,8 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { readFile, writeFile } from 'node:fs/promises'
 import { relative, sep } from 'node:path'
+import { setLocalImageSize, socialImageMetadata } from './image-seo.js'
+import { mobileNavigationPlugin } from './mobile-navigation.js'
 
 const SITE_URL = 'https://jichangceshi.com'
 const SITE_NAME = '机场测试'
@@ -24,9 +26,38 @@ const toIsoDate = (value) => {
 }
 
 const pageUrl = (page) => `${SITE_URL}${page.path}`
+const isNotFound = (page) => page.path === '/404.html'
 const isArticle = (page) =>
   (page.path.startsWith('/posts/') && page.path !== '/posts/') ||
   (page.path.startsWith('/topics/') && page.path !== '/topics/')
+
+const editorialDates = (page) => {
+  const { date, time, updated } = page.frontmatter
+  const published = toIsoDate(date ?? time)
+  return { published, modified: toIsoDate(updated) ?? published }
+}
+
+const editorialMetadataPlugin = {
+  name: 'editorial-metadata',
+  alias: (app) => ({
+    '@theme/VPPageMeta.vue': app.dir.source('.vuepress/components/EditorialPageMeta.vue'),
+  }),
+  extendsPage: (page) => {
+    const notFound = isNotFound(page)
+    if (notFound) page.frontmatter.seo = false
+    else page.data.editorialDates = editorialDates(page)
+
+    page.frontmatter.head = [
+      ...(page.frontmatter.head ?? []),
+      ['meta', {
+        name: 'robots',
+        content: notFound
+          ? 'noindex, nofollow'
+          : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+      }],
+    ]
+  },
+}
 
 const pageKeywords = (page) => {
   const keywords = page.frontmatter.keywords
@@ -114,21 +145,18 @@ export default defineUserConfig({
   description: SITE_DESCRIPTION,
   head: [
     ...analyticsHead,
-    [
-      'meta',
-      {
-        name: 'robots',
-        content:
-          'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
-      },
-    ],
     ['meta', { name: 'theme-color', content: '#2563eb' }],
     ['link', { rel: 'icon', href: '/images/logo.svg', type: 'image/svg+xml' }],
     ...verificationHead,
   ],
   shouldPrefetch: false,
   bundler: viteBundler(),
-  plugins: [cleanUrlPlugin, guangniantiLoadingPlugin],
+  plugins: [
+    cleanUrlPlugin,
+    guangniantiLoadingPlugin,
+    editorialMetadataPlugin,
+    mobileNavigationPlugin,
+  ],
   extendsMarkdown: (md) => {
     const renderImage =
       md.renderer.rules.image ??
@@ -138,6 +166,7 @@ export default defineUserConfig({
     md.renderer.rules.image = (tokens, index, ...args) => {
       tokens[index].attrSet('loading', 'lazy')
       tokens[index].attrSet('decoding', 'async')
+      setLocalImageSize(tokens[index])
       return renderImage(tokens, index, ...args)
     }
   },
@@ -149,8 +178,7 @@ export default defineUserConfig({
     docsBranch: 'main',
     editLink: false,
     contributors: false,
-    lastUpdated: true,
-    lastUpdatedText: '最后更新',
+    lastUpdated: false,
     navbar: [
       { text: '内容目录', link: '/posts/' },
       {
@@ -264,27 +292,23 @@ export default defineUserConfig({
     themePlugins: {
       git: { changelog: false },
       seo: {
-        canonical: SITE_URL,
+        canonical: (page) => isNotFound(page) ? null : pageUrl(page),
         author: {
           name: `${SITE_NAME}（jichangceshi.com）`,
           url: SITE_URL,
         },
         isArticle,
         ogp: (ogp, page) => {
-          const dateModified =
-            toIsoDate(page.frontmatter.updated) ??
-            toIsoDate(page.data.git?.updatedTime)
+          const { published, modified } = editorialDates(page)
 
           return {
             ...ogp,
-            ...(dateModified
-              ? {
-                  'og:updated_time': dateModified,
-                  ...(isArticle(page)
-                    ? { 'article:modified_time': dateModified }
-                    : {}),
-                }
-              : {}),
+            ...socialImageMetadata(ogp),
+            'og:updated_time': modified,
+            ...(isArticle(page) ? {
+              'article:published_time': published,
+              'article:modified_time': modified,
+            } : {}),
           }
         },
         jsonLd: (jsonLd, page) => {
@@ -328,10 +352,7 @@ export default defineUserConfig({
             : image
               ? [image]
               : []
-          const dateModified =
-            toIsoDate(page.frontmatter.updated) ??
-            toIsoDate(page.data.git?.updatedTime) ??
-            article.datePublished
+          const { published, modified } = editorialDates(page)
 
           return {
             ...article,
@@ -341,7 +362,8 @@ export default defineUserConfig({
             description: page.frontmatter.description,
             ...(keywords ? { keywords } : {}),
             ...(images.length ? { image: images } : {}),
-            dateModified,
+            datePublished: published,
+            dateModified: modified,
             inLanguage: page.lang,
             mainEntityOfPage: {
               '@type': 'WebPage',
@@ -427,11 +449,7 @@ export default defineUserConfig({
       },
       sitemap: {
         changefreq: 'weekly',
-        modifyTimeGetter: (page) =>
-          toIsoDate(page.frontmatter.updated) ??
-          toIsoDate(page.data.git?.updatedTime) ??
-          toIsoDate(page.frontmatter.date) ??
-          '',
+        modifyTimeGetter: (page) => editorialDates(page).modified ?? '',
       },
     },
   }),

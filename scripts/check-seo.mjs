@@ -8,9 +8,7 @@ const titles = new Map()
 const descriptions = new Map()
 const internalLinkSources = new Map()
 const structuredDataByRoute = new Map()
-const allowedUnmarkedAffiliateLinks = new Map([
-  ['/posts/shandianshu', 'https://wudaogang.shandianshuaff.com/#/?code=oE1NhRah'],
-])
+const modifiedDatesByRoute = new Map()
 
 const walk = (directory) =>
   readdirSync(directory).flatMap((name) => {
@@ -54,22 +52,30 @@ const htmlFiles = existsSync(DIST_DIR)
   ? walk(DIST_DIR).filter((filePath) => filePath.endsWith('.html'))
   : []
 const indexableRoutes = new Set()
+assert(existsSync(join(DIST_DIR, '404.html')), '404.html is missing.')
 
 for (const filePath of htmlFiles) {
   const route = routeFromFile(filePath)
   const html = readFileSync(filePath, 'utf8')
   const is404 = route === '/404.html'
+  const canonicals = [...html.matchAll(/<link rel="canonical" href="([^"]+)">/gu)]
+  const robots = [...html.matchAll(/<meta name="robots" content="([^"]+)">/gu)]
 
-  if (!is404) {
+  if (is404) {
+    assert(canonicals.length === 0, `${route}: error page has a canonical link.`)
+    assert(
+      robots.length === 1 && robots[0][1] === 'noindex, nofollow',
+      `${route}: expected a single noindex, nofollow robots directive.`,
+    )
+  } else {
     indexableRoutes.add(route)
     const title = html.match(/<title>([^<]+)<\/title>/u)?.[1]
     const description = html.match(
       /<meta name="description" content="([^"]+)">/u,
     )?.[1]
-    const canonical = html.match(/<link rel="canonical" href="([^"]+)">/u)?.[1]
     assert(
-      canonical === `${SITE_URL}${route}`,
-      `${route}: canonical is missing or does not match the public URL.`,
+      canonicals.length === 1 && canonicals[0][1] === `${SITE_URL}${route}`,
+      `${route}: expected a single canonical that matches the public URL.`,
     )
     assert(
       Boolean(description && description.length >= 30),
@@ -103,8 +109,8 @@ for (const filePath of htmlFiles) {
       `${route}: expected exactly one H1.`,
     )
     assert(
-      /<meta name="robots" content="index, follow,/u.test(html),
-      `${route}: indexable robots directive is missing.`,
+      robots.length === 1 && robots[0][1].startsWith('index, follow,'),
+      `${route}: expected a single indexable robots directive.`,
     )
   }
 
@@ -123,13 +129,41 @@ for (const filePath of htmlFiles) {
   }
   structuredDataByRoute.set(route, structuredData)
 
+  const modified = html.match(/<meta property="og:updated_time" content="([^"]+)">/u)?.[1]
+  if (modified) modifiedDatesByRoute.set(route, modified)
+
+  const article = structuredData.find((schema) => schema['@type'] === 'Article')
+  const editorialTimes = new Map(
+    [...html.matchAll(/<time\b[^>]*data-editorial-date="(published|modified)"[^>]*datetime="([^"]+)"[^>]*>/gu)]
+      .map(([, type, date]) => [type, date]),
+  )
+  if (route !== '/' && !is404) {
+    assert(
+      Boolean(modified) && editorialTimes.get('modified') === modified,
+      `${route}: visible update date does not match og:updated_time.`,
+    )
+  }
+  if (article) {
+    assert(
+      Boolean(article.datePublished) && editorialTimes.get('published') === article.datePublished,
+      `${route}: visible publication date does not match Article datePublished.`,
+    )
+    assert(
+      Boolean(modified) && modified === article.dateModified,
+      `${route}: Article dateModified does not match og:updated_time.`,
+    )
+    assert(
+      Date.parse(article.datePublished) <= Date.parse(article.dateModified),
+      `${route}: Article dates are invalid or the update precedes publication.`,
+    )
+  }
+
   for (const match of html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/gu)) {
     const [tag, href] = match
-    const allowUnmarkedLink = allowedUnmarkedAffiliateLinks.get(route) === href
-    if (isAffiliateLink(href) && !allowUnmarkedLink) {
+    if (isAffiliateLink(href)) {
+      const rel = tag.match(/\brel="([^"]*)"/u)?.[1].split(/\s+/u) ?? []
       assert(
-        /rel="[^"]*sponsored[^"]*"/u.test(tag) &&
-          /rel="[^"]*nofollow[^"]*"/u.test(tag),
+        rel.includes('sponsored') && rel.includes('nofollow'),
         `${route}: affiliate link lacks sponsored/nofollow: ${href}`,
       )
     }
@@ -197,19 +231,21 @@ assert(existsSync(sitemapPath), 'sitemap.xml is missing.')
 if (existsSync(sitemapPath)) {
   const sitemap = readFileSync(sitemapPath, 'utf8')
   const entries = [...sitemap.matchAll(/<url>([\s\S]*?)<\/url>/gu)]
-  const sitemapRoutes = new Set(
-    entries.map((entry) => {
-      const location = entry[1].match(/<loc>([^<]+)<\/loc>/u)?.[1]
-      return location?.replace(SITE_URL, '')
-    }),
-  )
+  const sitemapRoutes = new Set()
 
   assert(
     entries.length === indexableRoutes.size,
     `Sitemap contains ${entries.length} URLs; expected ${indexableRoutes.size}.`,
   )
-  for (const entry of entries) {
-    assert(/<lastmod>[^<]+<\/lastmod>/u.test(entry[1]), 'Sitemap URL lacks lastmod.')
+  for (const [, entry] of entries) {
+    const location = entry.match(/<loc>([^<]+)<\/loc>/u)?.[1]
+    const route = location?.replace(SITE_URL, '')
+    const lastmod = entry.match(/<lastmod>([^<]+)<\/lastmod>/u)?.[1]
+    sitemapRoutes.add(route)
+    assert(
+      Boolean(lastmod) && lastmod === modifiedDatesByRoute.get(route),
+      `${route}: sitemap lastmod is missing or does not match og:updated_time.`,
+    )
   }
   for (const route of indexableRoutes) {
     assert(sitemapRoutes.has(route), `Sitemap is missing ${route}.`)
