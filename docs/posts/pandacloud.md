@@ -19,6 +19,8 @@ pageClass: pandacloud-review
 
 <a href="https://103.73.220.147:8888/#/register?code=L9ROkS1X" target="_blank" rel="noopener noreferrer sponsored nofollow">熊猫Cloud 注册入口</a>
 
+<AffiliateDisclosure />
+
 ## 熊猫Cloud 套餐价格
 
 表中价格均为人民币。季付、半年付和年付列的是整个周期一次支付的总额。商店说明，按月发放的流量在每月订单日重置，未用完的流量不会结转到下月。设备数为商店标注的同时在线上限，商品卡均写明不支持退款。

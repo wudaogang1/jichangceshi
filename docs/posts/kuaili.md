@@ -200,7 +200,7 @@ lang: zh-CN
 - 活动说明：8 折，可优惠三次
 - <a href="https://wudaogang.kuailiaff.com/#/register?code=ngH6LgR6" rel="sponsored nofollow noopener noreferrer" target="_blank">打开快狸注册/购买页面</a>
 
-该链接包含推广参数，站长可能因此获得推广收益。优惠适用范围和有效期由服务商决定，请以注册页或结算页最终显示为准。
+该链接包含推广参数，站长可能因此获得推广收益（[推广链接说明](/about#推广链接披露)）。优惠适用范围和有效期由服务商决定，请以注册页或结算页最终显示为准。
 
 ## 常见问题
 

@@ -15,7 +15,9 @@ pageClass: yihao-one-review
 
 一号 One（也称一号机场、一号 Cloud）的 **100GB 套餐原价 ¥7.00 / 月**。登录商店后共看到 **7 款套餐、18 个付款选项**。商家公告称 `yihao` 打 **8 折**，100GB 月付的用券后价格按此推算为 **¥5.60**。优惠码当前是否有效、适用哪些套餐和周期，仍待核实。本次价格与客户端核查于 **2026 年 11 月 15 日（太平洋时间）**，未测试节点连接、测速或解锁。
 
-<a href="https://47.243.112.133:5111/#/register?code=QJYEY3Rx" target="_blank" rel="noopener noreferrer sponsored nofollow">一号 One 官网入口</a> · [推广链接说明](/about#推广链接披露)
+<a href="https://47.243.112.133:5111/#/register?code=QJYEY3Rx" target="_blank" rel="noopener noreferrer sponsored nofollow">一号 One 官网入口</a>
+
+<AffiliateDisclosure />
 
 ## 一号 One 套餐价格
 

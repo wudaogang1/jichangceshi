@@ -25,6 +25,8 @@ pageClass: guangnianti-review
 
 <a href="http://wudao.gntvipaff.cc#/?code=btzIT9Fo" target="_blank" rel="noopener noreferrer sponsored nofollow">点击访问光年梯官网</a>
 
+<AffiliateDisclosure />
+
 套餐、客户端和节点状态来自 **2026 年 11 月 12 日**的后台核对，券后价以当时的结算页为准。速度和延迟来自 Siilas 发布的测试记录。
 
 ## 光年梯套餐价格

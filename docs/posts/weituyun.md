@@ -164,7 +164,7 @@ lang: zh-CN
 - 活动说明：新人首次 9 折
 - <a href="https://sellvpn.v2cvipaff.cc/#/?code=hr6gESut" rel="sponsored nofollow noopener noreferrer" target="_blank">打开唯兔云注册/购买页面</a>
 
-该链接包含推广参数，站长可能因此获得推广收益。优惠适用套餐、有效期和是否能与其他活动叠加，应以注册页或结算页最终显示为准。
+该链接包含推广参数，站长可能因此获得推广收益（[推广链接说明](/about#推广链接披露)）。优惠适用套餐、有效期和是否能与其他活动叠加，应以注册页或结算页最终显示为准。
 
 ## 常见问题
 

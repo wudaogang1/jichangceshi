@@ -19,6 +19,8 @@ cover: /images/xiaomingcloud-nodes.webp
 
 <a href="https://se.xiaomingtg.com/#/register?invite_code=MTlZ4Jth" target="_blank" rel="noopener noreferrer sponsored nofollow">小明Cloud 官方入口</a>
 
+<AffiliateDisclosure />
+
 ## 小明Cloud套餐价格与设备数
 
 11月20日的商店共列出6款套餐。流量和设备数是商品卡的标示值，金额单位为人民币。商店说明实际应付金额以订单结算页为准。

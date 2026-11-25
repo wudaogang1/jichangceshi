@@ -15,6 +15,8 @@ pageClass: andy-review
 
 <a href="https://se.andygg.com/#/register?code=lAiIqFaC" target="_blank" rel="noopener noreferrer sponsored nofollow">安迪 AnDy Cloud 官网（注册入口）</a>
 
+<AffiliateDisclosure />
+
 安迪 AnDy Cloud 的 **100GB 月付原价 ¥5**，优惠码 `ergs25` 核验后显示 **¥4**，商品卡标注可用 2 台设备。同码在 **50GB 年付**上显示 **¥24**（原价 ¥30），在**一次性 1000GB 包**上显示 **¥80**（原价 ¥100）。仪表盘把一次性订阅显示为「长期」，重复购买会覆盖剩余额度。
 
 机场测试于 **2026 年 11 月 18 日（太平洋时间）** 登录安迪面板，核对套餐、确认订单页、仪表盘和知识库。带宽、节点用途及流媒体表现按商家页面标注，速度和解锁情况未实测。

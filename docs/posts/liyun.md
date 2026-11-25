@@ -19,6 +19,8 @@ pageClass: liyun-review
 
 <a href="https://103.73.220.148:8888/app.html#/register?code=HrOwGxY9" target="_blank" rel="noopener noreferrer sponsored nofollow">鲤云注册入口</a>
 
+<AffiliateDisclosure />
+
 ## 鲤云套餐价格
 
 表中均为人民币，按商店中所选付款周期的总额展示。季付、半年付、年付的价格是该周期一次支付的金额。「用券后价格（估算）」按鲤云官网验券返回的 8 折规则计算，仅列出本次验券通过的付款选项。实际应付金额以订单明细为准。

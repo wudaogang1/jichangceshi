@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
+import { readFileSync } from 'node:fs'
 import { readFile, writeFile } from 'node:fs/promises'
 import { relative, sep } from 'node:path'
 import { setLocalImageSize, socialImageMetadata } from './image-seo.js'
@@ -10,6 +11,13 @@ const SITE_URL = 'https://jichangceshi.com'
 const SITE_NAME = '机场测试'
 const SITE_DESCRIPTION =
   '面向中文用户的机场测评、VPN 选择、翻墙术语、网络加速器区别、节点测速与客户端教程，强调可核对数据和短周期实测。'
+
+const catalog = readFileSync(new URL('../posts/README.md', import.meta.url), 'utf8')
+const reviewSection = catalog.split(/^## 单项测评\r?$/mu)[1]?.split(/^## /mu)[0] ?? ''
+const reviewCount = new Set(
+  [...reviewSection.matchAll(/^\|[^|\n]+\|\s*\[[^\]\n]+\]\((\/posts\/[\w-]+)\)\s*\|/gmu)]
+    .map(([, path]) => path),
+).size
 
 const organization = {
   '@type': 'Organization',
@@ -280,6 +288,10 @@ export default defineUserConfig({
             { text: '唯兔云', link: '/posts/weituyun' },
             { text: '无忧链接', link: '/posts/wuyou' },
             { text: 'XXYUN', link: '/posts/xxyun' },
+            {
+              text: `查看全部 ${reviewCount} 家机场测评`,
+              link: '/posts/#单项测评',
+            },
           ],
         },
       ],

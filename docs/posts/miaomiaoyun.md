@@ -13,7 +13,9 @@ pageClass: miaomiaoyun-review
 
 秒秒云的探花套餐每月 **128GB**，支持 **3 台设备同时在线**，月付原价 **¥9.00**，使用优惠码 `miaomiao` 打 8 折后，实付 **¥7.20 / 月**。如果需要 Clash 或 Shadowrocket 订阅，每月用量也在 128GB 以内，这档适合先买一个月试用。套餐与折扣核查于 **2026 年 11 月 14 日**。
 
-<a href="https://141.11.77.26/#/register?code=L09kqV2V" target="_blank" rel="noopener noreferrer sponsored nofollow">秒秒云官网入口</a> · [推广链接说明](/about#推广链接披露)
+<a href="https://141.11.77.26/#/register?code=L09kqV2V" target="_blank" rel="noopener noreferrer sponsored nofollow">秒秒云官网入口</a>
+
+<AffiliateDisclosure />
 
 ## 秒秒云套餐价格
 
@@ -232,7 +234,7 @@ pageClass: miaomiaoyun-review
 
 本次验证止于结算报价，未完成购买和客户端连接测试。速度、晚高峰表现和解锁能力尚无本站实测结论。准备试用时，可按[机场测速方法](/posts/airport-speed-test)记录测试地区、运营商、节点和时段，再判断是否长期订阅。
 
-**本次更新：2026 年 11 月 14 日。** 整理套餐原价、已验券折后价、付款周期与截图，标明流量包规则中的待确认项。文中的官网入口使用邀请链接，详见[推广链接说明](/about#推广链接披露)。
+**本次更新：2026 年 11 月 14 日。** 整理套餐原价、已验券折后价、付款周期与截图，标明流量包规则中的待确认项。
 
 <style>
 .miaomiaoyun-review .mmy-amount {

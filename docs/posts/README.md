@@ -2,7 +2,7 @@
 title: 机场、VPN、翻墙与加速器内容目录
 description: 按机场测评、VPN选择、翻墙术语、网络加速器区别、客户端教程和订阅安全分组浏览 jichangceshi.com 全部中文内容。
 date: 2026-08-04
-updated: 2026-11-16
+updated: 2026-11-25
 lang: zh-CN
 keywords:
   - 机场测评
@@ -58,18 +58,18 @@ keywords:
 | 榴莲云 | [榴莲云机场测评](/posts/liulianyun) | 套餐价格、优惠码、节点分布与测速 |
 | 大佬云 | [大佬云机场测评](/posts/dalaoyun) | 套餐价格、流量与客户端 |
 | 闪电鼠 | [闪电鼠机场测评](/posts/shandianshu) | 套餐价格、流量与节点 |
-| 边缘节点 | [查看测评](/posts/bianyunnode) | 套餐、单位流量成本、节点状态、客户端 |
-| COCODUCK | [查看测评](/posts/cocoduck) | 套餐、客户端、教程与购买规则 |
-| Firefly | [查看测评](/posts/firefly) | 套餐、节点状态、客户端与技术支持 |
-| 光速云 | [查看测评](/posts/guangsuyun) | 套餐、节点协议、客户端与页面状态 |
-| 快狸 | [查看测评](/posts/kuaili) | 套餐、单位流量成本、节点与客户端 |
-| 全球云 | [查看测评](/posts/quanqiuyun) | 套餐、节点、客户端与页面数据差异 |
-| 速界 | [查看测评](/posts/sujie) | 套餐、节点、客户端与流量差异 |
-| U1s1 | [查看测评](/posts/u1s1) | 套餐、节点状态、客户端与知识库 |
-| 网际快车 | [查看测评](/posts/wangjikuaiche) | 日享套餐、长期流量包、节点倍率 |
-| 唯兔云 | [查看测评](/posts/weituyun) | 套餐、节点状态、客户端与优惠信息 |
-| 无忧链接 | [查看测评](/posts/wuyou) | 套餐、节点状态、客户端与技术支持 |
-| XXYUN | [查看测评](/posts/xxyun) | 套餐、客户端限制、节点与后台差异 |
+| 边缘节点 | [边缘节点套餐与节点测评](/posts/bianyunnode) | 套餐、单位流量成本、节点状态、客户端 |
+| COCODUCK | [COCODUCK 套餐与客户端测评](/posts/cocoduck) | 套餐、客户端、教程与购买规则 |
+| Firefly | [Firefly 套餐与节点测评](/posts/firefly) | 套餐、节点状态、客户端与技术支持 |
+| 光速云 | [光速云套餐与节点测评](/posts/guangsuyun) | 套餐、节点协议、客户端与页面状态 |
+| 快狸 | [快狸套餐与节点测评](/posts/kuaili) | 套餐、单位流量成本、节点与客户端 |
+| 全球云 | [全球云套餐与节点测评](/posts/quanqiuyun) | 套餐、节点、客户端与页面数据差异 |
+| 速界 | [速界套餐与流量测评](/posts/sujie) | 套餐、节点、客户端与流量差异 |
+| U1s1 | [U1s1 套餐与客户端测评](/posts/u1s1) | 套餐、节点状态、客户端与知识库 |
+| 网际快车 | [网际快车流量包测评](/posts/wangjikuaiche) | 日享套餐、长期流量包、节点倍率 |
+| 唯兔云 | [唯兔云套餐与节点测评](/posts/weituyun) | 套餐、节点状态、客户端与优惠信息 |
+| 无忧链接 | [无忧链接套餐与节点测评](/posts/wuyou) | 套餐、节点状态、客户端与技术支持 |
+| XXYUN | [XXYUN 套餐与客户端测评](/posts/xxyun) | 套餐、客户端限制、节点与后台差异 |
 
 ## 阅读测评时重点核对
 

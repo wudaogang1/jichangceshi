@@ -40,6 +40,8 @@ faqs:
 
 <a href="https://wudaogang.huanqiutiaff.com/#/?code=vRWVDhFs" target="_blank" rel="noopener noreferrer sponsored nofollow">神行梯官网，点击前往注册</a>
 
+<AffiliateDisclosure />
+
 ## 环球梯套餐价格
 
 下表列出 11 月 7 日购买页的原价和结算页显示的 **`HQ66` 券后价**。箭头右侧是券后金额，价格均为人民币**整期总价**，流量按套餐卡列出。学生套餐和微享按原价列出，本次结算未通过验券。

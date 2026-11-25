@@ -32,7 +32,7 @@ xxyun 加速初级套餐含 **100GB/月**，原价 **¥9.99/月**。用新客 9 
 
 <a href="https://www.xx-yun.com/?code=lZlwmBj9" rel="sponsored nofollow noopener noreferrer" target="_blank">XXYUN加速官网入口</a> · 新客 9 折码 `xxyun`
 
-本站于 2026 年 11 月 8 日登录核对套餐、优惠、节点地图与官方文档。券后金额来自下单页的报价预览。邀请链接先打开 xxyun 导航，再转到注册页，本站可能获得推广收益。 [机场测试的核查方法](/about) · [xxyun 官方发布页](https://www.xxyun.xyz/)
+本站于 2026 年 11 月 8 日登录核对套餐、优惠、节点地图与官方文档。券后金额来自下单页的报价预览。邀请链接先打开 xxyun 导航，再转到注册页，本站可能获得推广收益（[推广链接说明](/about#推广链接披露)）。 [机场测试的核查方法](/about) · [xxyun 官方发布页](https://www.xxyun.xyz/)
 
 ## xxyun 加速套餐原价与券后价
 

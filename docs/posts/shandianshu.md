@@ -15,6 +15,8 @@ lang: zh-CN
 
 <a href="https://wudaogang.shandianshuaff.com/#/?code=oE1NhRah" target="_blank" rel="noopener noreferrer sponsored nofollow">前往闪电鼠官网注册</a> · 优惠码 `sd88`
 
+<AffiliateDisclosure />
+
 套餐及活动资料于 2026 年 11 月 5 日登录后台核对。[机场测试的核查方法](/about)
 
 ## 闪电鼠套餐价格

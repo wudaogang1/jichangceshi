@@ -25,7 +25,7 @@ pageClass: liulianyun-review
 
 <a href="https://wudaogang.liulianyunaff.com/#/?code=qrZTGPlG" target="_blank" rel="noopener noreferrer sponsored nofollow">前往榴莲云官网注册</a> · 优惠码 `ll88`
 
-本站于 2026 年 11 月 7 日登录核对商店、结算、优惠公告与节点列表。注册入口含邀请码，通过该链接购买，本站可能获得佣金。[机场测试的核查方法](/about)
+本站于 2026 年 11 月 7 日登录核对商店、结算、优惠公告与节点列表。注册入口含邀请码，通过该链接购买，本站可能获得佣金（[推广链接说明](/about#推广链接披露)）。[机场测试的核查方法](/about)
 
 ## 榴莲云套餐价格
 

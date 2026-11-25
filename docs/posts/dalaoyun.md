@@ -16,7 +16,7 @@ cover: /images/dly-plans-overview-2026-11-07.webp
 
 <a href="https://wudaogang0.dalaoyunaff.com/#/?code=oP4w0Bbh" target="_blank" rel="noopener noreferrer sponsored nofollow">前往大佬云官网注册</a> · 优惠码 `dly88`
 
-本站于 2026 年 11 月 7 日登录核对商店、结算、节点列表和知识库。注册入口含邀请码，通过该链接购买，本站可能获得佣金。[机场测试的核查方法](/about)
+本站于 2026 年 11 月 7 日登录核对商店、结算、节点列表和知识库。注册入口含邀请码，通过该链接购买，本站可能获得佣金（[推广链接说明](/about#推广链接披露)）。[机场测试的核查方法](/about)
 
 ## 大佬云套餐价格
 

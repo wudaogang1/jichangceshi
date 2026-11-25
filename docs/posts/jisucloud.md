@@ -10,7 +10,9 @@ cover: /images/jisucloud-coupon-trial.webp
 
 # 极速Cloud测评｜套餐价格、流量规则与9折优惠码验证
 
-<a href="https://se.jisu518.com/#/register?code=IJv17tXC" target="_blank" rel="noopener noreferrer sponsored nofollow">极速云官网（注册入口）</a> · [推广链接说明](/about#推广链接披露)
+<a href="https://se.jisu518.com/#/register?code=IJv17tXC" target="_blank" rel="noopener noreferrer sponsored nofollow">极速云官网（注册入口）</a>
+
+<AffiliateDisclosure />
 
 极速Cloud的**新人200GB体验套餐原价 ¥15，使用 `ikds88` 后结算预览为 ¥13.50**。常规月付从 **¥30 / 1000GB** 起，同一优惠码在该档位上显示折后 **¥27**。只想先确认自己的网络和常用客户端能否正常使用，新人体验档的初次支出最低。已知自己用量很低，则可以比较 **¥88 / 365天总计500GB** 的流量包。
 
