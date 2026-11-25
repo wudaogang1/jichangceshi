@@ -180,6 +180,7 @@ export default defineUserConfig({
     contributors: false,
     lastUpdated: false,
     navbar: [
+      { text: '机场推荐', link: '/posts/airport-compare' },
       { text: '内容目录', link: '/posts/' },
       {
         text: '概念指南',
@@ -193,7 +194,6 @@ export default defineUserConfig({
       {
         text: '选择与测评',
         children: [
-          { text: '机场横向对比', link: '/posts/airport-compare' },
           { text: 'VPN 与机场怎么选', link: '/posts/vpn' },
           { text: '机场测速方法', link: '/posts/airport-speed-test' },
         ],
@@ -226,7 +226,7 @@ export default defineUserConfig({
           text: '继续阅读',
           collapsible: false,
           children: [
-            { text: '机场横向对比', link: '/posts/airport-compare' },
+            { text: '机场推荐与对比', link: '/posts/airport-compare' },
             { text: '机场测速方法', link: '/posts/airport-speed-test' },
             { text: '客户端教程目录', link: '/posts/' },
             { text: '订阅链接安全', link: '/posts/subscription-security' },
@@ -240,7 +240,7 @@ export default defineUserConfig({
           children: [
             { text: '全部内容', link: '/posts/' },
             { text: '机场、VPN 与加速器区别', link: '/topics/' },
-            { text: '机场横向对比', link: '/posts/airport-compare' },
+            { text: '机场推荐与对比', link: '/posts/airport-compare' },
             { text: 'VPN 与机场怎么选', link: '/posts/vpn' },
             { text: '机场测速方法', link: '/posts/airport-speed-test' },
             {

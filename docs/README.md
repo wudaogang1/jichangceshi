@@ -1,9 +1,9 @@
 ---
 home: true
-title: 机场推荐、机场测评、VPN与网络加速器指南
-description: 机场测试提供 2026 机场推荐与测评、VPN 和机场区别、网络加速器选择、节点测速及 Clash、V2RayN、Shadowrocket 客户端教程。
-heroText: 机场、VPN 与网络加速指南
-tagline: 分清机场、VPN、翻墙工具和网络加速器，用可核对的数据与短周期实测降低选择风险。
+title: 机场测评、VPN 与网络加速指南
+description: 机场测试汇总中文代理订阅测评，比较套餐价格、流量和客户端支持，并提供 VPN 选择、节点测速及 Clash、V2RayN、Shadowrocket 教程。
+heroText: 机场测评与网络加速指南
+tagline: 按预算、流量和客户端选择机场订阅，也可查看 VPN 区别、节点测速方法与客户端教程。
 keywords:
   - 机场
   - 机场测评
@@ -12,11 +12,11 @@ keywords:
   - 加速器
   - 网络加速器
 actions:
+  - text: 查看机场推荐与对比
+    link: /posts/airport-compare
+    type: primary
   - text: Telegram 联系：@sellvpn000
     link: https://t.me/sellvpn000
-    type: primary
-  - text: 查看机场推荐
-    link: /posts/airport-compare
     type: secondary
   - text: 先看概念区别
     link: /topics/
@@ -71,9 +71,9 @@ updated: 2026-11-24
   </div>
   <div class="home-update-grid">
     <a class="home-update-card" href="/posts/airport-compare">
-      <span class="home-update-tag">机场推荐 · 8 月样本与 11 月补充记录</span>
-      <strong>2026 机场推荐：12 家套餐、流量、节点与优惠码</strong>
-      <p>12 家对比采集于 8 月 1—3 日。网际快车与 XXYUN 有 11 月 4—9 日的复核，另附两家 11 月新测评的套餐记录。</p>
+      <span class="home-update-tag">代理订阅</span>
+      <strong>2026 机场推荐：套餐、流量与客户端对比</strong>
+      <p>汇总站内单项测评，按低价月付、一次性流量包、大流量和客户端支持查找候选。</p>
       <span class="home-update-more">查看机场推荐 →</span>
     </a>
     <a class="home-update-card" href="/posts/airport-speed-test">

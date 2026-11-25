@@ -2,12 +2,11 @@
 title: 机场是什么？机场节点、订阅、VPN与加速器区别
 description: 解释网络语境中的机场是什么、机场订阅怎么工作、节点和客户端的关系，以及机场与VPN、翻墙软件、网络加速器的主要区别。
 date: 2026-08-07
-updated: 2026-11-14
+updated: 2026-11-24
 author: jichangceshi
 lang: zh-CN
 keywords:
   - 机场是什么
-  - 机场推荐
   - 机场节点
   - 机场订阅
   - 机场和VPN区别
@@ -89,7 +88,7 @@ faqs:
 
 “机场推荐”不应等同于固定排行榜。网络表现会受到地区、运营商、设备和时段影响；同一服务在不同用户网络中可能表现完全不同。更稳妥的方法是：
 
-1. 用[机场横向对比](/posts/airport-compare)缩小到两三个候选；
+1. 从[机场推荐与对比](/posts/airport-compare)按预算、流量与客户端挑出两三个候选；
 2. 优先购买最低档、最短周期；
 3. 白天和晚高峰分别测试；
 4. 检查客户端更新、售后和故障恢复；
@@ -115,7 +114,7 @@ faqs:
 
 ## 下一步阅读
 
-- [12 家机场套餐与节点横向对比](/posts/airport-compare)
+- [2026 机场推荐与套餐对比](/posts/airport-compare)
 - [VPN 与机场订阅怎么选](/posts/vpn)
 - [机场测速：延迟、丢包与晚高峰](/posts/airport-speed-test)
 - [Clash Mi、V2RayN 与 Shadowrocket 教程目录](/posts/)

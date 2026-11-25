@@ -26,7 +26,7 @@ keywords:
 
 ## 选择、比较与测速
 
-- [2026 机场横向对比：套餐价格、流量、节点与客户端怎么选](/posts/airport-compare)
+- [2026 机场推荐与对比：按月付、流量和客户端选机场](/posts/airport-compare)
 - [2026 VPN 与机场怎么选？代理订阅与节点避坑指南](/posts/vpn)
 - [机场测速方法：延迟、丢包与晚高峰稳定性怎么测](/posts/airport-speed-test)
 - [机场订阅链接泄露怎么办？重置、排查与安全保存](/posts/subscription-security)

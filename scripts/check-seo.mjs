@@ -3,12 +3,14 @@ import { join, relative, resolve } from 'node:path'
 
 const DIST_DIR = resolve('docs/.vuepress/dist')
 const SITE_URL = 'https://jichangceshi.com'
+const comparisonRoute = '/posts/airport-compare'
 const errors = []
 const titles = new Map()
 const descriptions = new Map()
 const internalLinkSources = new Map()
 const structuredDataByRoute = new Map()
 const modifiedDatesByRoute = new Map()
+const reviewTableLinksByRoute = new Map()
 
 const walk = (directory) =>
   readdirSync(directory).flatMap((name) => {
@@ -158,6 +160,17 @@ for (const filePath of htmlFiles) {
     )
   }
 
+  if (route === '/posts/' || route === comparisonRoute) {
+    const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/u)?.[1] ?? ''
+    const reviewLinks = new Set()
+    for (const [table] of main.matchAll(/<table\b[^>]*>[\s\S]*?<\/table>/gu)) {
+      for (const [, href] of table.matchAll(/<a\b[^>]*href="(\/posts\/[\w-]+)"/gu)) {
+        reviewLinks.add(href)
+      }
+    }
+    reviewTableLinksByRoute.set(route, reviewLinks)
+  }
+
   for (const match of html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/gu)) {
     const [tag, href] = match
     if (isAffiliateLink(href)) {
@@ -192,6 +205,7 @@ for (const filePath of htmlFiles) {
 }
 
 const topicArticleRoutes = [
+  comparisonRoute,
   '/topics/airport',
   '/topics/fanqiang',
   '/topics/accelerator',
@@ -215,6 +229,16 @@ for (const route of topicArticleRoutes) {
   assert(
     (internalLinkSources.get(route)?.size ?? 0) >= 3,
     `${route}: keyword pillar has fewer than three internal link sources.`,
+  )
+}
+
+const catalogReviews = reviewTableLinksByRoute.get('/posts/') ?? new Set()
+const comparisonReviews = reviewTableLinksByRoute.get(comparisonRoute) ?? new Set()
+assert(catalogReviews.size > 0, '/posts/: no review links found in the catalog table.')
+for (const route of catalogReviews) {
+  assert(
+    comparisonReviews.has(route),
+    `${comparisonRoute}: a comparison table is missing the catalog review link ${route}.`,
   )
 }
 
