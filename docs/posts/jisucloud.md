@@ -10,7 +10,7 @@ cover: /images/jisucloud-coupon-trial.webp
 
 # 极速Cloud测评｜套餐价格、流量规则与9折优惠码验证
 
-<a href="https://se.jisu518.com/#/register?code=IJv17tXC" target="_blank" rel="noopener noreferrer sponsored nofollow">极速云官网（注册入口）</a>
+<AirportInvite provider="jisucloud">极速云官网（注册入口）</AirportInvite>
 
 <AffiliateDisclosure />
 
@@ -124,7 +124,7 @@ cover: /images/jisucloud-coupon-trial.webp
   <figcaption>导入弹窗截图。iOS 标签中可见 Shadowrocket、Surge、Stash、QuantumultX、Sing-Box、Loon 和 Clash Mi。</figcaption>
 </figure>
 
-商品卡写明工单 24 小时内回复，实际响应时间未做验证。商店公开列出的入口为[极速云导航.com](https://xn--9kqy04az2ic00amuo.com/)和 [极速Cloud Telegram 频道](https://t.me/jisucloud1)。本次核查时，导航入口会跳转到带人机验证的页面。
+商品卡写明工单 24 小时内回复，实际响应时间未做验证。商店也列出了 [极速Cloud Telegram 频道](https://t.me/jisucloud1)。
 
 ## 极速Cloud值得买吗
 
@@ -134,4 +134,4 @@ cover: /images/jisucloud-coupon-trial.webp
 
 **核查来源**为极速Cloud「选购套餐」「确认订单」「仪表盘 → 最新公告」及「知识库 → 续费跟流量重置说明」。价格和优惠截图为核查当日页面记录，图片已裁去账号及浏览器信息。
 
-<a href="https://se.jisu518.com/#/register?code=IJv17tXC" target="_blank" rel="noopener noreferrer sponsored nofollow">极速云官网（注册入口）</a>
+<AirportInvite provider="jisucloud">极速云官网（注册入口）</AirportInvite>

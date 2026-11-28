@@ -15,7 +15,7 @@ pageClass: jinyun-review
 
 锦云的 **50GB 月付原价 ¥6.00**，结算页验证优惠码 `2026888` 后显示 **¥4.80**。这次核对了 **8 款套餐、19 个付款选项**。同一个码也通过了 100GB、200GB 常规档和不限时 100GB 包的验证。特惠档和 365 天流量包用这个码未通过验证。核查日期为 **2026 年 11 月 15 日（太平洋时间）**。
 
-<a href="https://216.236.63.115/#/register?code=zWJ7xL3p" target="_blank" rel="noopener noreferrer sponsored nofollow">锦云官网入口</a>
+<AirportInvite provider="jinyun">锦云官网入口</AirportInvite>
 
 <AffiliateDisclosure />
 
@@ -169,7 +169,7 @@ pageClass: jinyun-review
 
 **2026 年 11 月 15 日（太平洋时间）**，登录锦云商店核对 19 个付款选项，按套餐验券，并核对可用周期的价格明细。核查停在验券与结算摘要。设备限制、流量规则和退款提示来自商家卡片。节点连通性、速度和解锁能力仍待实测。
 
-<a href="https://216.236.63.115/#/register?code=zWJ7xL3p" target="_blank" rel="noopener noreferrer sponsored nofollow">锦云 官方入口</a>
+<AirportInvite provider="jinyun">锦云 官方入口</AirportInvite>
 
 <style>
 .jinyun-review .jinyun-logo {

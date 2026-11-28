@@ -17,7 +17,7 @@ pageClass: jiuyun-review
 
 2026 年 11 月 16 日（太平洋时间），在登录后的九云面板逐项验证了 **10 款套餐、10 个付款选项**。五款可用 `9yun`，包括三款月付和两款标题标注「不限时」的流量包。
 
-<a href="https://216.236.63.122/#/register?invite_code=ME4z89ej" target="_blank" rel="noopener noreferrer sponsored nofollow">九云注册入口</a>
+<AirportInvite provider="jiuyun">九云注册入口</AirportInvite>
 
 <AffiliateDisclosure />
 
@@ -235,7 +235,7 @@ pageClass: jiuyun-review
 
 **2026 年 11 月 16 日（太平洋时间）**，在已登录的九云面板核对 10 款套餐的付款选项和验券结果，并查看仪表盘公告、订阅导入菜单、教程和节点状态。价格、流量、设备标注和有效期来自商家页面。退款规则、季付与年付的流量重置周期仍待核实。
 
-<a href="https://216.236.63.122/#/register?invite_code=ME4z89ej" target="_blank" rel="noopener noreferrer sponsored nofollow">九云官网入口</a>
+<AirportInvite provider="jiuyun">九云官网入口</AirportInvite>
 
 <style>
 .jiuyun-review .jiuyun-logo {

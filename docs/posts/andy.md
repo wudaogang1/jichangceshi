@@ -13,7 +13,7 @@ pageClass: andy-review
 
 <img class="andy-logo" src="/images/andy-logo.webp" width="512" height="512" alt="安迪 AnDy Cloud 机场官方标志" decoding="async">
 
-<a href="https://se.andygg.com/#/register?code=lAiIqFaC" target="_blank" rel="noopener noreferrer sponsored nofollow">安迪 AnDy Cloud 官网（注册入口）</a>
+<AirportInvite provider="andy">安迪 AnDy Cloud 官网（注册入口）</AirportInvite>
 
 <AffiliateDisclosure />
 
@@ -139,7 +139,7 @@ pageClass: andy-review
 
 **核查来源**为安迪面板的「购买套餐」「确认订单」「仪表盘」及「知识库」。截图摄于核查当天，公开画面保留套餐、流量规则和客户端信息。
 
-<a href="https://se.andygg.com/#/register?code=lAiIqFaC" target="_blank" rel="noopener noreferrer sponsored nofollow">安迪 AnDy Cloud 官网（注册入口）</a>
+<AirportInvite provider="andy">安迪 AnDy Cloud 官网（注册入口）</AirportInvite>
 
 <style>
 .andy-review .andy-logo {

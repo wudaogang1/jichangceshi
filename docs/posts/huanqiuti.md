@@ -38,7 +38,7 @@ faqs:
 
 用户提供的延迟截图里，香港 20 条节点全部响应，最低 **37 ms**，日本 10 条中有 **4 条超时**。下载截图中，香港 08 录得全表最高的 **47.01 MB**（沿用工具标记）。
 
-<a href="https://wudaogang.huanqiutiaff.com/#/?code=vRWVDhFs" target="_blank" rel="noopener noreferrer sponsored nofollow">神行梯官网，点击前往注册</a>
+<AirportInvite provider="huanqiuti">前往环球梯官网注册</AirportInvite>
 
 <AffiliateDisclosure />
 
@@ -267,4 +267,4 @@ faqs:
 
 登录环球梯网站后，可联系站内客服获取订阅节点。使用 Clash 或 Shadowrocket 时，告诉客服客户端名称，并确认订阅链接的格式。
 
-<a href="https://wudaogang.huanqiutiaff.com/#/?code=vRWVDhFs" target="_blank" rel="noopener noreferrer sponsored nofollow">神行梯官网，点击前往注册</a>
+<AirportInvite provider="huanqiuti">前往环球梯官网注册</AirportInvite>

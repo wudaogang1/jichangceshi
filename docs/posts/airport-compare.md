@@ -42,29 +42,31 @@ faqs:
 
 标价为记录时的原价，标有「验券」的金额为下单前看到的折后报价。折扣推算和待确认项目在各自的测评中说明。表中 GB/月为商家标注的月额度，一次性流量包列整包额度。
 
+<AffiliateDisclosure />
+
 ### 11 月有价格或套餐记录的 19 家
 
 | 机场测评 | 代表套餐 | 适合与限制 | 记录 |
 | --- | --- | --- | --- |
-| [宝云](/posts/baoyun) | ¥4/月 · 200GB/月 | 两台设备的低价月付，验券 ¥3.20。另有 365 天流量包，后台有效期显示有出入。 | 11 月 16 日 |
-| [小明Cloud](/posts/xiaomingcloud) | ¥5/月 · 200GB/月 | 小额起步，可升到 ¥10/月的 500GB。商品卡与文档的设备限制和按量包有效期有出入。 | 11 月 19–20 日 |
-| [安迪 AnDy Cloud](/posts/andy) | ¥5/月 · 100GB/月 | 可先试 Clash 或 Shadowrocket 导入，验券 ¥4。重新购买一次性包会覆盖旧额度。 | 11 月 18 日 |
-| [鲤云](/posts/liyun) | ¥5/月 · 100GB/月 | 轻量月用，按公告推算券后 ¥4，实际支付金额待核实。商品卡标注不退款。 | 11 月 15–16 日 |
-| [锦云](/posts/jinyun) | ¥6/月 · 50GB/月 | 适合小流量月用，验券 ¥4.80。部分档位设备上限的页面标注有出入。 | 11 月 15 日 |
-| [九云](/posts/jiuyun) | ¥6/月 · 150GB/月 | 标注 3 台设备，验券 ¥4.80。500GB 一次性包的新购有效期待确认。 | 11 月 16 日 |
-| [熊猫Cloud](/posts/pandacloud) | ¥6/月 · 300GB/月 | 低价月付大流量，验券 ¥5.40，标注 3 台。600GB 一次性包的名称与有效期说明有出入。 | 11 月 16 日 |
-| [一号 One](/posts/yihao-one) | ¥7/月 · 100GB/月 | 固定月用可先看入门档，优惠适用性待验证。高档的设备数说明有出入。 | 11 月 15 日 |
-| [稳连云](/posts/wenlianyun) | ¥8/月 · 100GB/月 | 常规轻量月用，公告折算 ¥6.40，订阅窗口未显示最终应付金额。 | 11 月 15 日 |
-| [秒秒云](/posts/miaomiaoyun) | ¥9/月 · 128GB/月 | 有 Clash 和 Shadowrocket 导入入口，标注 3 台同时在线，验券 ¥7.20。 | 11 月 14 日 |
-| [XXYUN](/posts/xxyun) | ¥9.99/月 · 100GB/月 | 接受官方客户端可先试，新客验券 ¥8.99。另有 ¥66.66 的 500GB 不限时包。 | 11 月 8–9 日 |
-| [山水云](/posts/shanshuiyun) | ¥12/月 · 100GB/月 | 适合希望按 1 倍扣量的月用用户，验券 ¥9.60，晚高峰表现需在常用网络下确认。 | 11 月 12 日 |
-| [环球梯](/posts/huanqiuti) | ¥15/月 · 60GB/月 | 轻量试用，微享档本次未通过验券，第三方客户端订阅格式可向客服确认。 | 11 月 7 日 |
-| [极速Cloud](/posts/jisucloud) | ¥15 新人体验月 · 200GB | 体验档验券 ¥13.50。持续大用量可比常规 ¥30/月、1000GB，注意设备数和重置规则。 | 11 月 18 日 |
-| [大佬云](/posts/dalaoyun) | ¥15/月 · 50GB/月（限时） | 另有 100GB/月的财云福利版，验券 ¥13.99。下载数据来自特定网络的样本。 | 11 月 7 日 |
-| [闪电鼠](/posts/shandianshu) | ¥15/月 · 50GB/月（限时） | 用量接近 100GB 可比较性价版，验券 ¥13.92。不同地区测速读数有差异。 | 11 月 5 日 |
-| [榴莲云](/posts/liulianyun) | ¥15/月 · 50GB/月 | 用量更大可看 140GB/月档，验券 ¥16.80。不同测试记录的节点样本有差异。 | 11 月 7 日 |
-| [光年梯](/posts/guangnianti) | ¥18/月 · 110GB/月 | 接受官方客户端可试入门档，首单验券 ¥13.50。常规套餐暂未提供通用订阅。 | 11 月 12 日 |
-| [网际快车](/posts/wangjikuaiche) | ¥6.80 一次付 · 20GB 不限时 | 少量备用可先看 20GB 档。¥28/30 天的 60GB 日享额度每日清零，部分线路有扣量倍率。 | 11 月 4 日 |
+| [宝云](/posts/baoyun)<br><AirportInvite provider="baoyun" aria-label="宝云邀请注册">邀请注册</AirportInvite> | ¥4/月 · 200GB/月 | 两台设备的低价月付，验券 ¥3.20。另有 365 天流量包，后台有效期显示有出入。 | 11 月 16 日 |
+| [小明Cloud](/posts/xiaomingcloud)<br><AirportInvite provider="xiaomingcloud" aria-label="小明Cloud邀请注册">邀请注册</AirportInvite> | ¥5/月 · 200GB/月 | 小额起步，可升到 ¥10/月的 500GB。商品卡与文档的设备限制和按量包有效期有出入。 | 11 月 19–20 日 |
+| [安迪 AnDy Cloud](/posts/andy)<br><AirportInvite provider="andy" aria-label="安迪 AnDy Cloud邀请注册">邀请注册</AirportInvite> | ¥5/月 · 100GB/月 | 可先试 Clash 或 Shadowrocket 导入，验券 ¥4。重新购买一次性包会覆盖旧额度。 | 11 月 18 日 |
+| [鲤云](/posts/liyun)<br><AirportInvite provider="liyun" aria-label="鲤云邀请注册">邀请注册</AirportInvite> | ¥5/月 · 100GB/月 | 轻量月用，按公告推算券后 ¥4，实际支付金额待核实。商品卡标注不退款。 | 11 月 15–16 日 |
+| [锦云](/posts/jinyun)<br><AirportInvite provider="jinyun" aria-label="锦云邀请注册">邀请注册</AirportInvite> | ¥6/月 · 50GB/月 | 适合小流量月用，验券 ¥4.80。部分档位设备上限的页面标注有出入。 | 11 月 15 日 |
+| [九云](/posts/jiuyun)<br><AirportInvite provider="jiuyun" aria-label="九云邀请注册">邀请注册</AirportInvite> | ¥6/月 · 150GB/月 | 标注 3 台设备，验券 ¥4.80。500GB 一次性包的新购有效期待确认。 | 11 月 16 日 |
+| [熊猫Cloud](/posts/pandacloud)<br><AirportInvite provider="pandacloud" aria-label="熊猫Cloud邀请注册">邀请注册</AirportInvite> | ¥6/月 · 300GB/月 | 低价月付大流量，验券 ¥5.40，标注 3 台。600GB 一次性包的名称与有效期说明有出入。 | 11 月 16 日 |
+| [一号 One](/posts/yihao-one)<br><AirportInvite provider="yihao-one" aria-label="一号 One邀请注册">邀请注册</AirportInvite> | ¥7/月 · 100GB/月 | 固定月用可先看入门档，优惠适用性待验证。高档的设备数说明有出入。 | 11 月 15 日 |
+| [稳连云](/posts/wenlianyun)<br><AirportInvite provider="wenlianyun" aria-label="稳连云邀请注册">邀请注册</AirportInvite> | ¥8/月 · 100GB/月 | 常规轻量月用，公告折算 ¥6.40，订阅窗口未显示最终应付金额。 | 11 月 15 日 |
+| [秒秒云](/posts/miaomiaoyun)<br><AirportInvite provider="miaomiaoyun" aria-label="秒秒云邀请注册">邀请注册</AirportInvite> | ¥9/月 · 128GB/月 | 有 Clash 和 Shadowrocket 导入入口，标注 3 台同时在线，验券 ¥7.20。 | 11 月 14 日 |
+| [XXYUN](/posts/xxyun)<br><AirportInvite provider="xxyun" aria-label="XXYUN邀请注册">邀请注册</AirportInvite> | ¥9.99/月 · 100GB/月 | 接受官方客户端可先试，新客验券 ¥8.99。另有 ¥66.66 的 500GB 不限时包。 | 11 月 8–9 日 |
+| [山水云](/posts/shanshuiyun)<br><AirportInvite provider="shanshuiyun" aria-label="山水云邀请注册">邀请注册</AirportInvite> | ¥12/月 · 100GB/月 | 适合希望按 1 倍扣量的月用用户，验券 ¥9.60，晚高峰表现需在常用网络下确认。 | 11 月 12 日 |
+| [环球梯](/posts/huanqiuti)<br><AirportInvite provider="huanqiuti" aria-label="环球梯邀请注册">邀请注册</AirportInvite> | ¥15/月 · 60GB/月 | 轻量试用，微享档本次未通过验券，第三方客户端订阅格式可向客服确认。 | 11 月 7 日 |
+| [极速Cloud](/posts/jisucloud)<br><AirportInvite provider="jisucloud" aria-label="极速Cloud邀请注册">邀请注册</AirportInvite> | ¥15 新人体验月 · 200GB | 体验档验券 ¥13.50。持续大用量可比常规 ¥30/月、1000GB，注意设备数和重置规则。 | 11 月 18 日 |
+| [大佬云](/posts/dalaoyun)<br><AirportInvite provider="dalaoyun" aria-label="大佬云邀请注册">邀请注册</AirportInvite> | ¥15/月 · 50GB/月（限时） | 另有 100GB/月的财云福利版，验券 ¥13.99。下载数据来自特定网络的样本。 | 11 月 7 日 |
+| [闪电鼠](/posts/shandianshu)<br><AirportInvite provider="shandianshu" aria-label="闪电鼠邀请注册">邀请注册</AirportInvite> | ¥15/月 · 50GB/月（限时） | 用量接近 100GB 可比较性价版，验券 ¥13.92。不同地区测速读数有差异。 | 11 月 5 日 |
+| [榴莲云](/posts/liulianyun)<br><AirportInvite provider="liulianyun" aria-label="榴莲云邀请注册">邀请注册</AirportInvite> | ¥15/月 · 50GB/月 | 用量更大可看 140GB/月档，验券 ¥16.80。不同测试记录的节点样本有差异。 | 11 月 7 日 |
+| [光年梯](/posts/guangnianti)<br><AirportInvite provider="guangnianti" aria-label="光年梯邀请注册">邀请注册</AirportInvite> | ¥18/月 · 110GB/月 | 接受官方客户端可试入门档，首单验券 ¥13.50。常规套餐暂未提供通用订阅。 | 11 月 12 日 |
+| [网际快车](/posts/wangjikuaiche)<br><AirportInvite provider="wangjikuaiche" aria-label="网际快车邀请注册">邀请注册</AirportInvite> | ¥6.80 一次付 · 20GB 不限时 | 少量备用可先看 20GB 档。¥28/30 天的 60GB 日享额度每日清零，部分线路有扣量倍率。 | 11 月 4 日 |
 
 ### 沿用 8 月站内记录的 10 家
 
@@ -72,27 +74,27 @@ faqs:
 
 | 机场测评 | 代表套餐 | 适合与限制 | 本站标价记录日期 |
 | --- | --- | --- | --- |
-| [唯兔云](/posts/weituyun) | ¥14.90/月 · 100GB/月（限时） | 有轻量月付和按量备用档。限时档下架时，记录中的常规入门为 ¥19.90/月、150GB。 | 8 月 2 日 |
-| [边缘节点](/posts/bianyunnode) | ¥15/月 · 50GB/月（限时） | 小额体验可先问库存，标准档 ¥25/月、120GB。在线率来自后台快照。 | 8 月 2 日 |
-| [快狸](/posts/kuaili) | 月狸 ¥15/月 · 50GB/月，小狸 ¥22/月 · 100GB/月 | 月狸月付的券后预览价为 ¥12（11 月 14 日查看结算页）。续费能否用券、优惠何时截止仍待核实。 [查看当日结算截图](https://sellvpn.net/posts/kuaili-review-2026/) | 8 月 2 日 |
-| [速界](/posts/sujie) | ¥15/月 · 50GB/月 | 可短期试用。¥90 年付档在卡片与详情页分别标注 50GB 和 45GB。 | 8 月 2 日 |
-| [COCODUCK](/posts/cocoduck) | ¥17/月 · 100GB/月 | 需要 Android TV 可先看客户端记录。加油包需搭配常规套餐。 | 8 月 3 日 |
-| [光速云](/posts/guangsuyun) | ¥17/月 · 110GB/月 | 适合希望先做一个月验证的用户。部分特殊商品标注不退款，节点表现需自测。 | 8 月 2 日 |
-| [无忧链接](/posts/wuyou) | ¥19/月 · 100GB/月 | 有常规月付和 ¥108 买 100GB 的不限时备用包，需核对当前活动与有效期。 | 8 月 3 日 |
-| [全球云](/posts/quanqiuyun) | ¥20/月 · 120GB/月 | 日常月用或按量备用均有选项。商业档的商品卡与账户流量显示有出入。 | 8 月 2 日 |
-| [U1s1](/posts/u1s1) | ¥20/月 · 120GB/月 | 使用 Linux 或软路由可先查知识库。另有 ¥96/年、60GB/月档。 | 8 月 3 日 |
-| [Firefly](/posts/firefly) | ¥25/月 · 150GB/月 | 可比较常规月付和 ¥100 买 100GB 的不限时包。专线宣传与长期表现待验证。 | 8 月 3 日 |
+| [唯兔云](/posts/weituyun)<br><AirportInvite provider="weituyun" aria-label="唯兔云邀请注册">邀请注册</AirportInvite> | ¥14.90/月 · 100GB/月（限时） | 有轻量月付和按量备用档。限时档下架时，记录中的常规入门为 ¥19.90/月、150GB。 | 8 月 2 日 |
+| [边缘节点](/posts/bianyunnode)<br><AirportInvite provider="bianyunnode" aria-label="边缘节点邀请注册">邀请注册</AirportInvite> | ¥15/月 · 50GB/月（限时） | 小额体验可先问库存，标准档 ¥25/月、120GB。在线率来自后台快照。 | 8 月 2 日 |
+| [快狸](/posts/kuaili)<br><AirportInvite provider="kuaili" aria-label="快狸邀请注册">邀请注册</AirportInvite> | 月狸 ¥15/月 · 50GB/月，小狸 ¥22/月 · 100GB/月 | 月狸月付的券后预览价为 ¥12（11 月 14 日查看结算页）。续费能否用券、优惠何时截止仍待核实。 [查看当日结算截图](https://sellvpn.net/posts/kuaili-review-2026/) | 8 月 2 日 |
+| [速界](/posts/sujie)<br><AirportInvite provider="sujie" aria-label="速界邀请注册">邀请注册</AirportInvite> | ¥15/月 · 50GB/月 | 可短期试用。¥90 年付档在卡片与详情页分别标注 50GB 和 45GB。 | 8 月 2 日 |
+| [COCODUCK](/posts/cocoduck)<br><AirportInvite provider="cocoduck" aria-label="COCODUCK邀请注册">邀请注册</AirportInvite> | ¥17/月 · 100GB/月 | 需要 Android TV 可先看客户端记录。加油包需搭配常规套餐。 | 8 月 3 日 |
+| [光速云](/posts/guangsuyun)<br><AirportInvite provider="guangsuyun" aria-label="光速云邀请注册">邀请注册</AirportInvite> | ¥17/月 · 110GB/月 | 适合希望先做一个月验证的用户。部分特殊商品标注不退款，节点表现需自测。 | 8 月 2 日 |
+| [无忧链接](/posts/wuyou)<br><AirportInvite provider="wuyou" aria-label="无忧链接邀请注册">邀请注册</AirportInvite> | ¥19/月 · 100GB/月 | 有常规月付和 ¥108 买 100GB 的不限时备用包，需核对当前活动与有效期。 | 8 月 3 日 |
+| [全球云](/posts/quanqiuyun)<br><AirportInvite provider="quanqiuyun" aria-label="全球云邀请注册">邀请注册</AirportInvite> | ¥20/月 · 120GB/月 | 日常月用或按量备用均有选项。商业档的商品卡与账户流量显示有出入。 | 8 月 2 日 |
+| [U1s1](/posts/u1s1)<br><AirportInvite provider="u1s1" aria-label="U1s1邀请注册">邀请注册</AirportInvite> | ¥20/月 · 120GB/月 | 使用 Linux 或软路由可先查知识库。另有 ¥96/年、60GB/月档。 | 8 月 3 日 |
+| [Firefly](/posts/firefly)<br><AirportInvite provider="firefly" aria-label="Firefly邀请注册">邀请注册</AirportInvite> | ¥25/月 · 150GB/月 | 可比较常规月付和 ¥100 买 100GB 的不限时包。专线宣传与长期表现待验证。 | 8 月 3 日 |
 
 ## 4 家补充套餐记录
 
-以下套餐已有核查记录，暂无独立测评链接。优先比较有公开测评可供查看的候选。
+以下套餐已有核查记录，暂无独立测评。各行提供对应机场的邀请注册入口。
 
 | 机场 | 记录套餐 | 适合与限制 | 记录 |
 | --- | --- | --- | --- |
-| 杏花云 | ¥3/月 · 200GB/月 | 两台设备的低价轻量档。¥20 一次付的 1000GB 按商品卡为 365 天总量，仪表盘有效期显示有出入。 | 11 月 18 日 |
-| 极速123 | ¥15.99/月 · 标称 1200G/月 | 按 6 倍扣量折合约 200GB/月，首单验券 ¥12.79。适合能接受倍率的固定月用量。 | 11 月 17 日 |
-| 神行加速 | ¥19.88/月 · 100GB/月 | 适合先试常用节点的新用户，验券 ¥13.92。¥96 年付档每 30 天刷新 60GB。 | 11 月 7 日 |
-| 云界线 | ¥19.88/月 · 130GB/月 | 可用低档月付验证常用地区，首单验券 ¥13.92。¥96 年付小包本次未通过验券。 | 11 月 4 日 |
+| 杏花云<br><AirportInvite provider="xinghuayun" aria-label="杏花云邀请注册">邀请注册</AirportInvite> | ¥3/月 · 200GB/月 | 两台设备的低价轻量档。¥20 一次付的 1000GB 按商品卡为 365 天总量，仪表盘有效期显示有出入。 | 11 月 18 日 |
+| 极速123<br><AirportInvite provider="jisu123" aria-label="极速123邀请注册">邀请注册</AirportInvite> | ¥15.99/月 · 标称 1200G/月 | 按 6 倍扣量折合约 200GB/月，首单验券 ¥12.79。适合能接受倍率的固定月用量。 | 11 月 17 日 |
+| 神行加速<br><AirportInvite provider="shenxing" aria-label="神行加速邀请注册">邀请注册</AirportInvite> | ¥19.88/月 · 100GB/月 | 适合先试常用节点的新用户，验券 ¥13.92。¥96 年付档每 30 天刷新 60GB。 | 11 月 7 日 |
+| 云界线<br><AirportInvite provider="yunjiexian" aria-label="云界线邀请注册">邀请注册</AirportInvite> | ¥19.88/月 · 130GB/月 | 可用低档月付验证常用地区，首单验券 ¥13.92。¥96 年付小包本次未通过验券。 | 11 月 4 日 |
 
 ## 购买前怎么核对
 
@@ -100,8 +102,6 @@ faqs:
 2. **算清可用流量。** 查看实际扣量倍率、重置周期、有效期和剩余额度处理规则。年付月均价只用于估算成本，下单需要一次付清。
 3. **实测你要用的节点。** 同一设备和宽带下比较白天与晚高峰的延迟、丢包，以及会实际使用的视频、语音或网页。本文的套餐与节点数据来自各自的后台记录或文中注明的测速样本。
 4. **核对结算与售后。** 下单前重新验券，确认首单或续费资格、退款条件以及套餐是否仍可购买。
-
-部分单项测评的购买入口带有邀请参数，本站可能获得佣金。本文按套餐条件和使用需求给出候选。 [推广链接披露](/about#推广链接披露)
 
 ## 常见问题
 

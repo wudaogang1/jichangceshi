@@ -150,7 +150,7 @@ Firefly 后台提供 Android、iOS、macOS 和 Windows 客户端入口：Android
 
 - 优惠码：`firefly`
 - 活动说明：新人首次 8 折
-- <a href="https://wudaogang0.fireflyaff.com/#/?code=PZlWmWbX" rel="sponsored nofollow noopener noreferrer" target="_blank">打开 Firefly 注册/购买页面</a>
+- <AirportInvite provider="firefly">打开 Firefly 注册/购买页面</AirportInvite>
 
 该链接包含推广参数，站长可能因此获得推广收益（[推广链接说明](/about#推广链接披露)）。优惠适用套餐、有效期和是否能与其他活动叠加，应以注册页或结算页最终显示为准。
 

@@ -17,7 +17,7 @@ pageClass: pandacloud-review
 
 2026 年 11 月 16 日（太平洋时间），在登录后的商店逐项核对了 **7 款套餐、18 个付款选项**。以下优惠价是提交订单前页面显示的总计。
 
-<a href="https://103.73.220.147:8888/#/register?code=L9ROkS1X" target="_blank" rel="noopener noreferrer sponsored nofollow">熊猫Cloud 注册入口</a>
+<AirportInvite provider="pandacloud">熊猫Cloud 注册入口</AirportInvite>
 
 <AffiliateDisclosure />
 
@@ -192,7 +192,7 @@ pageClass: pandacloud-review
 
 **2026 年 11 月 16 日（太平洋时间）**，登录熊猫Cloud 商店，逐项核对 7 款套餐、18 个计费选项、结算页验券结果，并查看官方公告和订阅导入入口。价格、流量、有效期、设备上限及退款提示来自商家页面。商品卡宣称支持三网优化线路以及流媒体和 AI 服务，并提供工单客服。节点连通性、测速和解锁能力未实测。
 
-<a href="https://103.73.220.147:8888/#/register?code=L9ROkS1X" target="_blank" rel="noopener noreferrer sponsored nofollow">熊猫Cloud 官方入口</a>
+<AirportInvite provider="pandacloud">熊猫Cloud 官方入口</AirportInvite>
 
 <style>
 .pandacloud-review .pandacloud-logo {

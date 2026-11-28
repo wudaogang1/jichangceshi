@@ -15,7 +15,7 @@ pageClass: wenlianyun-review
 
 稳连云的 **100GB 套餐原价 ¥8.00 / 月**，商店共列出 **6 款套餐、15 种购买选项**。优惠码 `wenlian` 在 **13 个购买组合**通过验券。100GB 月付按公告 8 折推算为 **¥6.40**，确认订阅窗口未显示最终应付。本次核查于 **2026 年 11 月 15 日（太平洋时间）**，未进行节点连接、测速、流媒体或 AI 服务解锁测试。
 
-<a href="https://w2.wenliandl.com/#/register?invite_code=lZq8qX8V" target="_blank" rel="noopener noreferrer sponsored nofollow">稳连云官网入口</a>
+<AirportInvite provider="wenlianyun">稳连云官网入口</AirportInvite>
 
 <AffiliateDisclosure />
 

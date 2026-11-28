@@ -162,6 +162,10 @@ lang: zh-CN
 
 当前资料中未提供边缘节点专属优惠码。购买前可通过后台或注册页确认是否有新用户活动。
 
+<AirportInvite provider="bianyunnode">打开边缘节点邀请注册入口</AirportInvite>
+
+<AffiliateDisclosure />
+
 ## 常见问题
 
 ### 边缘节点机场最低价格是多少？

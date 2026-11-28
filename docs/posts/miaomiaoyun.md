@@ -13,7 +13,7 @@ pageClass: miaomiaoyun-review
 
 秒秒云的探花套餐每月 **128GB**，支持 **3 台设备同时在线**，月付原价 **¥9.00**，使用优惠码 `miaomiao` 打 8 折后，实付 **¥7.20 / 月**。如果需要 Clash 或 Shadowrocket 订阅，每月用量也在 128GB 以内，这档适合先买一个月试用。套餐与折扣核查于 **2026 年 11 月 14 日**。
 
-<a href="https://141.11.77.26/#/register?code=L09kqV2V" target="_blank" rel="noopener noreferrer sponsored nofollow">秒秒云官网入口</a>
+<AirportInvite provider="miaomiaoyun">秒秒云官网入口</AirportInvite>
 
 <AffiliateDisclosure />
 
@@ -203,11 +203,11 @@ pageClass: miaomiaoyun-review
   <figcaption>2026 年 11 月 14 日探花月付验券截图。右侧显示优惠码 <code>miaomiao</code> 已应用及折后报价。</figcaption>
 </figure>
 
-备选码 **`2026888`** 也在探花月付验到 **¥7.20**，结算页将它标为「限时优惠券」。其他付款周期、到期日和续费适用情况仍待核实。验券止于结算页报价。 <a href="https://141.11.77.26/#/register?code=L09kqV2V" target="_blank" rel="noopener noreferrer sponsored nofollow">秒秒云官网入口</a>
+备选码 **`2026888`** 也在探花月付验到 **¥7.20**，结算页将它标为「限时优惠券」。其他付款周期、到期日和续费适用情况仍待核实。验券止于结算页报价。 <AirportInvite provider="miaomiaoyun">秒秒云官网入口</AirportInvite>
 
 ## 秒秒云支持哪些客户端？
 
-在仪表盘点「导入订阅」，可以复制订阅地址、扫描二维码，或按平台选择客户端。下面是后台实际列出的入口。文档中心也提供 Clash Verge、Clash Meta 和 Shadowrocket 的教程。 <a href="https://141.11.77.26/#/register?code=L09kqV2V" target="_blank" rel="noopener noreferrer sponsored nofollow">秒秒云官网入口</a>
+在仪表盘点「导入订阅」，可以复制订阅地址、扫描二维码，或按平台选择客户端。下面是后台实际列出的入口。文档中心也提供 Clash Verge、Clash Meta 和 Shadowrocket 的教程。 <AirportInvite provider="miaomiaoyun">秒秒云官网入口</AirportInvite>
 
 | 平台 | 后台列出的客户端 |
 | --- | --- |
@@ -225,7 +225,7 @@ pageClass: miaomiaoyun-review
 - **低频备用**可以考虑 365 天福气包。200GB 的券后价比 100GB 多 ¥8，如果一年预计用量介于 100GB 和 200GB，这档更合适。准备买不限时档时，先确认 100GB 用完后的规则。
 - **准备长期使用**可以先看实际月用量。探花、榜眼、状元的长周期原价都是按月付原价等比例计算，先月付更容易根据实测表现调整。
 
-商店将线路标为海外中转，并列出 Netflix、ChatGPT 和 TikTok 支持。本次尚未实测速率、晚高峰稳定性或解锁表现。如果订阅主要用于这些服务，可以先用最低月付在常用时段验证。 <a href="https://141.11.77.26/#/register?code=L09kqV2V" target="_blank" rel="noopener noreferrer sponsored nofollow">秒秒云官网入口</a>
+商店将线路标为海外中转，并列出 Netflix、ChatGPT 和 TikTok 支持。本次尚未实测速率、晚高峰稳定性或解锁表现。如果订阅主要用于这些服务，可以先用最低月付在常用时段验证。 <AirportInvite provider="miaomiaoyun">秒秒云官网入口</AirportInvite>
 
 
 ## 核查方法与更新记录

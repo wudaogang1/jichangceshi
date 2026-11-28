@@ -13,7 +13,7 @@ lang: zh-CN
 
 [套餐价格](#闪电鼠套餐价格) · [优惠码](#sd88-优惠码怎么用) · [节点分布](#闪电鼠节点分布与测速) · [测速截图](#闪电鼠延迟与下载测速)
 
-<a href="https://wudaogang.shandianshuaff.com/#/?code=oE1NhRah" target="_blank" rel="noopener noreferrer sponsored nofollow">前往闪电鼠官网注册</a> · 优惠码 `sd88`
+<AirportInvite provider="shandianshu">前往闪电鼠官网注册</AirportInvite> · 优惠码 `sd88`
 
 <AffiliateDisclosure />
 
@@ -204,4 +204,4 @@ lang: zh-CN
 
 核对时，商店的 8 款套餐卡均标注不限设备数量。客户端下载和导入可参考[订阅安全指南](/posts/subscription-security)。
 
-<a href="https://wudaogang.shandianshuaff.com/#/?code=oE1NhRah" target="_blank" rel="noopener noreferrer sponsored nofollow">闪电鼠在线购买</a>
+<AirportInvite provider="shandianshu">闪电鼠在线购买</AirportInvite>

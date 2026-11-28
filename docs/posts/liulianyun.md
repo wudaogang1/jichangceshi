@@ -23,7 +23,7 @@ pageClass: liulianyun-review
   <a href="#榴莲云客户端与订阅方式">客户端</a>
 </nav>
 
-<a href="https://wudaogang.liulianyunaff.com/#/?code=qrZTGPlG" target="_blank" rel="noopener noreferrer sponsored nofollow">前往榴莲云官网注册</a> · 优惠码 `ll88`
+<AirportInvite provider="liulianyun">前往榴莲云官网注册</AirportInvite> · 优惠码 `ll88`
 
 本站于 2026 年 11 月 7 日登录核对商店、结算、优惠公告与节点列表。注册入口含邀请码，通过该链接购买，本站可能获得佣金（[推广链接说明](/about#推广链接披露)）。[机场测试的核查方法](/about)
 
@@ -225,6 +225,6 @@ Clash Party 最低读数是香港 018 的 **35 ms**。MiaoKo 图中最高峰值�
 
 在网页选定套餐与付款周期后，进入结算页输入 **`ll88`**，以页面显示的减免和应付总额为准。iOS 客户端的服务商识别码为 `lly`。
 
-<a href="https://wudaogang.liulianyunaff.com/#/?code=qrZTGPlG" target="_blank" rel="noopener noreferrer sponsored nofollow">打开榴莲云注册与套餐入口</a> · [更多机场测评](/posts/)
+<AirportInvite provider="liulianyun">打开榴莲云注册与套餐入口</AirportInvite> · [更多机场测评](/posts/)
 
 也可对照[大佬云](/posts/dalaoyun)和[闪电鼠](/posts/shandianshu)的套餐和验券记录。

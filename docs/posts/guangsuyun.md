@@ -166,7 +166,7 @@ lang: zh-CN
 
 - 优惠码：`AMM`
 - 活动说明：新人首次 8 折
-- <a href="https://wudaogang.gsyaff.com/#/?code=3t2CE1r6" rel="sponsored nofollow noopener noreferrer" target="_blank">打开光速云注册/购买页面</a>
+- <AirportInvite provider="guangsuyun">打开光速云注册/购买页面</AirportInvite>
 
 该链接包含推广参数，站长可能因此获得推广收益（[推广链接说明](/about#推广链接披露)）。优惠适用套餐、有效期和是否能与其他折扣叠加，应以注册页或结算页最终显示为准。
 

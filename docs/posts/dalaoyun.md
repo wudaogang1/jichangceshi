@@ -14,7 +14,7 @@ cover: /images/dly-plans-overview-2026-11-07.webp
 
 [套餐价格](#大佬云套餐价格) · [优惠码](#dly88-优惠码与结算结果) · [节点分布](#大佬云节点分布与测速) · [测速截图](#大佬云延迟与下载测速) · [客户端下载](#大佬云客户端与订阅方式)
 
-<a href="https://wudaogang0.dalaoyunaff.com/#/?code=oP4w0Bbh" target="_blank" rel="noopener noreferrer sponsored nofollow">前往大佬云官网注册</a> · 优惠码 `dly88`
+<AirportInvite provider="dalaoyun">前往大佬云官网注册</AirportInvite> · 优惠码 `dly88`
 
 本站于 2026 年 11 月 7 日登录核对商店、结算、节点列表和知识库。注册入口含邀请码，通过该链接购买，本站可能获得佣金（[推广链接说明](/about#推广链接披露)）。[机场测试的核查方法](/about)
 
@@ -204,6 +204,6 @@ Clash Party 图中最低读数是香港 20 的 **36 ms**，完整可见的香港
 
 ### 大佬云官网和优惠码在哪里？
 
-上方注册入口会跳转到服务商当前可用线路。已注册用户可通过服务商线路导航进入后台，网页结算优惠码为 `dly88`。[大佬云线路导航](https://vip.dalaocloud.com/)
+注册入口会跳转到服务商当前可用线路。网页结算优惠码为 `dly88`。
 
-<a href="https://wudaogang0.dalaoyunaff.com/#/?code=oP4w0Bbh" target="_blank" rel="noopener noreferrer sponsored nofollow">打开大佬云注册与套餐入口</a> · [更多机场测评](/posts/)
+<AirportInvite provider="dalaoyun">打开大佬云注册与套餐入口</AirportInvite> · [更多机场测评](/posts/)

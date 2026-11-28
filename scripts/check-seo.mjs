@@ -1,5 +1,6 @@
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs'
 import { join, relative, resolve } from 'node:path'
+import { airportInvites } from '../docs/.vuepress/airport-invites.js'
 
 const DIST_DIR = resolve('docs/.vuepress/dist')
 const SITE_URL = 'https://jichangceshi.com'
@@ -11,6 +12,7 @@ const internalLinkSources = new Map()
 const structuredDataByRoute = new Map()
 const modifiedDatesByRoute = new Map()
 const reviewTableLinksByRoute = new Map()
+const airportInviteCountsByRoute = new Map()
 
 const walk = (directory) =>
   readdirSync(directory).flatMap((name) => {
@@ -28,24 +30,62 @@ const routeFromFile = (filePath) => {
   return `/${relativePath.slice(0, -'.html'.length)}`
 }
 
-const isAffiliateLink = (href) => {
-  if (!href.startsWith('http')) return false
-
+const externalUrl = (href) => {
+  const value = href.trim().replaceAll('&amp;', '&')
+  if (!/^(?:https?:)?\/\//iu.test(value)) return undefined
   try {
-    const url = new URL(href)
-    return (
-      url.hostname.includes('aff') ||
-      url.hostname === 'cpdd.one' ||
-      /(?:^|[?&#])(code|aff|r)=/iu.test(href) ||
-      /快车\.com/iu.test(href)
-    )
+    return new URL(value, SITE_URL)
   } catch {
-    return false
+    return undefined
   }
 }
 
+const inviteParameter = /[?&#](code|invite_code|aff|r)=/iu
+const populatedInviteParameter = /[?&#](code|invite_code|aff|r)=[^&#]+/iu
+
+const isAffiliateLink = (href, url) =>
+  Boolean(url && (
+    url.hostname.includes('aff') ||
+    url.hostname === 'cpdd.one' ||
+    inviteParameter.test(url.href) ||
+    /快车\.com/iu.test(href)
+  ))
+
 const assert = (condition, message) => {
   if (!condition) errors.push(message)
+}
+
+const airportInviteUrls = new Map()
+const registeredInviteUrls = new Set()
+const merchantHostnames = new Set([
+  'vip.dalaocloud.com',
+  'xn--9kqy04az2ic00amuo.com',
+  'xn--66tw07h.com',
+  'f43.wjkc.xyz',
+  'www.xxyun.xyz',
+  'cloud.xxvip.shop',
+])
+// 网际快车 identifies the inviter with a dedicated subdomain.
+const wangjikuaicheInviteHostname = /^[a-z]{6}\.xn--66tw07h\.com$/u
+const hostname = (url) => url.hostname.replace(/\.$/u, '')
+
+for (const [provider, { url: href }] of Object.entries(airportInvites)) {
+  const url = externalUrl(href)
+  assert(url, `Airport invitation for ${provider} has an invalid URL: ${href}`)
+  if (url) {
+    assert(
+      populatedInviteParameter.test(url.href) ||
+        (provider === 'wangjikuaiche' && wangjikuaicheInviteHostname.test(hostname(url))),
+      `Airport invitation for ${provider} has no referral identifier: ${href}`,
+    )
+    assert(
+      !registeredInviteUrls.has(url.href),
+      `Airport invitation for ${provider} duplicates another provider's URL: ${href}`,
+    )
+    airportInviteUrls.set(provider, url.href)
+    registeredInviteUrls.add(url.href)
+    merchantHostnames.add(hostname(url))
+  }
 }
 
 assert(existsSync(DIST_DIR), 'Build output is missing. Run docs:build first.')
@@ -171,9 +211,31 @@ for (const filePath of htmlFiles) {
     reviewTableLinksByRoute.set(route, reviewLinks)
   }
 
-  for (const match of html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/gu)) {
+  const airportInviteCounts = new Map()
+  airportInviteCountsByRoute.set(route, airportInviteCounts)
+  for (const match of html.matchAll(/<a\b[^>]*\shref="([^"]+)"[^>]*>/gu)) {
     const [tag, href] = match
-    if (isAffiliateLink(href)) {
+    const url = externalUrl(href)
+    const linkHostname = url && hostname(url)
+    const provider = tag.match(/\sdata-airport-invite="([^"]*)"/u)?.[1]
+    if (provider !== undefined) {
+      const expected = airportInviteUrls.get(provider)
+      if (!expected) {
+        errors.push(`${route}: unknown airport invitation provider ${provider}.`)
+      } else if (url?.href !== expected) {
+        errors.push(
+          `${route}: airport invitation for ${provider} points to ${href}, expected ${expected}.`,
+        )
+      } else {
+        airportInviteCounts.set(provider, (airportInviteCounts.get(provider) ?? 0) + 1)
+      }
+    } else if (
+      linkHostname &&
+      (merchantHostnames.has(linkHostname) || wangjikuaicheInviteHostname.test(linkHostname))
+    ) {
+      errors.push(`${route}: airport merchant link bypasses the invitation: ${href}`)
+    }
+    if (provider !== undefined || isAffiliateLink(href, url)) {
       const rel = tag.match(/\brel="([^"]*)"/u)?.[1].split(/\s+/u) ?? []
       assert(
         rel.includes('sponsored') && rel.includes('nofollow'),
@@ -239,6 +301,19 @@ for (const route of catalogReviews) {
   assert(
     comparisonReviews.has(route),
     `${comparisonRoute}: a comparison table is missing the catalog review link ${route}.`,
+  )
+  const provider = route.slice('/posts/'.length)
+  assert(
+    airportInviteCountsByRoute.get(route)?.has(provider),
+    `${route}: the review is missing its airport invitation.`,
+  )
+}
+
+const comparisonInvites = airportInviteCountsByRoute.get(comparisonRoute)
+for (const provider of Object.keys(airportInvites)) {
+  assert(
+    comparisonInvites?.get(provider) === 1,
+    `${comparisonRoute}: expected exactly one airport invitation for ${provider}.`,
   )
 }
 

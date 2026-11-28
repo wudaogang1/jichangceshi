@@ -198,7 +198,7 @@ lang: zh-CN
 
 - 优惠码：`sellvpn`
 - 活动说明：8 折，可优惠三次
-- <a href="https://wudaogang.kuailiaff.com/#/register?code=ngH6LgR6" rel="sponsored nofollow noopener noreferrer" target="_blank">打开快狸注册/购买页面</a>
+- <AirportInvite provider="kuaili">打开快狸注册/购买页面</AirportInvite>
 
 该链接包含推广参数，站长可能因此获得推广收益（[推广链接说明](/about#推广链接披露)）。优惠适用范围和有效期由服务商决定，请以注册页或结算页最终显示为准。
 
@@ -238,4 +238,4 @@ lang: zh-CN
 
 综合来看，建议把快狸作为一个**先短期试用、再决定长期使用**的候选服务，而不是仅凭“专线”“峰值带宽”或节点数量直接购买长周期套餐。
 
-相关内容：[VPN 与机场怎么选](/posts/vpn)｜<a href="https://wudaogang.kuailiaff.com/#/register?code=ngH6LgR6" rel="sponsored nofollow noopener noreferrer" target="_blank">快狸注册与套餐入口</a>
+相关内容：[VPN 与机场怎么选](/posts/vpn)｜<AirportInvite provider="kuaili">快狸注册与套餐入口</AirportInvite>

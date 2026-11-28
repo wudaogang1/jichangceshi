@@ -30,13 +30,13 @@ xxyun 加速初级套餐含 **100GB/月**，原价 **¥9.99/月**。用新客 9 
   <a href="#官方客户端与软路由">客户端</a>
 </nav>
 
-<a href="https://www.xx-yun.com/?code=lZlwmBj9" rel="sponsored nofollow noopener noreferrer" target="_blank">XXYUN加速官网入口</a> · 新客 9 折码 `xxyun`
+<AirportInvite provider="xxyun">XXYUN加速官网入口</AirportInvite> · 新客 9 折码 `xxyun`
 
-本站于 2026 年 11 月 8 日登录核对套餐、优惠、节点地图与官方文档。券后金额来自下单页的报价预览。邀请链接先打开 xxyun 导航，再转到注册页，本站可能获得推广收益（[推广链接说明](/about#推广链接披露)）。 [机场测试的核查方法](/about) · [xxyun 官方发布页](https://www.xxyun.xyz/)
+本站于 2026 年 11 月 8 日登录核对套餐、优惠、节点地图与官方文档。券后金额来自下单页的报价预览。邀请链接先打开 xxyun 导航，再转到注册页，本站可能获得推广收益（[推广链接说明](/about#推广链接披露)）。 [机场测试的核查方法](/about)
 
 ## xxyun 加速套餐原价与券后价
 
-[套餐购买页](https://cloud.xxvip.shop/plan)有三档常规套餐。初级、中级、高级分别含每月 100GB、300GB、1000GB，标称带宽分别为 300M、500M、800M。打开套餐详情可看到六种付款周期。表中金额为对应周期的**一次付款总额**，箭头右侧为输入 `xxyun` 后的页面报价。
+后台套餐购买页有三档常规套餐。初级、中级、高级分别含每月 100GB、300GB、1000GB，标称带宽分别为 300M、500M、800M。打开套餐详情可看到六种付款周期。表中金额为对应周期的**一次付款总额**，箭头右侧为输入 `xxyun` 后的页面报价。
 
 <table class="yjx-price-table" role="table" aria-label="xxyun 常规套餐的月流量和六个周期券前券后价格">
   <thead role="rowgroup">
@@ -128,11 +128,11 @@ xxyun 加速初级套餐含 **100GB/月**，原价 **¥9.99/月**。用新客 9 
 
 后台公告列出新用户 9 折码 `xxyun`，限用一次。进入套餐详情，在优惠码栏输入 `xxyun` 并点击「使用」。本次逐一核对了三档常规套餐和两档不限时包，五个详情页均显示优惠码生效。表格覆盖常规套餐的 18 个周期报价和不限时包的 2 个一次性报价。本站仅核对到报价预览，购买时以自己账号显示的应付金额为准。
 
-[文档中心](https://cloud.xxvip.shop/knowledge)的《购买，退款须知》写明无退款政策、不支持新疆地区使用，校园网能否正常连接取决于学校的网络环境。依赖某个系统或节点的用户，建议先核对兼容条件，再决定购买周期。
+文档中心的《购买，退款须知》写明无退款政策、不支持新疆地区使用，校园网能否正常连接取决于学校的网络环境。依赖某个系统或节点的用户，建议先核对兼容条件，再决定购买周期。
 
 ## 节点分布与流量倍率
 
-11 月 9 日复核[节点地图](https://cloud.xxvip.shop/node)，后台显示 **43 条在线记录、0 条离线**。其中 1 条是未归类的「续费&客服网址」提示，剔除后有 **42 条地区线路**，覆盖后台归类的 **22 个地区**。
+11 月 9 日复核节点地图，后台显示 **43 条在线记录、0 条离线**。其中 1 条是未归类的「续费&客服网址」提示，剔除后有 **42 条地区线路**，覆盖后台归类的 **22 个地区**。
 
 <figure class="wjkc-evidence">
   <a href="/images/xxyun-nodes-overview-2026-11-09.webp" aria-label="查看高清截图：XXYUN 节点地图后台显示 43 条在线记录、22 个覆盖地区和 1 条未归类记录">
@@ -210,7 +210,7 @@ xxyun 加速初级套餐含 **100GB/月**，原价 **¥9.99/月**。用新客 9 
 
 ## 官方客户端与软路由
 
-[文档中心](https://cloud.xxvip.shop/knowledge)现有 11 篇文档，其中 7 篇是官方客户端教程：Android／鸿蒙、iPhone／iPad、Windows、macOS、Linux 桌面、Linux 终端、软路由。请从后台选择对应系统和版本的下载入口，按官方文档登录使用。
+文档中心现有 11 篇文档，其中 7 篇是官方客户端教程：Android／鸿蒙、iPhone／iPad、Windows、macOS、Linux 桌面、Linux 终端、软路由。请从后台选择对应系统和版本的下载入口，按官方文档登录使用。
 
 macOS 文档分 macOS 11 和 macOS 12 及以上两个下载入口。Linux 桌面版列出的环境为 Ubuntu 22.04／24.04 或 Debian 12／13，要求 amd64／x86_64 和 GNOME／Xfce 桌面；无桌面系统应另看终端版要求。软路由使用服务商的自有插件。需要导入 Clash、小火箭等通用订阅的用户，可参考本站[机场横向对比](/posts/airport-compare)中的其他候选。
 
@@ -228,4 +228,4 @@ macOS 文档分 macOS 11 和 macOS 12 及以上两个下载入口。Linux 桌面
 
 不支持。后台公告要求使用 xxyun 官方客户端；受支持的 x86 软路由可按文档使用自有插件。
 
-<a href="https://www.xx-yun.com/?code=lZlwmBj9" rel="sponsored nofollow noopener noreferrer" target="_blank">XXYUN加速官网入口</a>
+<AirportInvite provider="xxyun">XXYUN加速官网入口</AirportInvite>

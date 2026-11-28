@@ -17,7 +17,7 @@ pageClass: baoyun-review
 
 2026 年 11 月 16 日（太平洋时间），在已登录的宝云面板逐项验券 **10 款套餐、19 个付款选项**，其中 17 个选项可用优惠码。下文优惠价来自提交订单前的结算预览。
 
-<a href="https://141.11.77.85:8888/#/register?code=nOhXZZTH" target="_blank" rel="noopener noreferrer sponsored nofollow">宝云注册入口</a>
+<AirportInvite provider="baoyun">宝云注册入口</AirportInvite>
 
 <AffiliateDisclosure />
 
@@ -248,7 +248,7 @@ pageClass: baoyun-review
 
 **2026 年 11 月 16 日（太平洋时间）**，在已登录的宝云面板核对商店商品卡、结算预览、仪表盘公告、导入入口、文档及节点列表。核价止于结算预览。
 
-<a href="https://141.11.77.85:8888/#/register?code=nOhXZZTH" target="_blank" rel="noopener noreferrer sponsored nofollow">宝云官网入口</a>
+<AirportInvite provider="baoyun">宝云官网入口</AirportInvite>
 
 <style>
 .baoyun-review .baoyun-logo {

@@ -23,7 +23,7 @@ pageClass: guangnianti-review
   <a href="#光年梯测速与晚高峰表现">测速</a>
 </nav>
 
-<a href="http://wudao.gntvipaff.cc#/?code=btzIT9Fo" target="_blank" rel="noopener noreferrer sponsored nofollow">点击访问光年梯官网</a>
+<AirportInvite provider="guangnianti">点击访问光年梯官网</AirportInvite>
 
 <AffiliateDisclosure />
 
@@ -281,7 +281,7 @@ pageClass: guangnianti-review
 - **每月用量不超过 50GB，且已试过线路：** 可以考虑 ¥89 的限时年付，按标价做预算。
 - **每月用量超过 110GB：** 晋级版月付 ¥34，含 220GB。用量更高，可以比较专业版和至尊版。
 
-<a href="http://wudao.gntvipaff.cc#/?code=btzIT9Fo" target="_blank" rel="noopener noreferrer sponsored nofollow">点击访问光年梯官网</a> · [查看其他机场测评](/posts/)
+<AirportInvite provider="guangnianti">点击访问光年梯官网</AirportInvite> · [查看其他机场测评](/posts/)
 
 <style>
 .gnt-review-jumps {

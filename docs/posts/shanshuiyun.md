@@ -22,13 +22,15 @@ pageClass: shanshuiyun-review
   <a href="#延迟、下载和流媒体表现">测速表现</a>
 </nav>
 
-<a href="https://47.86.34.254:5210/#/register" target="_blank" rel="noopener noreferrer">打开山水云注册入口</a>
+<AirportInvite provider="shanshuiyun">打开山水云注册入口</AirportInvite>
+
+<AffiliateDisclosure />
 
 本次核对到应付报价为止，未提交订单或付款。
 
 ## 山水云套餐价格
 
-[山水云商店](https://47.86.34.254:5210/#/shop)有 5 款按月重置额度的套餐和 3 款一次性流量包。下表金额是**整个付款周期的原价**，单位为人民币；「—」表示本次结算页没有该周期。
+山水云商店有 5 款按月重置额度的套餐和 3 款一次性流量包。下表金额是**整个付款周期的原价**，单位为人民币；「—」表示本次结算页没有该周期。
 
 <table class="yjx-price-table ssy-cycle-table" role="table" aria-label="山水云按月重置套餐的流量与各周期原价">
   <thead role="rowgroup">
@@ -134,7 +136,7 @@ pageClass: shanshuiyun-review
 
 ## 山水云节点分布与流量倍率
 
-下表来自 **128G 福利包账号**的[后台节点列表](https://47.86.34.254:5210/#/nodes)，按记录名称归类。后台另有 1 条以官网地址命名的提示记录，未计入地区合计。香港有两个名称仅差一个空格的「香港 1」记录，分别计数；未核对它们是否使用同一线路。
+下表来自 **128G 福利包账号**的后台节点列表，按记录名称归类。后台另有 1 条以官网地址命名的提示记录，未计入地区合计。香港有两个名称仅差一个空格的「香港 1」记录，分别计数；未核对它们是否使用同一线路。
 
 | 地区 | 常规记录 | 备用记录 | 合计 |
 | --- | ---: | ---: | ---: |
@@ -192,7 +194,7 @@ JichangView 的 11 月 11 日记录同时显示 **0.1% 丢包**。它随机选�
 
 ## 客户端、订阅与售后
 
-后台有「导入订阅」和「工单支持」，仪表盘列出 iOS、Android、macOS、Windows、Linux 和 OpenWrt 的入口。[山水云文档中心](https://47.86.34.254:5210/#/docs)可见 iOS 的 Shadowrocket 教程、Android 的 Clash Meta 入口和 Windows 的 Clash Verge 下载说明。导入前，先确认客户端版本支持 VLESS 和所选订阅格式。导入后优先验证两个常用地区，并留一个备用节点。订阅链接可以供客户端直接使用，分享截图时应遮住它。[订阅安全指南](/posts/subscription-security)
+后台有「导入订阅」和「工单支持」，仪表盘列出 iOS、Android、macOS、Windows、Linux 和 OpenWrt 的入口。山水云文档中心可见 iOS 的 Shadowrocket 教程、Android 的 Clash Meta 入口和 Windows 的 Clash Verge 下载说明。导入前，先确认客户端版本支持 VLESS 和所选订阅格式。导入后优先验证两个常用地区，并留一个备用节点。订阅链接可以供客户端直接使用，分享截图时应遮住它。[订阅安全指南](/posts/subscription-security)
 
 套餐卡另提供 Telegram 群组和[公告频道](https://t.me/s/ssyun999)。本次未付款，未核实支付通道、退款规则和售后响应时间；在意这些条件，可以在购买前通过工单确认。
 
@@ -212,7 +214,7 @@ JichangView 的 11 月 11 日记录同时显示 **0.1% 丢包**。它随机选�
 
 福利包 **¥31.92 一次付清，365 天合计 128GB**。轻量季付 **¥26.40 一次付三个月，每月 128GB**。常用看每月需要多少流量，备用则看全年预计用多少。
 
-<a href="https://47.86.34.254:5210/#/register" target="_blank" rel="noopener noreferrer">打开山水云注册入口</a> · [查看其他机场测评](/posts/)
+<AirportInvite provider="shanshuiyun">打开山水云注册入口</AirportInvite> · [查看其他机场测评](/posts/)
 
 <style>
 .shanshuiyun-review .ssy-review-jumps {

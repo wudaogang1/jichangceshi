@@ -17,7 +17,7 @@ pageClass: liyun-review
 
 该站点公开首页标注「当前为前端演示」，示例价格与登录后商店不同。本文价格和验券结果均取自登录后的后台商店。实际付款与服务可用性待验证。
 
-<a href="https://103.73.220.148:8888/app.html#/register?code=HrOwGxY9" target="_blank" rel="noopener noreferrer sponsored nofollow">鲤云注册入口</a>
+<AirportInvite provider="liyun">鲤云注册入口</AirportInvite>
 
 <AffiliateDisclosure />
 
@@ -188,7 +188,7 @@ pageClass: liyun-review
 
 **2026 年 11 月 16 日（太平洋时间）**，复核官网公告，重新验证小鲤月付，并核对官网返回的优惠比例、适用套餐和有效期。
 
-<a href="https://103.73.220.148:8888/app.html#/register?code=HrOwGxY9" target="_blank" rel="noopener noreferrer sponsored nofollow">鲤云 官方入口</a>
+<AirportInvite provider="liyun">鲤云 官方入口</AirportInvite>
 
 <style>
 .liyun-review .liyun-logo {

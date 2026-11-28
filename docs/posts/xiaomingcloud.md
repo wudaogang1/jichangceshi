@@ -17,7 +17,7 @@ cover: /images/xiaomingcloud-nodes.webp
 
 机场测试于 **2026年11月19日至20日（太平洋时间）** 核查已登录商店、续费文档、订阅总览与节点状态。价格、客户端选项和节点标示来自页面记录，文中的费用比较为独立计算。
 
-<a href="https://se.xiaomingtg.com/#/register?invite_code=MTlZ4Jth" target="_blank" rel="noopener noreferrer sponsored nofollow">小明Cloud 官方入口</a>
+<AirportInvite provider="xiaomingcloud">小明Cloud 官方入口</AirportInvite>
 
 <AffiliateDisclosure />
 
@@ -64,7 +64,7 @@ cover: /images/xiaomingcloud-nodes.webp
 
 **月付-200G** 卡片另有付款周期选择。逐项切换显示月付 ¥5、季付 ¥15、半年 ¥30、年付 ¥60、两年 ¥120、三年 ¥168。季付到两年均折合 ¥5／月，三年折合约 ¥4.67／月，比按 ¥5 续付36个月少 ¥12，但需一次预付 ¥168。多月付款的流量重置按帮助文档描述，具体账单日以开通后的订阅页面为准。
 
-<a href="https://se.xiaomingtg.com/#/register?invite_code=MTlZ4Jth" target="_blank" rel="noopener noreferrer sponsored nofollow">小明Cloud 官方入口</a>
+<AirportInvite provider="xiaomingcloud">小明Cloud 官方入口</AirportInvite>
 
 ## 一次性流量会过期吗？续费会重置吗？
 
@@ -121,4 +121,4 @@ cover: /images/xiaomingcloud-nodes.webp
 - 《续费跟流量重置说明》，11月19日读取，页面标注日期为2026年11月11日。
 - 已登录总览与节点状态，11月20日复核在用订阅期限、客户端入口、地区、协议和倍率。
 
-<a href="https://se.xiaomingtg.com/#/register?invite_code=MTlZ4Jth" target="_blank" rel="noopener noreferrer sponsored nofollow">小明Cloud 官方入口</a>
+<AirportInvite provider="xiaomingcloud">小明Cloud 官方入口</AirportInvite>
